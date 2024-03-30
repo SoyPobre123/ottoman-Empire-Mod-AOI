@@ -1,0 +1,558 @@
+# ################
+# #### GENERIC TREE ####
+# ################
+
+gen_keynes_economic_yearly_focuses_category = {
+
+	icon = yearly_focuses
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {
+		OR = {
+				has_completed_focus = economy_19 
+                has_completed_focus = ENG_start_economic_build_up_plans
+                has_completed_focus = ger_focus_state_managed_corporativism
+                has_completed_focus = yug_focus_state_capitalism_is_a_symbol_of_our_time
+                has_completed_focus = RUS_focus_introduce_the_the_5_year_plan
+                has_completed_focus = POL_start_of_the_15_year_plan
+                has_completed_focus = POL_state_capitalism_is_a_bliss
+                has_completed_focus = POL_an_enlightened_national_autocracy
+                has_completed_focus = SPR_a_new_economic_era
+                has_completed_focus = SPA_a_new_economic_era
+                has_completed_focus = focus_ita_budget_reform
+                has_completed_focus = focus_jap_state_managed_corporativism
+                has_completed_focus = focus_usa_next_stage_of_new_deal
+                has_completed_focus = focus_aus_the_might_of_austrian_industry
+                has_completed_focus = MCR_focus_new_mexican_economy
+                has_completed_focus = focus_mex_new_mexican_economy
+                has_completed_focus = focus_fra_state_managed_corporativism
+			    has_completed_focus = focus_por_autarky_at_last
+			    has_completed_focus = focus_ech_state_managed_corporativism
+			    has_completed_focus = focus_man_qing_as_a_country_of_fair_work
+			    has_completed_focus = focus_chi_state_managed_corporativism
+				has_completed_focus = focus_saf_new_south_african_economy
+				has_completed_focus = AST_focus_new_australasian_economy
+				has_completed_focus = CAN_focus_new_canadian_economy
+				has_completed_focus = GCO_focus_state_managed_corporativism
+				has_completed_focus = focus_raj_state_managed_corporativism
+				has_completed_focus = AFG_focus_state_managed_corporativism
+				has_completed_focus = NEP_focus_state_managed_corporativism
+				has_completed_focus = TRC_focus_state_managed_corporativism
+				has_completed_focus = RELEASABLE_focus_create_central_industrial_district
+				has_completed_focus = PER_focus_state_managed_corporativism
+				has_completed_focus = TUR_completed_economic_reforms
+		}
+	}
+}
+
+gen_land_forces_focus_category = {
+
+	icon = army
+
+	#picture = GFX_decision_category_army
+
+	allowed = {
+	}
+	
+	visible = {
+		OR = {
+			has_completed_focus = army_0
+	            has_completed_focus = ENG_british_army_in_the_aftermath_of_the_crisis
+	            has_completed_focus = ger_focus_long_awaited_army_reform
+	            has_completed_focus = yug_focus_preparing_for_conflicts
+	            has_completed_focus = RUS_focus_if_war_comes_tomorrow
+	            has_completed_focus = POL_echoes_of_rozwadowskis_activity
+	            has_completed_focus = SPA_ya_hemos_pasao
+				has_completed_focus = focus_por_laguing_behind_on_the_ground
+				has_completed_focus = AFG_focus_improve_our_army
+              has_completed_focus = SPR_no_pasaran
+              has_completed_focus = focus_ita_reform_of_the_italian_army
+              has_completed_focus = focus_jap_great_prosperity_manouvers
+			  has_completed_focus = TRC_focus_improve_our_army
+              has_completed_focus = focus_usa_strengthen_us_army
+              has_completed_focus = focus_aus_20th_century_war_academy
+              has_completed_focus = MCR_focus_new_mexican_armed_forces
+              has_completed_focus = focus_mex_new_mexican_armed_forces
+			  has_completed_focus = focus_fra_great_ambitions_need_a_great_army
+			  has_completed_focus = focus_ech_improve_imperial_army
+			  has_completed_focus = focus_man_time_to_improve_qing_army
+			  has_completed_focus = focus_chi_improve_republican_army
+			  has_completed_focus = focus_saf_army_of_the_federation
+			  has_completed_focus = AST_focus_army_of_the_commonwealth
+			  has_completed_focus = CAN_focus_come_all_ye_bold_canadians
+			  has_completed_focus = focus_por_laguing_behind_on_the_ground
+			  has_completed_focus = GCO_focus_army_of_sea
+			  has_completed_focus = focus_raj_army_of_india
+			  has_completed_focus = NEP_focus_army_of_nepal
+			  has_completed_focus = TIB_focus_army_of_himalayas
+			  has_completed_focus = RELEASABLE_focus_we_shall_survive
+			  has_completed_focus = PER_focus_the_army_needs_even_more_attention
+			  has_completed_focus = TUR_time_to_fix_our_army
+		}
+	}
+}
+
+gen_air_force_focus_category = {
+
+	icon = airforce
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {
+		OR = {
+			has_completed_focus = TRC_focus_expand_the_air_force
+			has_completed_focus = airforce_0
+			has_completed_focus = ENG_royal_air_force
+			has_completed_focus = ger_focus_reinforcing_luftstreitkrafte
+			has_completed_focus = yug_focus_time_to_start_the_air_fleet_expansion
+			has_completed_focus = RUS_focus_the_great_air_armada_plan
+			has_completed_focus = POL_new_aviation_expansion_program
+			has_completed_focus = SPA_ya_hemos_pasao
+			has_completed_focus = SPR_no_pasaran
+			has_completed_focus = focus_jap_help_from_british_advisers
+			has_completed_focus = focus_ita_increasing_the_role_of_the_air_force
+			has_completed_focus = focus_usa_time_to_expand_us_air_force
+			has_completed_focus = focus_aus_20th_century_war_academy
+			has_completed_focus = MCR_focus_new_mexican_armed_forces
+			has_completed_focus = focus_mex_new_mexican_armed_forces
+			has_completed_focus = focus_fra_increasing_the_role_of_airforce
+			has_completed_focus = focus_man_time_to_expand_the_qing_air_force
+			has_completed_focus = focus_ech_expand_the_imperial_air_force
+			has_completed_focus = focus_chi_expand_the_republican_air_force
+			has_completed_focus = focus_por_non_existant_in_the_sky
+			has_completed_focus = focus_saf_through_hardships_to_the_stars
+			has_completed_focus = AST_focus_the_future_of_raaf
+			has_completed_focus = CAN_focus_reinforce_rcaf
+			has_completed_focus = focus_raj_the_future_of_indian_air_force
+			has_completed_focus = GCO_focus_the_future_of_our_air_force
+			has_completed_focus = AFG_focus_expand_the_air_force
+			has_completed_focus = NEP_focus_nepal_shall_conquer_the_skies
+			has_completed_focus = TIB_focus_tibet_shall_conquer_the_skies
+			has_completed_focus = RELEASABLE_focus_we_shall_survive
+			has_completed_focus = PER_focus_the_future_of_iranian_air_force
+		}
+	}
+}
+
+gen_master_of_puppet_focus_category = {
+
+	icon = master
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {
+		OR = {
+			has_completed_focus = TRC_focus_our_place_under_the_sun
+			has_completed_focus = political_discourse_0
+			has_completed_focus = radical_4
+			has_completed_focus = ENG_statute_of_westminster_1931
+			has_completed_focus = ger_focus_back_to_weltpolitik
+			has_completed_focus = ger_focus_strengthening_what_we_already_have
+			has_completed_focus = yug_focus_king_alexanders_ambitions
+			has_completed_focus = RUS_focus_new_imperialist_policy
+			has_completed_focus = POL_the_end_of_dmowszczyzna
+			has_completed_focus = POL_an_enlightened_national_autocracy
+			has_completed_focus = SPA_ya_hemos_pasao
+			has_completed_focus = SPR_no_pasaran
+			has_completed_focus = focus_jap_our_manchurian_friend
+			has_completed_focus = focus_ita_new_colony_development_program
+			has_completed_focus = focus_usa_american_playground
+			has_completed_focus = focus_aus_on_the_way_to_save_the_empire
+			has_completed_focus = MCR_focus_assessing_our_role_in_the_world
+			has_completed_focus = focus_mex_renegotiation_of_petroleum_treaties
+			has_completed_focus = focus_fra_what_little_is_left_of_the_overseas_empire
+			has_completed_focus = focus_chi_china_is_back
+			has_completed_focus = focus_ech_china_stands_in_the_universe
+			has_completed_focus = focus_man_diplomatic_future_of_the_qing
+			has_completed_focus = focus_por_pax_lusitania
+			has_completed_focus = focus_saf_embrace_westminster_statue
+			has_completed_focus = AST_focus_ratify_the_statute_of_westminster
+			has_completed_focus = CAN_focus_expand_westminster_statue
+			has_completed_focus = focus_raj_proclaim_indian_superpower
+			has_completed_focus = GCO_focus_announce_pan_asian_ambitions
+			has_completed_focus = AFG_focus_our_place_under_the_sun
+			has_completed_focus = NEP_focus_our_place_under_the_sun
+			has_completed_focus = TIB_focus_our_place_under_the_sun
+			has_completed_focus = RELEASABLE_focus_the_time_is_on_our_side
+			has_completed_focus = PER_focus_belle_epoque
+			
+	  }
+	}
+}
+
+gen_naval_power_focus_category = {
+
+	icon = pol_empire
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {
+		OR = {
+			has_completed_focus = TRC_focus_expand_the_shipyard_base
+			has_completed_focus = navy_0
+			has_completed_focus = ENG_the_problem_of_maintaining_royal_navy
+			has_completed_focus = ger_focus_expand_naval_dockyards
+			has_completed_focus = yug_focus_yugoslav_navy
+			has_completed_focus = RUS_focus_ghosts_of_tsushima
+			has_completed_focus = POL_expansion_of_the_port_in_palanga
+			has_completed_focus = SPA_ya_hemos_pasao
+			has_completed_focus = SPR_no_pasaran
+			has_completed_focus = focus_jap_preparations_for_sea_manouvers
+			has_completed_focus = focus_ita_strengthening_the_regia_marina
+			has_completed_focus = focus_usa_time_to_modernize_the_us_navy
+			has_completed_focus = focus_aus_20th_century_war_academy
+			has_completed_focus = MCR_focus_new_mexican_armed_forces
+			has_completed_focus = focus_mex_new_mexican_armed_forces
+			has_completed_focus = focus_fra_modernisation_of_the_shipyard_base
+			has_completed_focus = focus_man_time_to_expand_qing_navy
+			has_completed_focus = focus_ech_expand_imperial_navy
+			has_completed_focus = focus_chi_expand_republican_navy
+			has_completed_focus = focus_por_a_fallen_navy
+			has_completed_focus = focus_saf_the_future_of_sand
+			has_completed_focus = AST_focus_the_future_of_ran
+			has_completed_focus = CAN_focus_the_future_of_rcn
+			has_completed_focus = focus_raj_construction_of_the_shipyard_base
+			has_completed_focus = GCO_focus_time_for_new_approach
+			has_completed_focus = AFG_focus_construction_of_the_shipyard_base
+			has_completed_focus = NEP_focus_once_upon_a_time
+			has_completed_focus = TIB_focus_once_upon_a_time
+			has_completed_focus = RELEASABLE_focus_we_shall_survive
+			has_completed_focus = PER_focus_construction_of_the_shipyard_base
+		}
+	}
+}
+
+gen_funding_resarch_complexes_focus_category = {
+
+	icon = research
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {
+		OR = {
+			has_completed_focus = TRC_focus_begin_the_era_of_plenty
+			has_completed_focus = economy_8
+			has_completed_focus = radical_3
+			has_completed_focus = ENG_applied_research
+			has_completed_focus = ger_focus_miracle_on_the_rhine
+			has_completed_focus = ger_focus_deutschland_uber_alles
+			has_completed_focus = yug_focus_expand_belgrade_university
+			has_completed_focus = RUS_focus_invest_in_russian_scientific_base
+			has_completed_focus = POL_subsidized_universal_education
+			has_completed_focus = POL_establishing_folk_high_schools
+			has_completed_focus = POL_increasing_the_universitys_budget
+			has_completed_focus = POL_an_enlightened_national_autocracy
+			has_completed_focus = SPA_ya_hemos_pasao
+			has_completed_focus = SPR_no_pasaran
+			has_completed_focus = focus_jap_educational_system_reform
+			has_completed_focus = focus_jap_militarized_education_system
+			has_completed_focus = focus_ita_increasing_the_educational_budget
+			has_completed_focus = focus_aus_creation_of_research_complex
+			has_completed_focus = MCR_focus_papal_support
+			has_completed_focus = focus_mex_mexican_economic_miracle
+			has_completed_focus = focus_fra_time_for_another_industrial_revolution
+			has_completed_focus = focus_chi_the_chinese_academia
+			has_completed_focus = focus_ech_increase_the_education_fund
+			has_completed_focus = focus_man_grants_for_universities
+			has_completed_focus = focus_por_sweep_away_the_machinations_of_old
+			has_completed_focus = focus_por_revitalise_the_ist
+			has_completed_focus = focus_saf_south_africa_prospers_again
+			has_completed_focus = AST_focus_australasia_prospers_again
+			has_completed_focus = CAN_focus_canada_prospers_again
+			has_completed_focus = focus_raj_from_rags_to_riches
+			has_completed_focus = GCO_focus_from_rags_to_riches
+			has_completed_focus = AFG_focus_from_rags_to_riches
+			has_completed_focus = NEP_focus_invite_foreign_investors
+			has_completed_focus = TIB_focus_invite_foreign_investors
+			has_completed_focus = focus_usa_season_of_problems
+			has_completed_focus = RELEASABLE_focus_advance_our_technology
+			has_completed_focus = PER_focus_join_the_science_race
+			has_completed_focus = TUR_new_research_labs
+		} 
+	}
+}
+
+gen_positive_assumptions_focus_category = {
+
+	icon = positive
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {      
+		OR = {
+			has_completed_focus = TRC_focus_the_reconstruction_fund
+			has_completed_focus = economy_0
+			has_completed_focus = radical_4
+			has_completed_focus = ENG_balanced_budget
+			has_completed_focus = ENG_the_money_must_flow
+			has_completed_focus = yug_focus_rely_on_trade_in_raw_materials
+			has_completed_focus = POL_1st_economic_brigade
+			has_completed_focus = POL_austerity_measures
+			has_completed_focus = POL_time_for_a_truly_free_market
+			has_completed_focus = POL_nationalization_of_the_banking_sector
+			has_completed_focus = SPA_ya_hemos_pasao
+			has_completed_focus = SPR_no_pasaran
+			has_completed_focus = focus_jap_zaibatsu_question
+			has_completed_focus = focus_ita_restoring_the_liberal_economy
+			has_completed_focus = focus_ita_the_times_of_corporativsm
+			has_completed_focus = focus_usa_season_of_problems
+			has_completed_focus = focus_aus_ceasing_to_pay_the_debts
+			has_completed_focus = MCR_focus_nationalize_the_oil_companies
+			has_completed_focus = focus_mex_expansion_of_the_petrochemical_base
+			has_completed_focus = focus_fra_a_necessity_for_austerity
+			has_completed_focus = focus_man_securing_the_reconstruction_fund
+			has_completed_focus = focus_ech_the_reconstruction_fund
+			has_completed_focus = focus_chi_the_reconstruction_fund
+			has_completed_focus = focus_por_recover_from_the_economic_fallout
+			has_completed_focus = communism_1
+			has_completed_focus = integralism_2
+			has_completed_focus = focus_saf_deadlock_of_panic_1931
+			has_completed_focus = AST_focus_panic_1931_has_struck_us
+			has_completed_focus = CAN_focus_canada_on_strike
+			has_completed_focus = ger_focus_the_time_has_come_for_change
+			has_completed_focus = ger_focus_wilhelm_is_really_unsinkable
+			has_completed_focus = focus_raj_draft_economic_recovery_plan
+			has_completed_focus = GCO_focus_draft_economic_recovery_plan
+			has_completed_focus = AFG_focus_deadlock_of_panic_1931
+			has_completed_focus = NEP_focus_a_necessity_for_austerity
+			has_completed_focus = TIB_focus_a_necessity_for_austerity
+			has_completed_focus = PER_focus_road_to_prosperity
+		}
+	}
+	
+}
+
+gen_generic_economic_focus_category = {
+
+	icon = generic_industry
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {      
+		OR = {
+			has_completed_focus = TRC_focus_the_reconstruction_fund
+			has_completed_focus = economy_0
+			has_completed_focus = radical_4
+			has_completed_focus = ENG_balanced_budget
+			has_completed_focus = ENG_the_money_must_flow
+			has_completed_focus = yug_focus_rely_on_trade_in_raw_materials
+			has_completed_focus = RUS_focus_wish_we_could_turn_back_time
+			has_completed_focus = POL_1st_economic_brigade
+			has_completed_focus = POL_austerity_measures
+			has_completed_focus = POL_time_for_a_truly_free_market
+			has_completed_focus = POL_nationalization_of_the_banking_sector
+			has_completed_focus = SPA_ya_hemos_pasao
+			has_completed_focus = SPR_no_pasaran
+			has_completed_focus = focus_jap_zaibatsu_question
+			has_completed_focus = focus_ita_restoring_the_liberal_economy
+			has_completed_focus = focus_ita_the_times_of_corporativsm
+			has_completed_focus = focus_usa_season_of_problems
+			has_completed_focus = focus_aus_ceasing_to_pay_the_debts
+			has_completed_focus = MCR_focus_nationalize_the_oil_companies
+			has_completed_focus = focus_mex_expansion_of_the_petrochemical_base
+			has_completed_focus = focus_fra_a_necessity_for_austerity
+			has_completed_focus = focus_man_securing_the_reconstruction_fund
+			has_completed_focus = focus_ech_the_reconstruction_fund
+			has_completed_focus = focus_chi_the_reconstruction_fund
+			has_completed_focus = focus_por_recover_from_the_economic_fallout
+			has_completed_focus = communism_1
+			has_completed_focus = integralism_2
+			has_completed_focus = focus_saf_deadlock_of_panic_1931
+			has_completed_focus = AST_focus_panic_1931_has_struck_us
+			has_completed_focus = CAN_focus_canada_on_strike
+			has_completed_focus = ger_focus_the_time_has_come_for_change
+			has_completed_focus = ger_focus_wilhelm_is_really_unsinkable
+			has_completed_focus = focus_raj_draft_economic_recovery_plan
+			has_completed_focus = GCO_focus_draft_economic_recovery_plan
+			has_completed_focus = AFG_focus_deadlock_of_panic_1931
+			has_completed_focus = NEP_focus_a_necessity_for_austerity
+			has_completed_focus = TIB_focus_a_necessity_for_austerity
+			has_completed_focus = RELEASABLE_focus_kickstart_the_economy
+			has_completed_focus = PER_focus_road_to_prosperity
+		}
+	}
+}
+
+gen_non_radical_politics_focus_category = {
+
+	icon = non_radical_politics
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {   
+		NOT = {
+			has_government = integralism
+			has_government = communism
+		}
+		OR = {
+			has_completed_focus = TRC_focus_the_times_of_republicanism
+			has_completed_focus = TRC_focus_always_a_grand_duke
+			has_completed_focus = political_discourse_0
+			has_completed_focus = ENG_necessity_to_make_hard_decisions
+			has_completed_focus = ENG_a_sudden_change_in_course
+			has_completed_focus = ger_focus_the_time_has_come_for_change
+			has_completed_focus = ger_focus_wilhelm_is_really_unsinkable
+			has_completed_focus = yug_focus_hard_begginning
+			has_completed_focus = RUS_focus_the_successful_revolution
+			has_completed_focus = RUS_focus_do_you_hear_the_people_sing
+			has_completed_focus = RUS_focus_god_save_the_tsar
+			has_completed_focus = POL_centrolews_triumph
+			has_completed_focus = POL_new_right_committee
+			has_completed_focus = POL_hunt_for_the_enemies_of_polishness
+			has_completed_focus = SPA_ya_hemos_pasao
+			has_completed_focus = SPR_no_pasaran
+			has_completed_focus = focus_jap_flourishing_of_democracy
+			has_completed_focus = focus_jap_great_influence_of_admiralty
+			has_completed_focus = focus_ita_lunga_vita_ai_conservatori
+			has_completed_focus = focus_usa_season_of_problems
+			has_completed_focus = focus_aus_long_live_kaiser_karl
+			has_completed_focus = MCR_focus_pan_victory
+			has_completed_focus = focus_mex_end_of_maximato
+			has_completed_focus = focus_fra_long_live_the_orleans
+			has_completed_focus = focus_fra_the_french_fourth_republic
+			has_completed_focus = focus_chi_democratisation_goes_forth
+			has_completed_focus = focus_chi_the_socialist_shall_rule
+			has_completed_focus = focus_man_young_marshal_at_the_helm
+			has_completed_focus = focus_man_old_marshal_at_the_helm
+			has_completed_focus = focus_por_second_republican_revolution
+			has_completed_focus = focus_por_backstab_the_delusional_monarchists
+			has_completed_focus = focus_ech_china_is_united_again
+			has_completed_focus = focus_saf_unity_made_by_socialists
+			has_completed_focus = focus_saf_unity_made_by_liberals
+			has_completed_focus = focus_saf_unity_made_by_conservatives
+			has_completed_focus = AST_focus_labor_wins_again
+		    has_completed_focus = AST_focus_country_party_on_the_top
+		    has_completed_focus = AST_focus_menzies_is_triumphant
+		    has_completed_focus = CAN_focus_time_for_liberals
+		    has_completed_focus = CAN_focus_time_for_conservatives
+		    has_completed_focus = CAN_focus_time_for_progressives
+			has_completed_focus = focus_raj_draft_economic_recovery_plan
+			has_completed_focus = GCO_focus_glorious_revolution
+			has_completed_focus = GCO_focus_democratic_revolution
+			has_completed_focus = GCO_focus_league_of_three_kings
+			has_completed_focus = GCO_focus_sign_saigon_agreement
+			has_completed_focus = AFG_focus_the_royal_splendour
+			has_completed_focus = AFG_focus_times_of_muslim_socialism
+			has_completed_focus = NEP_focus_government_of_national_unity
+			has_completed_focus = TIB_focus_the_chinese_reform_plan
+			has_completed_focus = TIB_focus_the_western_reform_plan
+			has_completed_focus = TIB_focus_the_native_reform_plan
+			has_completed_focus = RELEASABLE_focus_time_to_define_ourselves
+			has_completed_focus = PER_focus_a_chance_for_democracy
+			has_completed_focus = PER_focus_social_revolution
+			has_completed_focus = PER_focus_religious_revolution
+			has_completed_focus = TUR_raid_the_opposition_parties
+		}
+	}
+}
+
+gen_integralist_politics_focus_category = {
+
+	icon = integralist_politics
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {   
+		has_government = integralism
+		OR = {  
+		has_completed_focus = TRC_focus_euroasianism_is_the_way
+	   	has_completed_focus = integralism_0
+	   	has_completed_focus = POL_the_time_has_come_for_sanacja
+	   	has_completed_focus = focus_jap_great_strength_of_general_staff
+	   	has_completed_focus = focus_ita_lunga_vita_ai_nazionalisti
+	   	has_completed_focus = focus_usa_long_with_his_every_man_a_king
+	   	has_completed_focus = focus_aus_adolf_hitler_to_win
+	   	has_completed_focus = MCR_focus_uns_takeover
+		has_completed_focus = focus_fra_long_live_the_bonaparts
+		has_completed_focus = focus_man_loyalists_at_the_helm
+		has_completed_focus = focus_chi_chiang_leads_the_nation
+		has_completed_focus = focus_por_contra_revolucao
+		has_completed_focus = focus_ech_china_is_united_again
+		has_completed_focus = AST_focus_ascendance_of_the_guard
+	    has_completed_focus = CAN_focus_time_for_nationalists
+		has_completed_focus = focus_raj_militarism_of_bose
+		has_completed_focus = GCO_focus_legitimate_empire
+		has_completed_focus = AFG_focus_one_step_forward_two_steps_back
+		has_completed_focus = NEP_focus_the_ranas_stand_tall
+		has_completed_focus = TIB_focus_the_religious_reform_plan
+		has_completed_focus = RELEASABLE_focus_time_to_define_ourselves
+		has_completed_focus = PER_focus_the_empire_will_last
+	  }    
+	}
+}
+
+gen_communist_politics_focus_category = {
+
+	icon = communist_politics
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {      
+	    has_government = communism
+        has_completed_focus = communism_0
+		has_completed_focus = RELEASABLE_focus_time_to_define_ourselves
+	}
+	
+}
+
+gen_exhibition_of_global_alliances_category = {
+
+	icon = exhibition_alliances
+	allowed = {
+	}
+	visible = {
+		is_in_faction = no
+		is_subject = no
+		OR = {
+			has_completed_focus = old_4
+			has_completed_focus = new_4
+			has_completed_focus = communism_11
+			has_completed_focus = integralism_11
+		}
+	}
+}
+
+gen_operation_unthinkable = {
+
+	icon = exhibition_alliances
+	allowed = {
+	}
+	visible = {
+		is_faction_leader = yes
+		has_game_rule = {
+			rule = GLOBAL_ALLIANCES
+			option = GLOBAL_ALLIANCES_ENABLE
+		}
+	}
+}

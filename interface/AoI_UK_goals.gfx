@@ -1,0 +1,724 @@
+spriteTypes = {	
+
+	#### AOI United Kingdom
+	
+	### Westminster
+		
+	SpriteType = { 
+		name = "GFX_UK_AmericaColonies"
+		texturefile = "gfx/interface/goals/UK/UK_AmericaColonies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_Arabia"
+		texturefile = "gfx/interface/goals/UK/UK_Arabia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_AsianColonies"
+		texturefile = "gfx/interface/goals/UK/UK_AsianColonies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_BritishRaj"
+		texturefile = "gfx/interface/goals/UK/UK_BritishRaj.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_Canada"
+		texturefile = "gfx/interface/goals/UK/UK_Canada.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_Carribean"
+		texturefile = "gfx/interface/goals/UK/UK_Carribean.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_EastAfrica"
+		texturefile = "gfx/interface/goals/UK/UK_EastAfrica.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_EgyptNileAndSuezChannel"
+		texturefile = "gfx/interface/goals/UK/UK_EgyptNileAndSuezChannel.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_encourage_colonial_elite"
+		texturefile = "gfx/interface/goals/UK/UK_encourage_colonial_elite.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_EndOfEmpireCrisis"
+		texturefile = "gfx/interface/goals/UK/UK_EndOfEmpireCrisis.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_Guyana"
+		texturefile = "gfx/interface/goals/UK/UK_Guyana.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_HongKong"
+		texturefile = "gfx/interface/goals/UK/UK_HongKong.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_ImperialMillitaryCooperation"
+		texturefile = "gfx/interface/goals/UK/UK_ImperialMillitaryCooperation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_ImperialTrade"
+		texturefile = "gfx/interface/goals/UK/UK_ImperialTrade.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_LevantOttomans"
+		texturefile = "gfx/interface/goals/UK/UK_LevantOttomans.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_LionCity"
+		texturefile = "gfx/interface/goals/UK/UK_LionCity.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_MashriqKurds"
+		texturefile = "gfx/interface/goals/UK/UK_MashriqKurds.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_MiddleEast"
+		texturefile = "gfx/interface/goals/UK/UK_MiddleEast.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_ModernImperialism"
+		texturefile = "gfx/interface/goals/UK/UK_ModernImperialism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_OurPartofAfrica"
+		texturefile = "gfx/interface/goals/UK/UK_OurPartofAfrica.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_PaxBritannica"
+		texturefile = "gfx/interface/goals/UK/UK_PaxBritannica.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_RSA"
+		texturefile = "gfx/interface/goals/UK/UK_RSA.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_SecureArabianWorld"
+		texturefile = "gfx/interface/goals/UK/UK_SecureArabianWorld.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_SouthAtlantic"
+		texturefile = "gfx/interface/goals/UK/UK_SouthAtlantic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_SouthColoniesAfrica"
+		texturefile = "gfx/interface/goals/UK/UK_SouthColoniesAfrica.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_SriLanka"
+		texturefile = "gfx/interface/goals/UK/UK_SriLanka.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_WestAfrica"
+		texturefile = "gfx/interface/goals/UK/UK_WestAfrica.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UK_WestminsterStatue"
+		texturefile = "gfx/interface/goals/UK/UK_WestminsterStatue.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_Australasia"
+		texturefile = "gfx/interface/goals/UK/UK_Australasia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_civilizingourcolonies"
+		texturefile = "gfx/interface/goals/UK/UK_civilizingourcolonies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_helpingourcolonies"
+		texturefile = "gfx/interface/goals/UK/UK_helpingourcolonies.dds"
+	}
+
+		###Imperial Budget
+		
+	SpriteType = { 
+		name = "GFX_UK_aerialshow"
+		texturefile = "gfx/interface/goals/UK/UK_aerialshow.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_airarmada"
+		texturefile = "gfx/interface/goals/UK/UK_airarmada.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_Budget1931"
+		texturefile = "gfx/interface/goals/UK/UK_Budget1931.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_cav_motor"
+		texturefile = "gfx/interface/goals/UK/UK_cav_motor.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_doctrine_decade"
+		texturefile = "gfx/interface/goals/UK/UK_doctrine_decade.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_emeraldislandsolved"
+		texturefile = "gfx/interface/goals/UK/UK_emeraldislandsolved.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_fleetmodersnisationimp"
+		texturefile = "gfx/interface/goals/UK/UK_fleetmodersnisationimp.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_hearts_of_oak"
+		texturefile = "gfx/interface/goals/UK/UK_hearts_of_oak.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_howisempire"
+		texturefile = "gfx/interface/goals/UK/UK_howisempire.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_Imperial_manuvers"
+		texturefile = "gfx/interface/goals/UK/UK_Imperial_manuvers.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_lovely_war"
+		texturefile = "gfx/interface/goals/UK/UK_lovely_war.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_overseasterritory"
+		texturefile = "gfx/interface/goals/UK/UK_overseasterritory.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_RAFimp"
+		texturefile = "gfx/interface/goals/UK/UK_RAFimp.dds"
+	}
+		
+	SpriteType = { 
+		name = "GFX_UK_needforairbases"
+		texturefile = "gfx/interface/goals/UK/UK_needforairbases.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_notonlyoceanliners"
+		texturefile = "gfx/interface/goals/UK/UK_notonlyoceanliners.dds"
+	}
+
+		###RAF
+		
+	SpriteType = { 
+		name = "GFX_UK_bomber_command"
+		texturefile = "gfx/interface/goals/UK/UK_bomber_command.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_bomber_production"
+		texturefile = "gfx/interface/goals/UK/UK_bomber_production.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_ChoosingDoctrines"
+		texturefile = "gfx/interface/goals/UK/UK_ChoosingDoctrines.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_empire_air_service"
+		texturefile = "gfx/interface/goals/UK/UK_empire_air_service.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_empire_air_training_scheme"
+		texturefile = "gfx/interface/goals/UK/UK_empire_air_training_scheme.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_Establish_SAS"
+		texturefile = "gfx/interface/goals/UK/UK_Establish_SAS.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_financing_jet_engine"
+		texturefile = "gfx/interface/goals/UK/UK_financing_jet_engine.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_london_aicraft_production_group"
+		texturefile = "gfx/interface/goals/UK/UK_london_aicraft_production_group.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_nuclear_energy"
+		texturefile = "gfx/interface/goals/UK/UK_nuclear_energy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_Radar"
+		texturefile = "gfx/interface/goals/UK/UK_Radar.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_RAF"
+		texturefile = "gfx/interface/goals/UK/UK_RAF.dds"
+	}
+
+		###Navy
+
+	SpriteType = { 
+		name = "GFX_UK_Antisubmarine"
+		texturefile = "gfx/interface/goals/UK/UK_Antisubmarine.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_BritanniaRuleTheWave"
+		texturefile = "gfx/interface/goals/UK/UK_BritanniaRuleTheWave.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_ContinueTheStrategyOfTheGrandFleet"
+		texturefile = "gfx/interface/goals/UK/UK_ContinueTheStrategyOfTheGrandFleet.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_convoy_escort_focus"
+		texturefile = "gfx/interface/goals/UK/UK_convoy_escort_focus.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_FleetModernization"
+		texturefile = "gfx/interface/goals/UK/UK_FleetModernization.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_focus_on_carriers"
+		texturefile = "gfx/interface/goals/UK/UK_focus_on_carriers.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_FocusOnTheBattleships"
+		texturefile = "gfx/interface/goals/UK/UK_FocusOnTheBattleships.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_ImperialDestroyers"
+		texturefile = "gfx/interface/goals/UK/UK_ImperialDestroyers.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_InterestSubmarine"
+		texturefile = "gfx/interface/goals/UK/UK_InterestSubmarine.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_moremoderndocttrine"
+		texturefile = "gfx/interface/goals/UK/UK_moremoderndocttrine.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_RAF_Costal"
+		texturefile = "gfx/interface/goals/UK/UK_RAF_Costal.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_RepairYards"
+		texturefile = "gfx/interface/goals/UK/UK_RepairYards.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_XXX"
+		texturefile = "gfx/interface/goals/UK/XXX.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_royal_airforce"
+		texturefile = "gfx/interface/goals/UK/UK_royal_airforce.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_RoyalMarines"
+		texturefile = "gfx/interface/goals/UK/UK_RoyalMarines.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_StrategiesRelatedToTheUseOfSeaMines"
+		texturefile = "gfx/interface/goals/UK/UK_StrategiesRelatedToTheUseOfSeaMines.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_TheProblemOfMaintainingRoyalNavy"
+		texturefile = "gfx/interface/goals/UK/UK_TheProblemOfMaintainingRoyalNavy.dds"
+	}
+	
+		###Army
+		
+	SpriteType = { 
+		name = "GFX_UK_belgiumally"
+		texturefile = "gfx/interface/goals/UK/UK_belgiumally.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_big_army"
+		texturefile = "gfx/interface/goals/UK/UK_big_army.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_burma_malaya_logistics"
+		texturefile = "gfx/interface/goals/UK/UK_burma_malaya_logistics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_Status_of_Afghanistan"
+		texturefile = "gfx/interface/goals/UK/UK_Status_of_Afghanistan.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_enfield"
+		texturefile = "gfx/interface/goals/UK/UK_enfield.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_hobbarts_funnies"
+		texturefile = "gfx/interface/goals/UK/UK_hobbarts_funnies.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_imperial_armaments_production"
+		texturefile = "gfx/interface/goals/UK/UK_imperial_armaments_production.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_irishquestion"
+		texturefile = "gfx/interface/goals/UK/UK_irishquestion.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_kickstart_the_war_industry"
+		texturefile = "gfx/interface/goals/UK/UK_kickstart_the_war_industry.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_land_battleships"
+		texturefile = "gfx/interface/goals/UK/UK_land_battleships.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_land_cruisers"
+		texturefile = "gfx/interface/goals/UK/UK_land_cruisers.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_mechanizetheartillery"
+		texturefile = "gfx/interface/goals/UK/UK_mechanizetheartillery.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_mobliewarfare"
+		texturefile = "gfx/interface/goals/UK/UK_mobliewarfare.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_norwayally"
+		texturefile = "gfx/interface/goals/UK/UK_norwayally.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_portugalally"
+		texturefile = "gfx/interface/goals/UK/UK_portugalally.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_professional_army"
+		texturefile = "gfx/interface/goals/UK/UK_professional_army.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_royal_engineering"
+		texturefile = "gfx/interface/goals/UK/UK_royal_engineering.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_status_of_siam"
+		texturefile = "gfx/interface/goals/UK/UK_status_of_siam.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_submachinegun"
+		texturefile = "gfx/interface/goals/UK/UK_submachinegun.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_support_companies"
+		texturefile = "gfx/interface/goals/UK/UK_support_companies.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_the_shadow_scheme"
+		texturefile = "gfx/interface/goals/UK/UK_the_shadow_scheme.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_trench"
+		texturefile = "gfx/interface/goals/UK/UK_trench.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_universal_carrier"
+		texturefile = "gfx/interface/goals/UK/UK_universal_carrier.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_ensureloyality_raj"
+		texturefile = "gfx/interface/goals/UK/UK_ensureloyality_raj.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_EuropeanTheater"
+		texturefile = "gfx/interface/goals/UK/UK_EuropeanTheater.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_FarEast_Theater"
+		texturefile = "gfx/interface/goals/UK/UK_FarEast_Theater.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Gorkha"
+		texturefile = "gfx/interface/goals/UK/UK_Gorkha.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Meditera_Theater"
+		texturefile = "gfx/interface/goals/UK/UK_Meditera_Theater.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_protect_ceylon"
+		texturefile = "gfx/interface/goals/UK/UK_protect_ceylon.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_secure_oil"
+		texturefile = "gfx/interface/goals/UK/UK_secure_oil.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_start_modernizing_troops_far_east"
+		texturefile = "gfx/interface/goals/UK/UK_start_modernizing_troops_far_east.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Suez"
+		texturefile = "gfx/interface/goals/UK/UK_Suez.dds"
+	}	
+	
+	
+	### Elections
+	
+	SpriteType = { 
+		name = "GFX_UK_Applied_research"
+		texturefile = "gfx/interface/goals/UK/UK_Applied_research.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_balancedbudget"
+		texturefile = "gfx/interface/goals/UK/UK_balancedbudget.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_BritishElections1931"
+		texturefile = "gfx/interface/goals/UK/UK_BritishElections1931.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_civil_service"
+		texturefile = "gfx/interface/goals/UK/UK_civil_service.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Darkest_Hour"
+		texturefile = "gfx/interface/goals/UK/UK_Darkest_Hour.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Food_Rations"
+		texturefile = "gfx/interface/goals/UK/UK_Food_Rations.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_freemarketprosper"
+		texturefile = "gfx/interface/goals/UK/UK_freemarketprosper.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_gouverment_invests"
+		texturefile = "gfx/interface/goals/UK/UK_gouverment_invests.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Hard_Decisions"
+		texturefile = "gfx/interface/goals/UK/UK_Hard_Decisions.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Homeguard"
+		texturefile = "gfx/interface/goals/UK/UK_Homeguard.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_labour"
+		texturefile = "gfx/interface/goals/UK/UK_labour.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Lib_survives"
+		texturefile = "gfx/interface/goals/UK/UK_Lib_survives.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_limit_bank_autonomy"
+		texturefile = "gfx/interface/goals/UK/UK_limit_bank_autonomy.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Money_must_flow"
+		texturefile = "gfx/interface/goals/UK/UK_Money_must_flow.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_Prepare_for_unevit"
+		texturefile = "gfx/interface/goals/UK/UK_Prepare_for_unevit.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_reconsidering_dip_opts"
+		texturefile = "gfx/interface/goals/UK/UK_reconsidering_dip_opts.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_royal_ordance_factory"
+		texturefile = "gfx/interface/goals/UK/UK_royal_ordance_factory.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_start_economic_buildup"
+		texturefile = "gfx/interface/goals/UK/UK_start_economic_buildup.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Tax_increase"
+		texturefile = "gfx/interface/goals/UK/UK_Tax_increase.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Tories"
+		texturefile = "gfx/interface/goals/UK/UK_Tories.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_ultra"
+		texturefile = "gfx/interface/goals/UK/UK_ultra.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_UK_authoritarian_approach"
+		texturefile = "gfx/interface/goals/UK/UK_authoritarian_approach.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_civil_sevice"
+		texturefile = "gfx/interface/goals/UK/UK_civil_sevice.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_democratic_reforms"
+		texturefile = "gfx/interface/goals/UK/UK_democratic_reforms.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_patriotic_movements"
+		texturefile = "gfx/interface/goals/UK/UK_patriotic_movements.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_place_under_sun"
+		texturefile = "gfx/interface/goals/UK/UK_place_under_sun.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_resolve_trade_unions_problem"
+		texturefile = "gfx/interface/goals/UK/UK_resolve_trade_unions_problem.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_sudden_change"
+		texturefile = "gfx/interface/goals/UK/UK_sudden_change.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_Welfare_state"
+		texturefile = "gfx/interface/goals/UK/UK_Welfare_state.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_UK_continuing_centuries_of_tradition"
+		texturefile = "gfx/interface/goals/UK/UK_continuing_centuries_of_tradition.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_UK_let_the_hun_empire_fall_apart"
+		texturefile = "gfx/interface/goals/UK/UK_let_the_hun_empire_fall_apart.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UK_let_the_Roman_Empire_rest_in_peace"
+		texturefile = "gfx/interface/goals/UK/UK_let_the_Roman_Empire_rest_in_peace.dds"
+	}
+		
+	SpriteType = { 
+		name = "GFX_UK_maritime_war_championships"
+		texturefile = "gfx/interface/goals/UK/UK_maritime_war_championships.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_no_barbarian_will_not_be_equaled_to_us"
+		texturefile = "gfx/interface/goals/UK/UK_no_barbarian_will_not_be_equaled_to_us.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_UK_our_friends_around_the_world"
+		texturefile = "gfx/interface/goals/UK/UK_our_friends_around_the_world.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_UK_time_to_sink_the_paper_state"
+		texturefile = "gfx/interface/goals/UK/UK_time_to_sink_the_paper_state.dds"
+	}
+}

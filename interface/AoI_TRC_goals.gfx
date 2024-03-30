@@ -1,0 +1,214 @@
+spriteTypes = {	
+
+	#### AOI Transcaucasia ###
+	
+	SpriteType = {
+		name = "GFX_TRC_a_great_leap_forward"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_a_great_leap_forward.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_abolishon_of_political_divisions"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_abolishon_of_political_divisions.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_always_a_grand_duke"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_always_a_grand_duke.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_attack_the_belly_of_the_russian_bear"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_attack_the_belly_of_the_russian_bear.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_begin_the_era_of_plenty"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_begin_the_era_of_plenty.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_cooperate_with_the_magnates"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_cooperate_with_the_magnates.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_emphesis_on_the_armys_motorization"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_emphesis_on_the_armys_motorization.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_enlightened_rule"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_enlightened_rule.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_euroasianism_is_the_way"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_euroasianism_is_the_way.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_expand_the_air_force"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_expand_the_air_force.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_expand_the_shipyard_base"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_expand_the_shipyard_base.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_formalise_the_technocrat_rule"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_formalise_the_technocrat_rule.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_Greater_Kingdom_of_Transcaucasia"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_Greater_Kingdom_of_Transcaucasia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_guardians_of_peace"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_guardians_of_peace.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_guide_the_magnates"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_guide_the_magnates.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_improve_our_army"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_improve_our_army.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_kickstart_our_foreign_policy"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_kickstart_our_foreign_policy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_once_a_grand_duke"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_once_a_grand_duke.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_our_place_under_the_sun"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_our_place_under_the_sun.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_priorities_in_year_1931"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_priorities_in_year_1931.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_reach_out_to_the_magnates"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_reach_out_to_the_magnates.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_Reach_Out_to_the_Reichspakt"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_Reach_Out_to_the_Reichspakt.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_reach_out_to_the_tripartite"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_reach_out_to_the_tripartite.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_reforms_of_the_grand_duke"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_reforms_of_the_grand_duke.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_royal_propaganda"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_royal_propaganda.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_share_the_wealth"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_share_the_wealth.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_squash_the_magnates"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_squash_the_magnates.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_Strike_at_the_Arabs"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_Strike_at_the_Arabs.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_subjugate_anatolia"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_subjugate_anatolia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_subjugate_persia"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_subjugate_persia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_the_continuation_of_friendship"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_the_continuation_of_friendship.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_the_matters_of_power"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_the_matters_of_power.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_the_matters_of_wealth"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_the_matters_of_wealth.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_the_reconstruction_fund"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_the_reconstruction_fund.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_the_times_of_republicanism"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_the_times_of_republicanism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_the_unity_of_elites"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_the_unity_of_elites.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_the_unity_of_the_people"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_the_unity_of_the_people.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_things_making_a_big_bang"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_things_making_a_big_bang.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_transcaucasian_empire"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_transcaucasian_empire.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_transcaucasian_federation"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_transcaucasian_federation.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_war_against_internal_enemies"
+		texturefile = "gfx/interface/goals/TRC/TRCTRC_war_against_internal_enemies.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TRC_Branobel_and_TGC"
+		texturefile = "gfx/interface/goals/TRC/TRCTRS_Branobel_and_TGC.dds"
+	}
+}

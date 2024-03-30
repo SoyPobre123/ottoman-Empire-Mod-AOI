@@ -1,0 +1,185 @@
+spriteTypes = {	
+
+	#### AOI JAP
+	
+		
+	SpriteType = { 
+		name = "GFX_JAP_A_New_Center_for_World_Animation"
+		texturefile = "gfx/interface/goals/JAP/JAP_A_New_Center_for_World_Animation.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_JAP_A_Story_of_Two_Empires"
+		texturefile = "gfx/interface/goals/JAP/JAP_A_Story_of_Two_Empires.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Abandoning_the_Zaibatsu"
+		texturefile = "gfx/interface/goals/JAP/JAP_Abandoning_the_Zaibatsu.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Asian_Tiger"
+		texturefile = "gfx/interface/goals/JAP/JAP_Asian_Tiger.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Bushido_Code_Reintroduction"
+		texturefile = "gfx/interface/goals/JAP/JAP_Bushido_Code_Reintroduction.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Combating_Radicalism"
+		texturefile = "gfx/interface/goals/JAP/JAP_Combating_Radicalism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Commonwealth_of_Nations_War_School"
+		texturefile = "gfx/interface/goals/JAP/JAP_Commonwealth_of_Nations_War_School.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Cooperation_Between_Stock_Exchanges"
+		texturefile = "gfx/interface/goals/JAP/JAP_Cooperation_Between_Stock_Exchanges.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Cooperation_with_Zaibatsu"
+		texturefile = "gfx/interface/goals/JAP/JAP_Cooperation_with_Zaibatsu.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Cutting_Off_the_Prosperity_Coupons"
+		texturefile = "gfx/interface/goals/JAP/JAP_Cutting_Off_the_Prosperity_Coupons.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Depoliticization_of_the_Armed_Forces"
+		texturefile = "gfx/interface/goals/JAP/JAP_Depoliticization_of_the_Armed_Forces.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Empire_of_the_Rising_Sun"
+		texturefile = "gfx/interface/goals/JAP/JAP_Empire_of_the_Rising_Sun.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Greater_East_Asia_Co_Prosperity_Sphere"
+		texturefile = "gfx/interface/goals/JAP/JAP_Greater_East_Asia_Co_Prosperity_Sphere.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Guading_the_Zaibatsu"
+		texturefile = "gfx/interface/goals/JAP/JAP_Guading_the_Zaibatsu.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Harbin_listening_station"
+		texturefile = "gfx/interface/goals/JAP/JAP_Harbin_listening_station.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Investing_in_the_Imperial_Naval_School"
+		texturefile = "gfx/interface/goals/JAP/JAP_Investing_in_the_Imperial_Naval_School.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Japanese_Constitutional_Monarchy"
+		texturefile = "gfx/interface/goals/JAP/JAP_Japanese_Constitutional_Monarchy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Japanese_Industrial_Boom"
+		texturefile = "gfx/interface/goals/JAP/JAP_Japanese_Industrial_Boom.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Kenpeitai_Reorganization"
+		texturefile = "gfx/interface/goals/JAP/JAP_Kenpeitai_Reorganization.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Korea_Development_Program"
+		texturefile = "gfx/interface/goals/JAP/JAP_Korea_Development_Program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_New_Japanese_Aviation"
+		texturefile = "gfx/interface/goals/JAP/JAP_New_Japanese_Aviation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_New_Sea_War_Concepts"
+		texturefile = "gfx/interface/goals/JAP/JAP_New_Sea_War_Concepts.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Our_Greatest_Ally"
+		texturefile = "gfx/interface/goals/JAP/JAP_Our_Greatest_Ally.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Our_Manchurian_Friend"
+		texturefile = "gfx/interface/goals/JAP/JAP_Our_Manchurian_Friend.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Precious_Experiences_From_Manchuria"
+		texturefile = "gfx/interface/goals/JAP/JAP_Precious_Experiences_From_Manchuria.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Preparations_in_Dalian"
+		texturefile = "gfx/interface/goals/JAP/JAP_Preparations_in_Dalian.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Preparations_in_Formosa"
+		texturefile = "gfx/interface/goals/JAP/JAP_Preparations_in_Formosa.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Preparations_in_Okinawa"
+		texturefile = "gfx/interface/goals/JAP/JAP_Preparations_in_Okinawa.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Propaganda_of_Our_Land_Forces"
+		texturefile = "gfx/interface/goals/JAP/JAP_Propaganda_of_Our_Land_Forces.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Reform_of_the_Kwantung_Army"
+		texturefile = "gfx/interface/goals/JAP/JAP_Reform_of_the_Kwantung_Army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Shenyang_Tokyo_Airline"
+		texturefile = "gfx/interface/goals/JAP/JAP_Shenyang_Tokyo_Airline.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Shintoism_Strengthened"
+		texturefile = "gfx/interface/goals/JAP/JAP_Shintoism_Strengthened.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Stepping_Up_Activities_of_Kenpeitai"
+		texturefile = "gfx/interface/goals/JAP/JAP_Stepping_Up_Activities_of_Kenpeitai.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_Support_for_Toyota_Plants"
+		texturefile = "gfx/interface/goals/JAP/JAP_Support_for_Toyota_Plants.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_The_Propaganda_Role_of_Anime"
+		texturefile = "gfx/interface/goals/JAP/JAP_The_Propaganda_Role_of_Anime.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_The_Zaibatsu_Question"
+		texturefile = "gfx/interface/goals/JAP/JAP_The_Zaibatsu_Question.dds"
+	}
+}

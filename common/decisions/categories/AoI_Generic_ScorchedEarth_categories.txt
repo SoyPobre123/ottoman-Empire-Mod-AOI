@@ -1,0 +1,18 @@
+# ##################################
+# #### DECIS SCHOREARTH by Reginiak ####
+# ##################################
+
+gen_scorching_earth_optional_aoi_category = {
+
+	icon = scorched_earth
+
+	#picture = GFX_decision_cat_POL_polanga_sea_port
+
+	allowed = {
+	}
+	
+	visible = {
+		has_war = yes
+	}
+	
+}

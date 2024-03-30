@@ -1,0 +1,157 @@
+spriteTypes = {
+
+	#### AOI Canada
+	
+	SpriteType = {
+		name = "GFX_CAN_Atlantic_War_Games"
+		texturefile = "gfx/interface/goals/CAN/CAN_Atlantic_War_Games.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Big_Hearts_of_the_Canadians"
+		texturefile = "gfx/interface/goals/CAN/CAN_Big_Hearts_of_the_Canadians.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Build_a_Wall"
+		texturefile = "gfx/interface/goals/CAN/CAN_Build_a_Wall.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Canada_on_Strike"
+		texturefile = "gfx/interface/goals/CAN/CAN_Canada_on_Strike.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Canada_Prospers_Again"
+		texturefile = "gfx/interface/goals/CAN/CAN_Canada_Prospers_Again.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Canadian_Armoured_Division"
+		texturefile = "gfx/interface/goals/CAN/CAN_Canadian_Armoured_Division.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Canadian_Universalism"
+		texturefile = "gfx/interface/goals/CAN/CAN_Canadian_Universalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Come_All_Ye_Bold_Canadians"
+		texturefile = "gfx/interface/goals/CAN/CAN_Come_All_Ye_Bold_Canadians.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Cooperate_with_Japan"
+		texturefile = "gfx/interface/goals/CAN/CAN_Cooperate_with_Japan.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Cooperate_with_Other_Dominions"
+		texturefile = "gfx/interface/goals/CAN/CAN_Cooperate_with_Other_Dominions.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Cooperate_with_United_Kingdom"
+		texturefile = "gfx/interface/goals/CAN/CAN_Cooperate_with_United_Kingdom.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Create_Special_Industrial_Zone"
+		texturefile = "gfx/interface/goals/CAN/CAN_Create_Special_Industrial_Zone.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Embrace_Westminster_Statue"
+		texturefile = "gfx/interface/goals/CAN/CAN_Embrace_Westminster_Statue.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Fleet_Expansion_Program"
+		texturefile = "gfx/interface/goals/CAN/CAN_Fleet_Expansion_Program.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Investments_in_the_West"
+		texturefile = "gfx/interface/goals/CAN/CAN_Investments_in_the_West.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Investments_in_the_East"
+		texturefile = "gfx/interface/goals/CAN/CAN_Investments_in_the_East.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Invest_in_the_Middle_Class"
+		texturefile = "gfx/interface/goals/CAN/CAN_Invest_in_the_Middle_Class.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Lessons_from_Japanese"
+		texturefile = "gfx/interface/goals/CAN/CAN_Lessons_from_Japanese.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Lessons_from_Other_Dominions"
+		texturefile = "gfx/interface/goals/CAN/CAN_Lessons_from_Other_Dominions.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_New_Canadian_Economy"
+		texturefile = "gfx/interface/goals/CAN/CAN_New_Canadian_Economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Operation_Unthinkable"
+		texturefile = "gfx/interface/goals/CAN/CAN_Operation_Unthinkable.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Our_Commonwealth_Enters_1931"
+		texturefile = "gfx/interface/goals/CAN/CAN_Our_Commonwealth_Enters_1931.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_O_Canada"
+		texturefile = "gfx/interface/goals/CAN/CAN_O_Canada.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Pacific_War_Games"
+		texturefile = "gfx/interface/goals/CAN/CAN_Pacific_War_Games.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Prepare_for_Inevitable"
+		texturefile = "gfx/interface/goals/CAN/CAN_Prepare_for_Inevitable.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Ready_Aye_Ready"
+		texturefile = "gfx/interface/goals/CAN/CAN_Ready_Aye_Ready.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Reinforce_RCAF"
+		texturefile = "gfx/interface/goals/CAN/CAN_Reinforce_RCAF.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Shipyards_of_Newfoundland"
+		texturefile = "gfx/interface/goals/CAN/CAN_Shipyards_of_Newfoundland.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Shipyards_of_Vancouver"
+		texturefile = "gfx/interface/goals/CAN/CAN_Shipyards_of_Vancouver.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_The_Challenges_of_Total_War"
+		texturefile = "gfx/interface/goals/CAN/CAN_The_Challenges_of_Total_War.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_The_Maple_Leaf_Forever"
+		texturefile = "gfx/interface/goals/CAN/CAN_The_Maple_Leaf_Forever.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_The_Path_to_Prosperity"
+		texturefile = "gfx/interface/goals/CAN/CAN_The_Path_to_Prosperity.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Time_for_Conservatives"
+		texturefile = "gfx/interface/goals/CAN/CAN_Time_for_Conservatives.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Time_for_Liberals"
+		texturefile = "gfx/interface/goals/CAN/CAN_Time_for_Liberals.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Time_for_Nationalists"
+		texturefile = "gfx/interface/goals/CAN/CAN_Time_for_Nationalists.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Time_for_Progressives"
+		texturefile = "gfx/interface/goals/CAN/CAN_Time_for_Progressives.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Tyranny_Shall_Not_Pass"
+		texturefile = "gfx/interface/goals/CAN/CAN_Tyranny_Shall_Not_Pass.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_Vive_la_Canadienne"
+		texturefile = "gfx/interface/goals/CAN/CAN_Vive_la_Canadienne.dds"
+	}
+}

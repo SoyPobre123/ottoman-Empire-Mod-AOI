@@ -1,0 +1,659 @@
+spriteTypes = {	
+
+	#### AOI France
+	
+	SpriteType = { 
+		name = "GFX_FRA_Decent_Life_Working"
+		texturefile = "gfx/interface/goals/FRA/FRA_A_Decent_Life_for_Working_People.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Adaptation_Modern_Marines"
+		texturefile = "gfx/interface/goals/FRA/FRA_Adaptation_of_the_Modern_Marines.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Aerial_Logistics"
+		texturefile = "gfx/interface/goals/FRA/FRA_Aerial_logistics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Airlift_Program"
+		texturefile = "gfx/interface/goals/FRA/FRA_Airlift_Program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Atlantic_War_Games"
+		texturefile = "gfx/interface/goals/FRA/FRA_Atlantic_War_Games.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Attempts_Find_Oil"
+		texturefile = "gfx/interface/goals/FRA/FRA_Attempts_to_Find_Oil_in_Algeria.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Better_Support_Companies"
+		texturefile = "gfx/interface/goals/FRA/FRA_Better_Support_Companies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Big_Hearts_French"
+		texturefile = "gfx/interface/goals/FRA/FRA_Big_Hearts_of_the_French.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Breakthrough_Divisions"
+		texturefile = "gfx/interface/goals/FRA/FRA_Breakthrough_Divisions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Bringing_Back_Capital"
+		texturefile = "gfx/interface/goals/FRA/FRA_Bringing_Back_the_Capital_Ships.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Build_Radar_Network"
+		texturefile = "gfx/interface/goals/FRA/FRA_Build_a_Radar_Network.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Building_Airport_Network"
+		texturefile = "gfx/interface/goals/FRA/FRA_Building_an_Airport_Network.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Building_Granary_Europe"
+		texturefile = "gfx/interface/goals/FRA/FRA_Building_the_Granary_of_Europe.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Building_Tourism_Industry"
+		texturefile = "gfx/interface/goals/FRA/FRA_Building_the_Tourism_Industry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Catholic_Pillar_Nation"
+		texturefile = "gfx/interface/goals/FRA/FRA_Catholic_Pillar_of_the_Nation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Civil_Service_Reform"
+		texturefile = "gfx/interface/goals/FRA/FRA_Civil_Service_Reform.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Coastal_Defense_Ships"
+		texturefile = "gfx/interface/goals/FRA/FRA_Coastal_Defense_Ships.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Command_Structure_Reorganization"
+		texturefile = "gfx/interface/goals/FRA/FRA_Command_Structure_Reorganization.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Construction_Forteresse_France"
+		texturefile = "gfx/interface/goals/FRA/FRA_Construction_de_la_Forteresse_France.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Continuing_Centuries_Tradition"
+		texturefile = "gfx/interface/goals/FRA/FRA_Continuing_the_Centuries_of_Tradition.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Cooperate_Russian_Stock"
+		texturefile = "gfx/interface/goals/FRA/FRA_Cooperate_with_the_Russian_Stock_Exchange.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Cooperation_Red_Cross"
+		texturefile = "gfx/interface/goals/FRA/FRA_Cooperation_with_the_Red_Cross.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Coordinated_Bombing_Operations"
+		texturefile = "gfx/interface/goals/FRA/FRA_Coordinated_Bombing_Operations.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Cult_Personality"
+		texturefile = "gfx/interface/goals/FRA/FRA_Cult_Of_Personality.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Destroy_Freemasonry_France"
+		texturefile = "gfx/interface/goals/FRA/FRA_Destroy_Freemasonry_in_France.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Development_Armored_Forces"
+		texturefile = "gfx/interface/goals/FRA/FRA_Development_of_Armored_Forces.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Dissolution_Parliament"
+		texturefile = "gfx/interface/goals/FRA/FRA_Dissolution_of_Parliament.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Doctrine_National_Action"
+		texturefile = "gfx/interface/goals/FRA/FRA_Doctrine_of_National_Action.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Dreams_Super_Armes"
+		texturefile = "gfx/interface/goals/FRA/FRA_Dreams_of_Super_Armes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Engineering_Improvements_Bliss"
+		texturefile = "gfx/interface/goals/FRA/FRA_Engineering_Improvements_are_a_Bliss.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Enshrine_Democratic_Institutions"
+		texturefile = "gfx/interface/goals/FRA/FRA_Enshrine_Democratic_Institutions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Establish_Chasseurs_Parachutistes"
+		texturefile = "gfx/interface/goals/FRA/FRA_Establish_Chasseurs_Parachutistes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Establishment_Air_Guard"
+		texturefile = "gfx/interface/goals/FRA/FRA_Establishment_of_the_Air_Guard.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Establishment_Workers_Brigades"
+		texturefile = "gfx/interface/goals/FRA/FRA_Establishment_of_Workers_Brigades.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Expand_Railway_North"
+		texturefile = "gfx/interface/goals/FRA/FRA_Expand_the_Railway_in_the_North.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Expand_Railway_South"
+		texturefile = "gfx/interface/goals/FRA/FRA_Expand_the_Railway_in_the_South.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_Build_Trans_Saharan_Rail"
+		texturefile = "gfx/interface/goals/FRA/FRA_Build_Trans_Saharan_Rail.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_FRA_Expansion_Provencal_Shipyards"
+		texturefile = "gfx/interface/goals/FRA/FRA_Expansion_of_Provencal_Shipyards.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Expansion_Normandy_Shipyards"
+		texturefile = "gfx/interface/goals/FRA/FRA_Expansion_of_the_Normandy_Shipyard.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Focus_Special_Infantry"
+		texturefile = "gfx/interface/goals/FRA/FRA_Focus_on_Special_Infantry_Types.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_France_Soyuzniki"
+		texturefile = "gfx/interface/goals/FRA/FRA_France_and_Soyuzniki.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_France_Tripartite"
+		texturefile = "gfx/interface/goals/FRA/FRA_France_and_tripartite.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_French_Entrepreneurship_Council"
+		texturefile = "gfx/interface/goals/FRA/FRA_French_Entrepreneurship_Council.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Fulfillment_Old_Ambition"
+		texturefile = "gfx/interface/goals/FRA/FRA_Fulfillment_of_Old_Ambition.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Great_Air_Armada"
+		texturefile = "gfx/interface/goals/FRA/FRA_Great_Air_Armada.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Great_Ambitions_Need"
+		texturefile = "gfx/interface/goals/FRA/FRA_Great_Ambitions_Need_a_Great_Army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Great_Economic_Opportunities"
+		texturefile = "gfx/interface/goals/FRA/FRA_Great_Economic_Opportunities.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Great_Maritime_Ambitions"
+		texturefile = "gfx/interface/goals/FRA/FRA_Great_Maritime_Ambitions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Imperial_Propaganda"
+		texturefile = "gfx/interface/goals/FRA/FRA_Imperial_Propaganda.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Improvements_Heavy_Airplanes"
+		texturefile = "gfx/interface/goals/FRA/FRA_Improvements_of_Heavy_Airplanes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Improvements_Light_Airplanes"
+		texturefile = "gfx/interface/goals/FRA/FRA_Improvements_of_Light_Airplanes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Improving_Air_Combat"
+		texturefile = "gfx/interface/goals/FRA/FRA_Improving_Air_Combat_Tactics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Improving_Artillery"
+		texturefile = "gfx/interface/goals/FRA/FRA_Improving_Our_Artillery.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Increase_Funds_AOF"
+		texturefile = "gfx/interface/goals/FRA/FRA_Increase_the_Funds_for_the_AOF.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Increased_Research_Efforts"
+		texturefile = "gfx/interface/goals/FRA/FRA_Increased_Research_Efforts.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Increasing_Agricultural_Budget"
+		texturefile = "gfx/interface/goals/FRA/FRA_Increasing_the_Agricultural_Budget.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Increasing_Role_Airforce"
+		texturefile = "gfx/interface/goals/FRA/FRA_Increasing_the_Role_of_Airforce.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Integrate_African_Possesions"
+		texturefile = "gfx/interface/goals/FRA/FRA_Integrate_Our_African_Possesions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Interest_Submarines"
+		texturefile = "gfx/interface/goals/FRA/FRA_Interest_in_the_Submarines.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Introduction_Merit_System"
+		texturefile = "gfx/interface/goals/FRA/FRA_Introduction_of_the_Merit_System.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Invest_Middle_Class"
+		texturefile = "gfx/interface/goals/FRA/FRA_Invest_in_the_Middle_Class.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Invest_Rocketry"
+		texturefile = "gfx/interface/goals/FRA/FRA_Invest_in_the_Rocketry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Investing_Electronics"
+		texturefile = "gfx/interface/goals/FRA/FRA_Investing_in_Electronics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Investments_Corsica"
+		texturefile = "gfx/interface/goals/FRA/FRA_Investments_in_Corsica.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_King_French"
+		texturefile = "gfx/interface/goals/FRA/FRA_King_of_the_French.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Madelon_Victoire"
+		texturefile = "gfx/interface/goals/FRA/FRA_La_Madelon_de_la_Victoire.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Lessons_Russian_Heavy"
+		texturefile = "gfx/interface/goals/FRA/FRA_Lessons_from_Russian_Heavy_Industry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Liberty_Equality_Fraternity"
+		texturefile = "gfx/interface/goals/FRA/FRA_Liberty_Equality_Fraternity.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Like_Good_Old"
+		texturefile = "gfx/interface/goals/FRA/FRA_Like_in_the_Good_Old_Days.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Long_Live_France"
+		texturefile = "gfx/interface/goals/FRA/FRA_Long_Live_France.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Long_Live_Bonaparts"
+		texturefile = "gfx/interface/goals/FRA/FRA_Long_Live_the_Bonaparts.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Long_Live_Orleans"
+		texturefile = "gfx/interface/goals/FRA/FRA_Long_Live_the_Orleans.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Maneuvers_Champagne"
+		texturefile = "gfx/interface/goals/FRA/FRA_Maneuvers_in_Champagne.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Mediterranean_Maneuvers"
+		texturefile = "gfx/interface/goals/FRA/FRA_Mediterranean_Maneuvers.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Military_Infrastructure_Africa"
+		texturefile = "gfx/interface/goals/FRA/FRA_Military_infrastructure_in_Africa.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Modern_War_Sea"
+		texturefile = "gfx/interface/goals/FRA/FRA_Modern_War_at_Sea.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Modernisation_Shipyard_Base"
+		texturefile = "gfx/interface/goals/FRA/FRA_Modernisation_of_the_Shipyard_Base.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Modernization_Chasseurs_Alpins"
+		texturefile = "gfx/interface/goals/FRA/FRA_Modernization_of_Chasseurs_Alpins.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Modernizing_Tactics"
+		texturefile = "gfx/interface/goals/FRA/FRA_Modernizing_our_Tactics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Motorization_Army"
+		texturefile = "gfx/interface/goals/FRA/FRA_Motorization_of_the_Army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_National_Catholicism"
+		texturefile = "gfx/interface/goals/FRA/FRA_National_Catholicism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Nationalization_Social_Security"
+		texturefile = "gfx/interface/goals/FRA/FRA_Nationalization_of_the_Social_Security_Sector.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Officer_Exchange_Program"
+		texturefile = "gfx/interface/goals/FRA/FRA_Officer_Exchange_Program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Glorious_Bastion_America"
+		texturefile = "gfx/interface/goals/FRA/FRA_Our_Glorious_Bastion_in_America.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Overhaul_Equipment"
+		texturefile = "gfx/interface/goals/FRA/FRA_Overhaul_our_Equipment.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Paris_Petersburg_Air"
+		texturefile = "gfx/interface/goals/FRA/FRA_Paris_Petersburg_Air_Bridge.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Performance_Fighters"
+		texturefile = "gfx/interface/goals/FRA/FRA_Performance_of_Our_Fighters.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Preparing_Next_War"
+		texturefile = "gfx/interface/goals/FRA/FRA_Preparing_for_the_Next_War.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Professionalization_Army"
+		texturefile = "gfx/interface/goals/FRA/FRA_Professionalization_of_the_Army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Rebuilding_Imperialist_Thought"
+		texturefile = "gfx/interface/goals/FRA/FRA_Rebuilding_Imperialist_Thought.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Resource_Excavations_Mali"
+		texturefile = "gfx/interface/goals/FRA/FRA_Resource_Excavations_in_Mali.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Second_Bureau_General"
+		texturefile = "gfx/interface/goals/FRA/FRA_Second_Bureau_of_the_General_Staff.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Securing_Engineering_Base"
+		texturefile = "gfx/interface/goals/FRA/FRA_Securing_the_Engineering_Base.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Shipbuilding_Northern_Coasts"
+		texturefile = "gfx/interface/goals/FRA/FRA_Shipbuilding_on_the_Northern_Coasts.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Shipbuilding_Southern_Coasts"
+		texturefile = "gfx/interface/goals/FRA/FRA_Shipbuilding_on_the_Southern_Coasts.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Signing_New_Defense"
+		texturefile = "gfx/interface/goals/FRA/FRA_Signing_New_Defense_Contracts.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Social_Security_Act"
+		texturefile = "gfx/interface/goals/FRA/FRA_Social_Security_Act.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Soyuznik_Military_School"
+		texturefile = "gfx/interface/goals/FRA/FRA_Soyuznik_Military_School.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Special_Forces_Armoured"
+		texturefile = "gfx/interface/goals/FRA/FRA_Special_Forces_and_Armoured_Units.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Strengthening_Air_Defense"
+		texturefile = "gfx/interface/goals/FRA/FRA_Strengthening_Air_Defense.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Strengthening_Regional_Autonomies"
+		texturefile = "gfx/interface/goals/FRA/FRA_Strengthening_Regional_Autonomies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Strengthening_Scientific_Exchange"
+		texturefile = "gfx/interface/goals/FRA/FRA_Strengthening_Scientific_Exchange.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Subjugating_Switzerland"
+		texturefile = "gfx/interface/goals/FRA/FRA_Subjugating_Switzerland.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Support_Grands_Colons"
+		texturefile = "gfx/interface/goals/FRA/FRA_Support_for_Grands_Colons_Movement.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Support_Political_Pluralism"
+		texturefile = "gfx/interface/goals/FRA/FRA_Support_for_Political_Pluralism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Supreme_Council_Entrepreneurs"
+		texturefile = "gfx/interface/goals/FRA/FRA_Supreme_Council_of_Entrepreneurs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Challenges_Total_War"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Challenges_of_Total_War.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Cult_French_Soldier"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Cult_of_the_French_Soldier.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Depoliticization_Army"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Depoliticization_of_the_Army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Freedom_Front"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Freedom_Front.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_French_Fourth_Republic"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_French_Fourth_Republic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Marshall_Will_Guide"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Marshal_will_guide_us_for_now.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Renaissance_French_Culture"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Renaissance_of_French_Culture.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Renaissance_French_Legion"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Renaissance_of_the_Foreign_Legion.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Triumphant_Eagle"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Triumphant_Eagle.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Three_Times_Charm"
+		texturefile = "gfx/interface/goals/FRA/FRA_Three_Times_a_Charm.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Thus_Spoke_Petain"
+		texturefile = "gfx/interface/goals/FRA/FRA_Thus_Spoke_Petain.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Time_Air_Show"
+		texturefile = "gfx/interface/goals/FRA/FRA_Time_for_an_Air_Show.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Time_Bedouces_Presidency"
+		texturefile = "gfx/interface/goals/FRA/FRA_Time_for_Bedouces_Presidency.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Time_Flandins_Presidency"
+		texturefile = "gfx/interface/goals/FRA/FRA_Time_for_Flandins_Presidency.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Time_Henriots_Presidency"
+		texturefile = "gfx/interface/goals/FRA/FRA_Time_for_Henriots_Presidency.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Time_Petains_Presidency"
+		texturefile = "gfx/interface/goals/FRA/FRA_Time_for_Petains_Presidency.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Trade_Union_Reform"
+		texturefile = "gfx/interface/goals/FRA/FRA_Trade_Union_Reform.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Ultimate_Weapons_Research"
+		texturefile = "gfx/interface/goals/FRA/FRA_Ultimate_Weapons_Research.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Ultimatums_Benelux_Nation"
+		texturefile = "gfx/interface/goals/FRA/FRA_Ultimatums_for_the_Benelux_Nation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Valuable_Experience_Aviation"
+		texturefile = "gfx/interface/goals/FRA/FRA_Valuable_Experience_for_Our_Aviation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_War_Against_Crime"
+		texturefile = "gfx/interface/goals/FRA/FRA_War_Against_Crime.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_War_Against_Internal"
+		texturefile = "gfx/interface/goals/FRA/FRA_War_Against_Internal_Enemies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Waste_Sin"
+		texturefile = "gfx/interface/goals/FRA/FRA_Waste_is_a_Sin.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_What_Little_Left"
+		texturefile = "gfx/interface/goals/FRA/FRA_What_Little_is_Left_of_the_Overseas_Empire.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_Work_Family_Homeland"
+		texturefile = "gfx/interface/goals/FRA/FRA_Work_Family_Homeland.dds"
+	}
+}

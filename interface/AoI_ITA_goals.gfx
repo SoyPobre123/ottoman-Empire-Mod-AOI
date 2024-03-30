@@ -1,0 +1,574 @@
+spriteTypes = {	
+
+	#### AOI Italy
+	
+	SpriteType = { 
+		name = "GFX_ITA_African_Shipyards"
+		texturefile = "gfx/interface/goals/ITA/ITA_African_Shipyards.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Airlift_Program"
+		texturefile = "gfx/interface/goals/ITA/ITA_Airlift_Program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Artillery_Rules_Battlefield"
+		texturefile = "gfx/interface/goals/ITA/ITA_Artillery_Rules_the_Battlefield.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Attracting_Foreign_Investment"
+		texturefile = "gfx/interface/goals/ITA/ITA_Attracting_Foreign_Investment.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Austrian_Technical_Knowledge"
+		texturefile = "gfx/interface/goals/ITA/ITA_Austrian_Technical_Knowledge.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Better_Support_Companies"
+		texturefile = "gfx/interface/goals/ITA/ITA_Better_Support_Companies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Building_Agricultural_Base"
+		texturefile = "gfx/interface/goals/ITA/ITA_Building_an_Agricultural_Base.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Fire_Iron"
+		texturefile = "gfx/interface/goals/ITA/ITA_By_Fire_and_Iron.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Civil_Service_Reform"
+		texturefile = "gfx/interface/goals/ITA/ITA_Civil_Service_Reform.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Commencement_Mining_Investments"
+		texturefile = "gfx/interface/goals/ITA/ITA_Commencement_of_Mining_Investments.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Construction_Industrial_Base"
+		texturefile = "gfx/interface/goals/ITA/ITA_Construction_of_an_Industrial_Base.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Construction_Highways_Network"
+		texturefile = "gfx/interface/goals/ITA/ITA_Construction_of_Highways_Network.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Construction_African_Highway"
+		texturefile = "gfx/interface/goals/ITA/ITA_Construction_of_the_African_Highway.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Continuing_Friendship_Germany"
+		texturefile = "gfx/interface/goals/ITA/ITA_Continuing_Friendship_with_Germany.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Cooperation_Oil_Industry"
+		texturefile = "gfx/interface/goals/ITA/ITA_Cooperation_with_the_Oil_Industry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Create_Black_Shirts"
+		texturefile = "gfx/interface/goals/ITA/ITA_Create_Black_Shirts.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Create_Division_Nembo"
+		texturefile = "gfx/interface/goals/ITA/ITA_Create_Division_Nembo.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Destruction_Mafia_Fortresses"
+		texturefile = "gfx/interface/goals/ITA/ITA_Destruction_of_Mafia_Fortresses.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Development_Armored_Forces"
+		texturefile = "gfx/interface/goals/ITA/ITA_Development_of_Armored_Forces.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Establishing_Rural_Cooperatives"
+		texturefile = "gfx/interface/goals/ITA/ITA_Establishing_Rural_Cooperatives.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Establishment_Economic_Union"
+		texturefile = "gfx/interface/goals/ITA/ITA_Establishment_of_the_Economic_Union.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Expansion_East_Africa"
+		texturefile = "gfx/interface/goals/ITA/ITA_Expansion_of_East_Africa.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Expansion_Madagascar"
+		texturefile = "gfx/interface/goals/ITA/ITA_Expansion_of_Madagascar.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Expansion_North_Africa"
+		texturefile = "gfx/interface/goals/ITA/ITA_Expansion_of_North_Africa.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Expansion_Petrochemical_Industry"
+		texturefile = "gfx/interface/goals/ITA/ITA_Expansion_of_the_Petrochemical_Industry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Extension_Armaments_Plant"
+		texturefile = "gfx/interface/goals/ITA/ITA_Extension_of_the_Armaments_Plant.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Focus_Special_Forces"
+		texturefile = "gfx/interface/goals/ITA/ITA_Focus_on_Special_Forces.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Formation_Italian_Legion"
+		texturefile = "gfx/interface/goals/ITA/ITA_Formation_of_the_Italian_Legion.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Foundations_Friendship"
+		texturefile = "gfx/interface/goals/ITA/ITA_Foundations_of_Friendship.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_French_Tactical_Knowledge"
+		texturefile = "gfx/interface/goals/ITA/ITA_French_Tactical_Knowledge.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_German_Engineering_Thought"
+		texturefile = "gfx/interface/goals/ITA/ITA_German_Engineering_Thought.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_German_War_School"
+		texturefile = "gfx/interface/goals/ITA/ITA_German_war_school.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Great_Economic_Opportunieties"
+		texturefile = "gfx/interface/goals/ITA/ITA_Great_Economic_Opportunities.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Great_Trading_Opportunieties"
+		texturefile = "gfx/interface/goals/ITA/ITA_Great_Trading_Opportunities.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Heritage_of_Rome"
+		texturefile = "gfx/interface/goals/ITA/ITA_Heritage_of_Rome.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Improving_Artillery"
+		texturefile = "gfx/interface/goals/ITA/ITA_Improving_our_Artillery.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Improving_Military_Infrastructure"
+		texturefile = "gfx/interface/goals/ITA/ITA_Improving_the_military_infrastructure.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Increased_Aviation_Cooperation"
+		texturefile = "gfx/interface/goals/ITA/ITA_Increased_Aviation_Cooperation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Increased_Control_Bank"
+		texturefile = "gfx/interface/goals/ITA/ITA_Increased_Control_over_the_Central_Bank.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Increasing_Role_Charitable"
+		texturefile = "gfx/interface/goals/ITA/ITA_Increasing_Role_of_Charitable_Organizations.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Increasing_Educational_Budget"
+		texturefile = "gfx/interface/goals/ITA/ITA_Increasing_the_Educational_Budget.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Increasing_Role_Airforce"
+		texturefile = "gfx/interface/goals/ITA/ITA_Increasing_the_Role_of_Airforce.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Increasing_Workers_Rights"
+		texturefile = "gfx/interface/goals/ITA/ITA_Increasing_Workers_Rights.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Internal_Security_Issues"
+		texturefile = "gfx/interface/goals/ITA/ITA_Internal_Security_Issues.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Introduction_Merit_System"
+		texturefile = "gfx/interface/goals/ITA/ITA_Introduction_of_the_Merit_System.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Invest_Italian_Rocket"
+		texturefile = "gfx/interface/goals/ITA/ITA_Invest_in_the_Italian_Rocket_Society.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Investing_Electronics"
+		texturefile = "gfx/interface/goals/ITA/ITA_Investing_in_Electronics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Investments_Eritrea"
+		texturefile = "gfx/interface/goals/ITA/ITA_Investments_in_Eritrea.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Investments_Somaliland"
+		texturefile = "gfx/interface/goals/ITA/ITA_Investments_in_Somaliland.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Italian_Colonial_Empire"
+		texturefile = "gfx/interface/goals/ITA/ITA_Italian_Colonial_Empire.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Italian_Defense_Issues"
+		texturefile = "gfx/interface/goals/ITA/ITA_Italian_Defense_Issues.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Joint_Air_Maneuvers"
+		texturefile = "gfx/interface/goals/ITA/ITA_Joint_Air_Maneuvers.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Key_Member_Reichspakt"
+		texturefile = "gfx/interface/goals/ITA/ITA_Key_Member_of_the_Reichspakt.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_King_Dead_Long"
+		texturefile = "gfx/interface/goals/ITA/ITA_King_is_Dead_Long_Live_the_King.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Della_Bella_Economia"
+		texturefile = "gfx/interface/goals/ITA/ITA_L_era_Della_Bella_Economia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Lion_Hunt"
+		texturefile = "gfx/interface/goals/ITA/ITA_Lion_Hunt.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Lunga_Vita_Conservatori"
+		texturefile = "gfx/interface/goals/ITA/ITA_Lunga_Vita_ai_Conservatori.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Lunga_Vita_Nazionalisti"
+		texturefile = "gfx/interface/goals/ITA/ITA_Lunga_Vita_ai_Nazionalisti.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Madagascar_Colonization_Program"
+		texturefile = "gfx/interface/goals/ITA/ITA_Madagascar_Colonization_Program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Mediterranean_Ambitions"
+		texturefile = "gfx/interface/goals/ITA/ITA_Mediterranean_Ambitions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Militarization_Society"
+		texturefile = "gfx/interface/goals/ITA/ITA_Militarization_of_Society.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Military_Infrastructure_Eritrea"
+		texturefile = "gfx/interface/goals/ITA/ITA_Military_Infrastructure_in_Eritrea.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Military_Infrastructure_Somaliland"
+		texturefile = "gfx/interface/goals/ITA/ITA_Military_Infrastructure_in_Somaliland.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Mixed_Economic_Policy"
+		texturefile = "gfx/interface/goals/ITA/ITA_Mixed_Economic_Policy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Modernizing_Agriculture"
+		texturefile = "gfx/interface/goals/ITA/ITA_Modernizing_Agriculture.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Modernizing_Tactics"
+		texturefile = "gfx/interface/goals/ITA/ITA_Modernizing_our_Tactics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Motorization_Army"
+		texturefile = "gfx/interface/goals/ITA/ITA_Motorization_of_the_Army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_New_Colony_Development"
+		texturefile = "gfx/interface/goals/ITA/ITA_New_Colony_Development_Program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Nothing_Wasted"
+		texturefile = "gfx/interface/goals/ITA/ITA_Nothing_can_be_Wasted.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Officer_Exchange_Program"
+		texturefile = "gfx/interface/goals/ITA/ITA_Officer_Exchange_Program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Oil_Exploration"
+		texturefile = "gfx/interface/goals/ITA/ITA_Oil_Exploration.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_African_Foothold"
+		texturefile = "gfx/interface/goals/ITA/ITA_Our_African_Foothold.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Overhaul_Equipment"
+		texturefile = "gfx/interface/goals/ITA/ITA_Overhaul_our_Equipment.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Possibilities_MittelEuropa"
+		texturefile = "gfx/interface/goals/ITA/ITA_Possibilities_of_MittelEuropa.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Prepared_Second_Round"
+		texturefile = "gfx/interface/goals/ITA/ITA_Prepared_for_the_Second_Round.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Preparing_Next_War"
+		texturefile = "gfx/interface/goals/ITA/ITA_Preparing_for_the_Next_War.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Putting_End_Russian"
+		texturefile = "gfx/interface/goals/ITA/ITA_Putting_an_End_to_Russian_Whims.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Reform_Italian_Army"
+		texturefile = "gfx/interface/goals/ITA/ITA_Reform_of_the_Italian_Army.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_ITA_Restoring_Liberal_Economy"
+		texturefile = "gfx/interface/goals/ITA/ITA_Restoring_the_Liberal_Economy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Road_Agreement_Church"
+		texturefile = "gfx/interface/goals/ITA/ITA_Road_to_Agreement_with_the_Church.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Rome_Berlin_Airline"
+		texturefile = "gfx/interface/goals/ITA/ITA_Rome_Berlin_Airline.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Ruthless_Fanaticism"
+		texturefile = "gfx/interface/goals/ITA/ITA_Ruthless_Fanaticism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Saving_Madagascar_Agriculture"
+		texturefile = "gfx/interface/goals/ITA/ITA_Saving_Madagascar_Agriculture.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Sea_Experiences_Sharing"
+		texturefile = "gfx/interface/goals/ITA/ITA_Sea_Experiences_Sharing.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Servizio_Informazioni_Militare"
+		texturefile = "gfx/interface/goals/ITA/ITA_Servizio_Informazioni_Militare.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Signature_Lateran_Treaty"
+		texturefile = "gfx/interface/goals/ITA/ITA_Signature_of_the_Lateran_Treaty.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Simplification_Tax_System"
+		texturefile = "gfx/interface/goals/ITA/ITA_Simplification_of_the_tax_system.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Special_Forces_Armoured"
+		texturefile = "gfx/interface/goals/ITA/ITA_Special_Forces_and_Armoured_Units.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Strategic_Resource_Initiative"
+		texturefile = "gfx/interface/goals/ITA/ITA_Strategic_Resource_Initiative.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Strengthening_Madagascars_Infrastructure"
+		texturefile = "gfx/interface/goals/ITA/ITA_Strengthening_Madagascars_infrastructure.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Strengthening_Scientific_Exchange"
+		texturefile = "gfx/interface/goals/ITA/ITA_Strengthening_Scientific_Exchange.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Strengthening_Social_Welfare"
+		texturefile = "gfx/interface/goals/ITA/ITA_Strengthening_Social_Welfare.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Strengthening_Southern_Infrastructure"
+		texturefile = "gfx/interface/goals/ITA/ITA_Strengthening_Southern_Infrastructure.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Strengthening_Poor_South"
+		texturefile = "gfx/interface/goals/ITA/ITA_Strengthening_the_Poor_South.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Support_Student_Movements"
+		texturefile = "gfx/interface/goals/ITA/ITA_Support_for_Student_Movements.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Support_German_Engineers"
+		texturefile = "gfx/interface/goals/ITA/ITA_Support_of_German_Engineers.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Tempo_Decisione"
+		texturefile = "gfx/interface/goals/ITA/ITA_Tempo_di_Decisione.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Depoliticization_Army"
+		texturefile = "gfx/interface/goals/ITA/ITA_The_Depoliticization_of_the_Army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Pearl_Italian_Crown"
+		texturefile = "gfx/interface/goals/ITA/ITA_The_Pearl_of_the_Italian_Crown.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Times_Corporativism"
+		texturefile = "gfx/interface/goals/ITA/ITA_The_Times_of_Corporativism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_World_Welcomes_Vatican"
+		texturefile = "gfx/interface/goals/ITA/ITA_The_World_Welcomes_the_Vatican.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Time_Air_Show"
+		texturefile = "gfx/interface/goals/ITA/ITA_Time_for_an_Air_Show.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Time_Land_Reform"
+		texturefile = "gfx/interface/goals/ITA/ITA_Time_for_Land_Reform.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Time_Show_Trials"
+		texturefile = "gfx/interface/goals/ITA/ITA_Time_for_Show_Trials.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Time_Send_Ultimatums"
+		texturefile = "gfx/interface/goals/ITA/ITA_Time_to_Send_Ultimatums.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Tourist_Boom"
+		texturefile = "gfx/interface/goals/ITA/ITA_Tourist_Boom.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Tripartite_Enters_World"
+		texturefile = "gfx/interface/goals/ITA/ITA_Tripartite_Enters_the_World_Scene.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Ultimate_Weapons_Research"
+		texturefile = "gfx/interface/goals/ITA/ITA_Ultimate_Weapons_Research.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_What_Eyes_Cannot"
+		texturefile = "gfx/interface/goals/ITA/ITA_What_the_Eyes_Cannot_See.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Cooperate_with_FIAT"
+		texturefile = "gfx/interface/goals/ITA/ITA_Cooperate_with_FIAT.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Create_Special_Industrial_Zone"
+		texturefile = "gfx/interface/goals/ITA/ITA_Create_Special_Industrial_Zone.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Investments_in_the_Isles"
+		texturefile = "gfx/interface/goals/ITA/ITA_Investments_in_the_Isles.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Investments_in_the_South"
+		texturefile = "gfx/interface/goals/ITA/ITA_Investments_in_the_South.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ITA_Transform_the_Land"
+		texturefile = "gfx/interface/goals/ITA/ITA_Transform_the_Land.dds"
+	}
+}

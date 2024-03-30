@@ -1,0 +1,1667 @@
+﻿# ################
+# Spanish Events #
+# By ---------   #
+##################
+
+add_namespace = spain
+add_namespace = spain_plus
+add_namespace = spain_reaction
+add_namespace = spain_trigger
+
+### Introduction event ###
+country_event = {
+	id = spain.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.1"}
+	title = spain.1.t
+	desc = spain.1.d
+	picture = GFX_event_SPR_welcome
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.1.a
+	}
+}
+
+### Workers Strike in Asturias ###
+country_event = {
+	id = spain.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.2"}
+	title = spain.2.t
+	desc = spain.2.d
+	picture = GFX_event_SPR_Workers_Strike_in_Asturias 
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.2.a
+		add_stability = -0.05
+		add_popularity = { ideology = reactionism popularity = -0.05 }
+	}
+}
+
+### Riots Across the Country ###
+country_event = {
+	id = spain.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.3"}
+	title = spain.3.t
+	desc = spain.3.d
+	picture = GFX_event_SPR_Riots_Across_the_Country
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.3.a
+		add_stability = -0.05
+		add_popularity = { ideology = reactionism popularity = -0.05 }
+	}
+}
+
+### Attempts to Control the Chaos ###
+country_event = {
+	id = spain.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.4"}
+	title = spain.4.t
+	desc = spain.4.d
+	picture = GFX_event_SPR_Attempts_to_Control_the_Chaos
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.4.a
+		add_stability = 0.15
+		add_popularity = { ideology = reactionism popularity = 0.15 }
+	}
+}
+
+### Army Division Issues
+country_event = {
+	id = spain.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.5"}
+	title = spain.5.t
+	desc = spain.5.d
+	picture = GFX_event_SPR_Army_Division_Issues
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.5.a
+		add_stability = 0.05
+		add_war_support = -0.15
+	}
+}
+
+### An Anti-royal Conspiracy ###
+country_event = {
+	id = spain.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.6"}
+	title = spain.6.t
+	desc = spain.6.d
+	picture = GFX_event_SPR_An_Anti_royal_Conspiracy
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.6.a
+		add_stability = -0.10
+		add_popularity = { ideology = reactionism popularity = -0.05 }
+	}
+}
+
+### Military Coup! ###
+country_event = {
+	id = spain.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.7"}
+	title = spain.7.t
+	desc = spain.7.d
+	picture = GFX_event_SPR_Military_Coup
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.7.a
+		remove_ideas = SPR_upcoming_referendum_idea
+		custom_effect_tooltip = SPR_tt_jose_sanjurjo_takes_power
+		hidden_effect = {
+			set_country_flag = spr_military_coup_flag
+			
+			retire_character = SPR_alfonso_xiii
+			
+			retire_character = SPR_damaso_berenguer
+			IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			    news_event = { id = worldnews.225 }
+		    }
+		}
+	}
+}
+
+### Republican Revolution! ###
+country_event = {
+	id = spain.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.8"}
+	title = spain.8.t
+	desc = spain.8.d
+	picture = GFX_event_SPR_Republican_Revolution
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.8.a
+		spanish_civil_war = yes
+		country_event = { id = spain_plus.1 }
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.226 }
+		}
+	}
+}
+
+### Choosing Side ###
+country_event = {
+	id = spain_plus.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_plus.1"}
+	title = spain_plus.1.t
+	desc = spain_plus.1.d
+	picture = GFX_event_SPR_Republican_Revolution
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_plus.1.a
+		
+		hidden_effect = {
+			load_oob = SPR_civil
+			SPA = {
+				load_oob = SPA_civil
+			}
+			SPA = {
+				add_equipment_to_stockpile = {
+				    type = train_equipment_1 
+					amount = 50
+				}
+			}
+		}
+		SPA = { change_tag_from = SPR }
+	}
+	option = {
+		name = spain_plus.1.b
+		hidden_effect = {
+			load_oob = SPR_civil
+			SPA = {
+				load_oob = SPA_civil
+			}
+			SPA = {
+				add_equipment_to_stockpile = {
+				    type = train_equipment_1 
+					amount = 50
+				}
+			}
+		}
+	}
+}
+
+### Spaniard Royalist Delegation ###
+country_event = {
+	id = spain_plus.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_plus.2"}
+	title = spain_plus.2.t
+	desc = spain_plus.2.d
+	picture = GFX_event_SPR_Spaniard_Royalist_Delegation
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_plus.2.a
+		add_war_support = 0.05
+		custom_effect_tooltip = red_tooltip_volunteers_spain
+	}
+}
+
+### Spaniard Royalist Plea for Help! ###
+country_event = {
+	id = spain_plus.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_plus.3"}
+	title = spain_plus.3.t
+	desc = spain_plus.3.d
+	picture = GFX_event_SPR_Spaniard_Royalist_Delegation
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_plus.3.a
+		add_war_support = 0.05
+		custom_effect_tooltip = red_tooltip_volunteers_spain
+	}
+}
+
+### Spanish Republic has a proposal ###
+country_event = {
+	id = spain_plus.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_plus.4"}
+	title = spain_plus.4.t
+	desc = spain_plus.4.d
+	picture = GFX_event_SPR_Spanish_Republic_Proposal
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_plus.4.a
+		add_war_support = 0.05
+		custom_effect_tooltip = red_tooltip_volunteers_spain
+	}
+}
+
+### Spain is fighting for republicanism! ###
+country_event = {
+	id = spain_plus.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_plus.5"}
+	title = spain_plus.5.t
+	desc = spain_plus.5.d
+	picture = GFX_event_SPR_Spanish_Republic_Proposal
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_plus.5.a
+		add_war_support = 0.05
+		custom_effect_tooltip = red_tooltip_volunteers_spain
+	}
+}
+
+### Death of Manuel Azana ###
+country_event = {
+	id = spain.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.9"}
+	title = spain.9.t
+	desc = spain.9.d
+	picture = GFX_event_SPR_Death_of_Manuel_Azana
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Republic
+		name = spain.9.a
+		trigger = {
+			original_tag = SPR
+		}
+		add_stability = -0.02
+		add_war_support = -0.02
+		add_popularity = { ideology = socialism popularity = -0.10 }
+	}
+
+	option = { #Monarchy
+		name = spain.9.b
+		trigger = {
+			original_tag = SPA
+		}
+		add_stability = 0.02
+		add_war_support = 0.02
+		add_political_power = 50
+	}
+}
+
+### The Republicans are Defeated! ###
+country_event = {
+	id = spain.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.10"}
+	title = spain.10.t
+	desc = spain.10.d
+	picture = GFX_event_SPR_The_Republicans_are_Defeated 
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.10.a
+		add_timed_idea = { idea = SPR_reconstruction_after_the_civil_war_idea days = 720 }
+		add_ideas = SPR_the_price_of_keeping_the_monarchy_idea
+		add_ideas = disarmament_mobilisation
+		set_capital = { state = 41 }
+		IF = {
+			limit = { ITA = { has_idea = SPR_support_for_monarchists_in_spain_idea } }
+			ITA = { remove_ideas = SPR_support_for_monarchists_in_spain_idea }
+		}
+		ELSE_IF = {
+			limit = { ITA = { has_idea = SPR_support_for_republicans_in_spain_idea } }
+			ITA = { remove_ideas = SPR_support_for_republicans_in_spain_idea }
+		}
+		IF = {
+			limit = { ENG = { has_idea = SPR_support_for_monarchists_in_spain_idea } }
+			ENG = { remove_ideas = SPR_support_for_monarchists_in_spain_idea }
+		}
+		ELSE_IF = {
+			limit = { ENG = { has_idea = SPR_support_for_republicans_in_spain_idea } }
+			ENG = { remove_ideas = SPR_support_for_republicans_in_spain_idea }
+		}
+		IF = {
+			limit = { GER = { has_idea = SPR_support_for_monarchists_in_spain_idea } }
+			GER = { remove_ideas = SPR_support_for_monarchists_in_spain_idea }
+		}
+		ELSE_IF = {
+			limit = { GER = { has_idea = SPR_support_for_republicans_in_spain_idea } }
+			GER = { remove_ideas = SPR_support_for_republicans_in_spain_idea }
+		}
+		IF = {
+			limit = { USA = { has_idea = SPR_support_for_monarchists_in_spain_idea } }
+			USA = { remove_ideas = SPR_support_for_monarchists_in_spain_idea }
+		}
+		ELSE_IF = {
+			limit = { USA = { has_idea = SPR_support_for_republicans_in_spain_idea } }
+			USA = { remove_ideas = SPR_support_for_republicans_in_spain_idea }
+		}
+		IF = {
+			limit = { RUS = { has_idea = POR_idea_support_for_portugese_in_spain } }
+			RUS = { remove_ideas = POR_idea_support_for_portugese_in_spain }
+		}
+		IF = {
+			limit = { TUR = { has_idea = TUR_turkish_volunteer_forces } }
+			TUR = { remove_ideas = TUR_turkish_volunteer_forces }
+		}
+		ELSE_IF = {
+			limit = { TUR = { has_idea = TUR_turkish_volunteer_forces } }
+			TUR = { remove_ideas = TUR_turkish_volunteer_forces }
+		}
+		
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.227 }
+		}
+	}
+}
+
+### The Monarchists are Defeated! ###
+country_event = {
+	id = spain.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.11"}
+	title = spain.11.t
+	desc = spain.11.d
+	picture = GFX_event_SPR_The_Monarchists_are_Defeated
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.11.a
+		add_timed_idea = { idea = SPR_reconstruction_after_the_civil_war_idea days = 720 }
+		add_ideas = SPR_the_sacrificial_pile_of_republicanism_idea
+		add_ideas = disarmament_mobilisation
+		IF = {
+			limit = { ITA = { has_idea = SPR_support_for_monarchists_in_spain_idea } }
+			ITA = { remove_ideas = SPR_support_for_monarchists_in_spain_idea }
+		}
+		ELSE_IF = {
+			limit = { ITA = { has_idea = SPR_support_for_republicans_in_spain_idea } }
+			ITA = { remove_ideas = SPR_support_for_republicans_in_spain_idea }
+		}
+		IF = {
+			limit = { ENG = { has_idea = SPR_support_for_monarchists_in_spain_idea } }
+			ENG = { remove_ideas = SPR_support_for_monarchists_in_spain_idea }
+		}
+		ELSE_IF = {
+			limit = { ENG = { has_idea = SPR_support_for_republicans_in_spain_idea } }
+			ENG = { remove_ideas = SPR_support_for_republicans_in_spain_idea }
+		}
+		IF = {
+			limit = { GER = { has_idea = SPR_support_for_monarchists_in_spain_idea } }
+			GER = { remove_ideas = SPR_support_for_monarchists_in_spain_idea }
+		}
+		ELSE_IF = {
+			limit = { GER = { has_idea = SPR_support_for_republicans_in_spain_idea } }
+			GER = { remove_ideas = SPR_support_for_republicans_in_spain_idea }
+		}
+		IF = {
+			limit = { USA = { has_idea = SPR_support_for_monarchists_in_spain_idea } }
+			USA = { remove_ideas = SPR_support_for_monarchists_in_spain_idea }
+		}
+		ELSE_IF = {
+			limit = { USA = { has_idea = SPR_support_for_republicans_in_spain_idea } }
+			USA = { remove_ideas = SPR_support_for_republicans_in_spain_idea }
+		}
+		IF = {
+			limit = { RUS = { has_idea = POR_idea_support_for_portugese_in_spain } }
+			RUS = { remove_ideas = POR_idea_support_for_portugese_in_spain }
+		}
+		
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.228 }
+		}
+	}
+}
+
+### Crowning a New King ###
+country_event = {
+	id = spain.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.12"}
+	title = spain.12.t
+	desc = spain.12.d
+	picture = GFX_event_SPR_Crowning_a_New_King
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.12.a
+		hidden_effect = {
+		retire_ideology_leader = conservatism
+		retire_ideology_leader = reactionism
+		add_country_leader_role = {
+			character  = SPA_alfonso_carlos_i
+			promote_leader = yes
+			country_leader = {
+			    desc = "POLITICS_ALFONSO_CARLOS_I_DESC"
+			    ideology = paternalistic_conservatism
+			    traits = {
+     			    spa_spr_a_very_popular_civil_activist 
+			     }
+			    expire = "1965.1.1.1"
+		    }
+		}
+		add_country_leader_role = {
+			character  = SPA_alfonso_carlos_i
+			promote_leader = yes
+			country_leader = {
+			    desc = "POLITICS_ALFONSO_CARLOS_I_DESC"
+			    ideology = traditional_reactionism
+			    traits = {
+     			    spa_spr_a_very_popular_civil_activist 
+			     }
+			    expire = "1965.1.1.1"
+		    }
+		}
+		}
+		add_popularity = { ideology = reactionism popularity = 0.15 }
+		
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.229 }
+		}
+	}
+}
+
+### Abdication of King Alfonso Carlos ###
+country_event = {
+	id = spain.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.13"}
+	title = spain.13.t
+	desc = spain.13.d
+	picture = GFX_event_SPR_Abdication_of_King_Alfonso_Carlos_I
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+	    name = spain.13.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 500
+				has_game_rule = { rule = SPA_AI_BEHAVIOR option = CARLIST_KINGDOM_JAVIER_I }
+			}
+			modifier = {
+				factor = -50
+				has_game_rule = { rule = SPA_AI_BEHAVIOR option = CARLIST_KINGDOM_CARLOS_VIII }
+			}
+		}
+	    hidden_effect = {
+	        retire_ideology_leader = conservatism
+	        retire_ideology_leader = reactionism
+		    add_country_leader_role = {
+			    character  = SPA_javier_i
+			    promote_leader = yes
+			    country_leader = {
+			        desc = "POLITICS_JAVIER_I_DESC"
+			        ideology = traditional_reactionism
+			        traits = {
+     			        spa_spr_an_unstoppable_warrior 
+			        }
+			        expire = "1965.1.1.1"
+		        }
+		    }
+		    add_country_leader_role = {
+			    character  = SPA_javier_i
+			    promote_leader = yes
+			    country_leader = {
+			        desc = "POLITICS_JAVIER_I_DESC"
+			        ideology = paternalistic_conservatism
+			        traits = {
+     			        spa_spr_an_unstoppable_warrior 
+			        }
+			        expire = "1965.1.1.1"
+		        }
+		    }
+		}
+		add_stability = -0.05
+		add_war_support = 0.10
+		add_popularity = { ideology = reactionism popularity = -0.15 }
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.230 }
+		}
+	}
+	option = {
+		name = spain.13.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 500
+				has_game_rule = { rule = SPA_AI_BEHAVIOR option = CARLIST_KINGDOM_CARLOS_VIII }
+			}
+			modifier = {
+				factor = -50
+				has_game_rule = { rule = SPA_AI_BEHAVIOR option = CARLIST_KINGDOM_JAVIER_I }
+			}
+		}
+	    hidden_effect = {
+		retire_ideology_leader = conservatism
+	    retire_ideology_leader = reactionism
+		add_country_leader_role = {
+			character  = SPA_carlos_viii
+			promote_leader = yes
+			country_leader = {
+			    desc = "POLITICS_CARLOS_VIII_DESC"
+			    ideology = traditional_reactionism
+			    traits = {
+     			    spa_spr_international_connections 
+			    }
+			    expire = "1965.1.1.1"
+		    }
+		}
+		add_country_leader_role = {
+			character  = SPA_carlos_viii
+			promote_leader = yes
+			country_leader = {
+			    desc = "POLITICS_CARLOS_VIII_DESC"
+			    ideology = paternalistic_conservatism
+			    traits = {
+     			    spa_spr_international_connections 
+			    }
+			    expire = "1965.1.1.1"
+		    }
+		}
+		}
+		add_stability = 0.05
+		add_political_power = 200
+		add_popularity = { ideology = reactionism popularity = -0.15 }
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.231 }
+		}
+	}
+}
+
+### Sanjurjo Declares a new Government ###
+country_event = {
+	id = spain.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.14"}
+	title = spain.14.t
+	desc = spain.14.d
+	picture = GFX_event_SPR_Sanjurjo_Declares_a_new_Government
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.14.a
+		add_stability = 0.10
+		add_political_power = 100
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.232 }
+		}
+	}
+}
+
+### The future of the united front ###
+country_event = {
+	id = spain.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.15"}
+	title = spain.15.t
+	desc = spain.15.d
+	picture = GFX_event_SPR_The_future_of_the_united_front
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.15.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 500
+				has_game_rule = { rule = SPR_AI_BEHAVIOR option = LIBERAL_REPUBLIC }
+			}
+			modifier = {
+				factor = -50
+				has_game_rule = { rule = SPR_AI_BEHAVIOR option = SOCIALIST_REPUBLIC }
+			}
+		}	
+		add_stability = -0.10
+		add_popularity = { ideology = liberalism popularity = 0.15 }
+		add_political_power = 300
+		set_country_flag = spr_liberal_republic_unlocked_flag
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.233 }
+		}
+	}
+	option = {
+		name = spain.15.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 500
+				has_game_rule = { rule = SPR_AI_BEHAVIOR option = SOCIALIST_REPUBLIC }
+			}
+			modifier = {
+				factor = -50
+				has_game_rule = { rule = SPR_AI_BEHAVIOR option = LIBERAL_REPUBLIC }
+			}
+		}
+		add_political_power = -250
+		add_stability = 0.05
+		add_popularity = { ideology = socialism popularity = 0.25 }
+		set_politics = {
+			ruling_party = socialism
+			elections_allowed = no
+		}
+		set_country_flag = spr_socialist_republic_unlocked_flag
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.234 }
+		}
+	}
+}
+
+### Business at a time ###
+country_event = {
+	id = spain.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.16"}
+	title = spain.16.t
+	desc = spain.16.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.16.a
+	}
+}
+
+### Are the sausages already rolling? ###
+country_event = {
+	id = spain.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.17"}
+	title = spain.17.t
+	desc = spain.17.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.17.a
+	}
+}
+
+### Lead us invisible hand of the free market! ###
+country_event = {
+	id = spain.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.18"}
+	title = spain.18.t
+	desc = spain.18.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.18.a
+	}
+}
+
+### Process of liberalisation ###
+country_event = {
+	id = spain.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain.19"}
+	title = spain.19.t
+	desc = spain.19.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain.19.a
+	}
+}
+
+### The Kingdom of Spain demands the return of the Balearic Islands ###
+country_event = {
+	id = spain_reaction.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.1"}
+	title = spain_reaction.1.t
+	desc = spain_reaction.1.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.1.a
+		ai_chance = {
+			factor = 800
+		}
+		add_political_power = -50
+		SPA = { country_event = spain_reaction.2 }
+	}
+
+	option = {
+		name = spain_reaction.1.b
+		ai_chance = {
+			factor = 200
+		}
+		SPA = { country_event = spain_reaction.3 }
+	}
+}
+
+### Honored Treaties- Balearic Islands ###
+country_event = {
+	id = spain_reaction.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.2"}
+	title = spain_reaction.2.t
+	desc = spain_reaction.2.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.2.a
+		transfer_state = 177
+		add_political_power = 100
+	}
+}
+
+### Disregarded Treaties- Balearic Islands ###
+country_event = {
+	id = spain_reaction.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.3"}
+	title = spain_reaction.3.t
+	desc = spain_reaction.3.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.3.a
+		add_war_support = 0.05
+	}
+}
+
+### The Kingdom of Spain demands the return of Galicia ###
+country_event = {
+	id = spain_reaction.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.4"}
+	title = spain_reaction.4.t
+	desc = spain_reaction.4.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.4.a
+		ai_chance = {
+			factor = 800
+		}
+		add_political_power = -50
+		SPA = { country_event = spain_reaction.5 }
+	}
+
+	option = {
+		name = spain_reaction.4.b
+		ai_chance = {
+			factor = 200
+		}
+		SPA = { country_event = spain_reaction.6 }
+	}
+}
+
+### Honored Treaties- Galicia ###
+country_event = {
+	id = spain_reaction.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.5"}
+	title = spain_reaction.5.t
+	desc = spain_reaction.5.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.5.a
+		transfer_state = 171
+		add_political_power = 100
+	}
+}
+
+### Disregarded Treaties- Galicia ###
+country_event = {
+	id = spain_reaction.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.6"}
+	title = spain_reaction.6.t
+	desc = spain_reaction.6.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.6.a
+		add_war_support = 0.05
+	}
+}
+
+### The Kingdom of Spain demands the return of the Strait of Gibraltar ###
+country_event = {
+	id = spain_reaction.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.7"}
+	title = spain_reaction.7.t
+	desc = spain_reaction.7.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.7.a
+		ai_chance = {
+			factor = 800
+		}
+		add_political_power = -50
+		SPA = { country_event = spain_reaction.8 }
+	}
+
+	option = {
+		name = spain_reaction.7.b
+		ai_chance = {
+			factor = 200
+		}
+		SPA = { country_event = spain_reaction.9 }
+	}
+}
+
+### Honored Treaties- Tangier ###
+country_event = {
+	id = spain_reaction.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.8"}
+	title = spain_reaction.8.t
+	desc = spain_reaction.8.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.8.a
+		transfer_state = 290
+		add_political_power = 100
+	}
+}
+
+### Disregarded Treaties- Tangier ###
+country_event = {
+	id = spain_reaction.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.9"}
+	title = spain_reaction.9.t
+	desc = spain_reaction.9.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.9.a
+		add_war_support = 0.05
+	}
+}
+
+### The Republic of Spain demands the return of the Balearic Islands ###
+country_event = {
+	id = spain_reaction.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.10"}
+	title = spain_reaction.10.t
+	desc = spain_reaction.10.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.10.a
+		ai_chance = {
+			factor = 800
+		}
+		add_political_power = -50
+		SPR = { country_event = spain_reaction.11 }
+	}
+
+	option = {
+		name = spain_reaction.10.b
+		ai_chance = {
+			factor = 200
+		}
+		SPR = { country_event = spain_reaction.12 }
+	}
+}
+
+### Honored Treaties- Balearic Islands ###
+country_event = {
+	id = spain_reaction.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.11"}
+	title = spain_reaction.11.t
+	desc = spain_reaction.11.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.11.a
+		transfer_state = 177
+		add_political_power = 100
+	}
+}
+
+### Disregarded Treaties- Balearic Islands ###
+country_event = {
+	id = spain_reaction.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.12"}
+	title = spain_reaction.12.t
+	desc = spain_reaction.12.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.12.a
+		add_war_support = 0.05
+	}
+}
+
+### The Republic of Spain demands the return of Galicia ###
+country_event = {
+	id = spain_reaction.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.13"}
+	title = spain_reaction.13.t
+	desc = spain_reaction.13.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.13.a
+		ai_chance = {
+			factor = 800
+		}
+		add_political_power = -50
+		SPR = { country_event = spain_reaction.14 }
+	}
+
+	option = {
+		name = spain_reaction.13.b
+		ai_chance = {
+			factor = 200
+		}
+		SPR = { country_event = spain_reaction.15 }
+	}
+}
+
+### Honored Treaties- Galicia ###
+country_event = {
+	id = spain_reaction.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.14"}
+	title = spain_reaction.14.t
+	desc = spain_reaction.14.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.14.a
+		transfer_state = 171
+		add_political_power = 100
+	}
+}
+
+### Disregarded Treaties- Galicia ###
+country_event = {
+	id = spain_reaction.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.15"}
+	title = spain_reaction.15.t
+	desc = spain_reaction.15.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.15.a
+		add_war_support = 0.05
+	}
+}
+
+### The Republic of Spain demands the return of the Strait of Gibraltar ###
+country_event = {
+	id = spain_reaction.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.16"}
+	title = spain_reaction.16.t
+	desc = spain_reaction.16.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.16.a
+		ai_chance = {
+			factor = 800
+		}
+		add_political_power = -50
+		SPR = { country_event = spain_reaction.17 }
+	}
+
+	option = {
+		name = spain_reaction.16.b
+		ai_chance = {
+			factor = 200
+		}
+		SPR = { country_event = spain_reaction.18 }
+	}
+}
+
+### Honored Treaties- Tangier ###
+country_event = {
+	id = spain_reaction.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.17"}
+	title = spain_reaction.17.t
+	desc = spain_reaction.17.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.17.a
+		transfer_state = 290
+		add_political_power = 100
+	}
+}
+
+### Disregarded Treaties- Tangier ###
+country_event = {
+	id = spain_reaction.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.18"}
+	title = spain_reaction.18.t
+	desc = spain_reaction.18.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.18.a
+		add_war_support = 0.05
+	}
+}
+
+### Iberian Union? (Portugal) ###
+country_event = {
+	id = spain_reaction.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.19"}
+	title = spain_reaction.19.t
+	desc = spain_reaction.19.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.19.a
+		ai_chance = {
+			factor = 400
+		}
+		FROM = { country_event = spain_reaction.20 }
+	}
+
+	option = {
+		name = spain_reaction.19.b
+		ai_chance = {
+			factor = 600
+		}
+		FROM = { country_event = spain_reaction.21 }
+	}
+}
+
+### Establishment of the Iberian Union ###
+country_event = {
+	id = spain_reaction.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.20"}
+	title = spain_reaction.20.t
+	desc = spain_reaction.20.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.20.a
+		IF = {
+			limit = { country_exists = SPR }
+			SPR = {
+				puppet = POR
+				add_political_power = 200
+				add_stability = 0.05
+				add_war_support = 0.05
+			}
+		}
+		ELSE_IF = {
+			limit = { country_exists = SPA }
+			SPA = {
+				puppet = POR
+				add_political_power = 200
+				add_stability = 0.05
+				add_war_support = 0.05
+			}
+		}
+	}
+}
+
+### Portuguese traitors ###
+country_event = {
+	id = spain_reaction.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.21"}
+	title = spain_reaction.21.t
+	desc = spain_reaction.21.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.21.a
+	}
+}
+
+### Spanish Entry into the Tripartite? ###
+country_event = {
+	id = spain_reaction.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.22"}
+	title = spain_reaction.22.t
+	desc = spain_reaction.22.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.22.a
+		ai_chance = {
+			factor = 999
+		}
+		SPA = { country_event = { id = spain_reaction.23 } }
+	}
+
+	option = {
+		name = spain_reaction.22.b
+		SPA = { country_event = { id = spain_reaction.24 } }
+	}
+}
+
+### Tripartite accepts us in ###
+country_event = {
+	id = spain_reaction.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.23"}
+	title = spain_reaction.23.t
+	desc = spain_reaction.23.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.23.a
+		ITA = { add_to_faction = SPA }
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.237 }
+		}
+	}
+}
+
+### Tripartite Refusal ###
+country_event = {
+	id = spain_reaction.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.24"}
+	title = spain_reaction.24.t
+	desc = spain_reaction.24.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.24.a
+	}
+}
+
+### Spanish Entry into the Commonwealth of Nations? ###
+country_event = {
+	id = spain_reaction.25
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.25"}
+	title = spain_reaction.25.t
+	desc = spain_reaction.25.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.25.a
+		ai_chance = {
+			factor = 999
+		}
+		SPA = { country_event = { id = spain_reaction.26 } }
+	}
+
+	option = {
+		name = spain_reaction.25.b
+		SPA = { country_event = { id = spain_reaction.27 } }
+	}
+}
+
+### British accepts us in ###
+country_event = {
+	id = spain_reaction.26
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.26"}
+	title = spain_reaction.26.t
+	desc = spain_reaction.26.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.26.a
+		ENG = { add_to_faction = SPA }
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.238 }
+		}
+	}
+}
+
+### British Refusal ###
+country_event = {
+	id = spain_reaction.27
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.27"}
+	title = spain_reaction.27.t
+	desc = spain_reaction.27.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.27.a
+	}
+}
+
+### Spanish Entry into the Reichspakt? ###
+country_event = {
+	id = spain_reaction.28
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.28"}
+	title = spain_reaction.28.t
+	desc = spain_reaction.28.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.28.a
+		ai_chance = {
+			factor = 999
+		}
+		SPR = { country_event = { id = spain_reaction.29 } }
+	}
+
+	option = {
+		name = spain_reaction.28.b
+		SPR = { country_event = { id = spain_reaction.30 } }
+	}
+}
+
+### Germans accepts us in ###
+country_event = {
+	id = spain_reaction.29
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.29"}
+	title = spain_reaction.29.t
+	desc = spain_reaction.29.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.29.a
+		GER = { add_to_faction = SPR }
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.239 }
+		}
+	}
+}
+
+### Germans Refusal ###
+country_event = {
+	id = spain_reaction.30
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.30"}
+	title = spain_reaction.30.t
+	desc = spain_reaction.30.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.30.a
+	}
+}
+
+### Spanish Entry into the League of Nations? ###
+country_event = {
+	id = spain_reaction.31
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.31"}
+	title = spain_reaction.31.t
+	desc = spain_reaction.31.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.31.a
+		ai_chance = {
+			factor = 999
+		}
+		SPR = { country_event = { id = spain_reaction.32 } }
+	}
+
+	option = {
+		name = spain_reaction.31.b
+		SPR = { country_event = { id = spain_reaction.33 } }
+	}
+}
+
+### Amercians accepts us in ###
+country_event = {
+	id = spain_reaction.32
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.32"}
+	title = spain_reaction.32.t
+	desc = spain_reaction.32.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.32.a
+		USA = { add_to_faction = SPR }
+		IF = {
+		    limit = {
+		        NOT = { 
+				    has_game_rule = { 
+					    rule = GLOBAL_EVENTS_STATUS 
+						option = NO_GLOBAL_EVENTS
+				    }			
+				}
+			}
+			news_event = { id = worldnews.240 }
+		}
+	}
+}
+
+### Amercians Refusal ###
+country_event = {
+	id = spain_reaction.33
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spain_reaction.33"}
+	title = spain_reaction.33.t
+	desc = spain_reaction.33.d
+	picture = GFX_event_diplomatic_phone
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = spain_reaction.33.a
+	}
+}
+
+### Trigger Workers Strike in Asturias ###
+country_event = {
+	id = spain_trigger.1
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.01.16
+	}
+	
+	immediate = {
+	    SPR = { country_event = { id = spain.2 } } 
+	}
+}
+
+### Trigger Riots Across the Country ###
+country_event = {
+	id = spain_trigger.2
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.02.11
+	}
+	
+	immediate = {
+	    SPR = { country_event = { id = spain.3 } } 
+	}
+}
+
+### Trigger Military Coup! ###
+country_event = {
+	id = spain_trigger.3
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.04.01
+	}
+	
+	immediate = {
+	    SPR = { country_event = { id = spain.7 } } 
+	}
+}
+
+### Trigger Republican Revolution! ###
+country_event = {
+	id = spain_trigger.4
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.04.06
+	}
+	
+	immediate = {
+	    SPR = { country_event = { id = spain.8 } } 
+	}
+}
+
+### Trigger Death of Manuel Azana ###
+country_event = {
+	id = spain_trigger.5
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.05.25
+	}
+	
+	immediate = {
+	    SPR = { country_event = { id = spain.9 } }
+	    SPA = { country_event = { id = spain.9 } }
+	}
+}
+
+### Trigger Abdication of King Alfonso Carlos ###
+country_event = {
+	id = spain_trigger.6
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			has_country_leader = {
+			    name = "Alfonso Carlos I"
+			    ruling_only = yes
+			}
+			OR = {
+				threat > 0.4
+				has_war = yes
+			}
+		}
+	}
+	
+	immediate = {
+	    #SPR = { country_event = { id = spain.13 } }
+	    SPA = { country_event = { id = spain.13 } }
+	}
+}

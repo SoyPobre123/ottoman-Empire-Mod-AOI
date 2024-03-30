@@ -1,0 +1,184 @@
+spriteTypes = {	
+
+	#### AOI Mexico
+	
+	SpriteType = { 
+		name = "GFX_MEX_Establish_CNC"
+		texturefile = "gfx/interface/goals/MEX/MEX_Establish_CNC.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Establish_CTM"
+		texturefile = "gfx/interface/goals/MEX/MEX_Establish_CTM.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Establish_FSTSE"
+		texturefile = "gfx/interface/goals/MEX/MEX_Establish_FSTSE.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Pan_Lation_Union1"
+		texturefile = "gfx/interface/goals/MEX/MEX_Pan_Latin_American_Union1.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Pan_Lation_Union2"
+		texturefile = "gfx/interface/goals/MEX/MEX_Pan_Latin_American_Union2.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_A_Latin_Bridgehead_of_Freedom"
+		texturefile = "gfx/interface/goals/MEX/MEX_A_Latin_Bridgehead_of_Freedom.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Assessing_our_role_in_the_world"
+		texturefile = "gfx/interface/goals/MEX/MEX_Assessing_our_role_in_the_world.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Avenge_1848"
+		texturefile = "gfx/interface/goals/MEX/MEX_Avenge_1848.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Brigada_de_Respuesta_Rapida"
+		texturefile = "gfx/interface/goals/MEX/MEX_Brigada_de_Respuesta_Rapida.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Catholic_education"
+		texturefile = "gfx/interface/goals/MEX/MEX_Catholic_education.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Christian_democracy"
+		texturefile = "gfx/interface/goals/MEX/MEX_Christian_democracy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Church_subsidies"
+		texturefile = "gfx/interface/goals/MEX/MEX_Church_subsidies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Continue_la_cristiada"
+		texturefile = "gfx/interface/goals/MEX/MEX_Continue_la_cristiada.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Dominating_the_Caribbean"
+		texturefile = "gfx/interface/goals/MEX/MEX_Dominating_the_Caribbean.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Dreams_of_Mexican_Empire"
+		texturefile = "gfx/interface/goals/MEX/MEX_Dreams_of_Mexican_Empire.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_End_of_Maximato"
+		texturefile = "gfx/interface/goals/MEX/MEX_End_of_Maximato.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Fuerzas_Especiales"
+		texturefile = "gfx/interface/goals/MEX/MEX_Fuerzas_Especiales.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Fund_Almogavares"
+		texturefile = "gfx/interface/goals/MEX/MEX_Fund_Almogavares.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Getting_Rid_of_the_Impostor"
+		texturefile = "gfx/interface/goals/MEX/MEX_Getting_Rid_of_the_Impostor.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Jalisco_Industrial_District"
+		texturefile = "gfx/interface/goals/MEX/MEX_Jalisco_Industrial_District.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Knights_of_Columbus"
+		texturefile = "gfx/interface/goals/MEX/MEX_Knights_of_Columbus.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_La_Legion"
+		texturefile = "gfx/interface/goals/MEX/MEX_La_Legion.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Like_the_Good_Old_Days"
+		texturefile = "gfx/interface/goals/MEX/MEX_Like_the_Good_Old_Days.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Mexican_Aces_of_the_Skies"
+		texturefile = "gfx/interface/goals/MEX/MEX_Mexican_Aces_of_the_Skies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Mexican_Entrepreneurship_Council"
+		texturefile = "gfx/interface/goals/MEX/MEX_Mexican_Entrepreneurship_Council.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_New_Mexico_New_Tactics"
+		texturefile = "gfx/interface/goals/MEX/MEX_New_Mexico_New_Tactics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_New_oil_locations"
+		texturefile = "gfx/interface/goals/MEX/MEX_New_oil_locations.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_New_World_Empire"
+		texturefile = "gfx/interface/goals/MEX/MEX_New_World_Empire.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Ratify_the_Tripartite_Pact"
+		texturefile = "gfx/interface/goals/MEX/MEX_Ratify_the_Tripartite_Pact.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Repair_Relations_with_the_Holy_See"
+		texturefile = "gfx/interface/goals/MEX/MEX_Repair_Relations_with_the_Holy_See.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_The_First_of_the_Latinos"
+		texturefile = "gfx/interface/goals/MEX/MEX_The_First_of_the_Latinos.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_The_Universal_Right_to_Bear_Arms"
+		texturefile = "gfx/interface/goals/MEX/MEX_The_Universal_Right_to_Bear_Arms.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Time_for_a_Mexican_tank"
+		texturefile = "gfx/interface/goals/MEX/MEX_Time_for_a_Mexican_tank.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Time_to_Make_a_Choice"
+		texturefile = "gfx/interface/goals/MEX/MEX_Time_to_Make_a_Choice.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MEX_Viva_Cristo_Rey"
+		texturefile = "gfx/interface/goals/MEX/MEX_Viva_Cristo_Rey.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_MCR_Government_Collapse"
+		texturefile = "gfx/interface/goals/MEX/MCR_Government_Collapse.dds"
+	}
+}

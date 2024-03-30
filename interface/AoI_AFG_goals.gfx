@@ -1,0 +1,219 @@
+spriteTypes = {	
+
+	#### AOI Afghanistan ###
+	
+	SpriteType = {
+		name = "GFX_AFG_Attack_the_Belly_of_the_Russian_Bear"
+		texturefile = "gfx/interface/goals/AFG/AFG_Attack_the_Belly_of_the_Russian_Bear.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Big_Hearts_of_the_Afghans"
+		texturefile = "gfx/interface/goals/AFG/AFG_Big_Hearts_of_the_Afghans.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Build_the_Dams"
+		texturefile = "gfx/interface/goals/AFG/AFG_Build_the_Dams.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Caliphate_of_Afghanistan"
+		texturefile = "gfx/interface/goals/AFG/AFG_Caliphate_of_Afghanistan.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Confirm_Muslim_Domination"
+		texturefile = "gfx/interface/goals/AFG/AFG_Confirm_Muslim_Domination.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Cooperate_with_Families"
+		texturefile = "gfx/interface/goals/AFG/AFG_Cooperate_with_Families.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Cooperation_with_the_Central_Bank"
+		texturefile = "gfx/interface/goals/AFG/AFG_Cooperation_with_the_Central_Bank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Cult_of_Personality"
+		texturefile = "gfx/interface/goals/AFG/AFG_Cult_of_Personality.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Deadlock_of_Panic_1931"
+		texturefile = "gfx/interface/goals/AFG/AFG_Deadlock_of_Panic_1931.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Economic_Center_of_Muslim_World"
+		texturefile = "gfx/interface/goals/AFG/AFG_Economic_Center_of_Muslim_World.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Empire_of_Afghanistan"
+		texturefile = "gfx/interface/goals/AFG/AFG_Empire_of_Afghanistan.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Enlightened_Rule_of_the_King"
+		texturefile = "gfx/interface/goals/AFG/AFG_Enlightened_Rule_of_the_King.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Establish_the_Elite_Marksman_Corps"
+		texturefile = "gfx/interface/goals/AFG/AFG_Establish_the_Elite_Marksman_Corps.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_From_Rags_to_Riches"
+		texturefile = "gfx/interface/goals/AFG/AFG_From_Rags_to_Riches.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Greater_Republic_of_Pakistan"
+		texturefile = "gfx/interface/goals/AFG/AFG_Greater_Republic_of_Pakistan.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Industrialise_the_Mountains"
+		texturefile = "gfx/interface/goals/AFG/AFG_Industrialise_the_Mountains.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Kabul_Berlin_Airline"
+		texturefile = "gfx/interface/goals/AFG/AFG_Kabul_Berlin_Airline.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Look_to_the_Inside"
+		texturefile = "gfx/interface/goals/AFG/AFG_Look_to_the_Inside.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Look_to_the_Outside"
+		texturefile = "gfx/interface/goals/AFG/AFG_Look_to_the_Outside.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_New_Gallant_Officers"
+		texturefile = "gfx/interface/goals/AFG/AFG_New_Gallant_Officers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_One_Step_Forward_Two_Steps_Back"
+		texturefile = "gfx/interface/goals/AFG/AFG_One_Step_Forward_Two_Steps_Back.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Our_Enemy_Number_One"
+		texturefile = "gfx/interface/goals/AFG/AFG_Our_Enemy_Number_One.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Our_Friends_from_Afar"
+		texturefile = "gfx/interface/goals/AFG/AFG_Our_Friends_from_Afar.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Our_Place_Under_the_Sun"
+		texturefile = "gfx/interface/goals/AFG/AFG_Our_Place_Under_the_Sun.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Priorities_in_Year_1931"
+		texturefile = "gfx/interface/goals/AFG/AFG_Priorities_in_Year_1931.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Reach_Out_to_the_League"
+		texturefile = "gfx/interface/goals/AFG/AFG_Reach_Out_to_the_League.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Reach_Out_to_the_Muslims"
+		texturefile = "gfx/interface/goals/AFG/AFG_Reach_Out_to_the_Muslims.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Reach_Out_to_the_Reichspakt"
+		texturefile = "gfx/interface/goals/AFG/AFG_Reach_Out_to_the_Reichspakt.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Reach_Out_to_the_Tripartite"
+		texturefile = "gfx/interface/goals/AFG/AFG_Reach_Out_to_the_Tripartite.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Reforms_of_the_King"
+		texturefile = "gfx/interface/goals/AFG/AFG_Reforms_of_the_King.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Search_for_New_Allies"
+		texturefile = "gfx/interface/goals/AFG/AFG_Search_for_New_Allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Secure_International_Support"
+		texturefile = "gfx/interface/goals/AFG/AFG_Secure_International_Support.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Squash_the_Fanatics"
+		texturefile = "gfx/interface/goals/AFG/AFG_Squash_the_Fanatics.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Strike_at_India"
+		texturefile = "gfx/interface/goals/AFG/AFG_Strike_at_India.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Subjugate_Himalayas"
+		texturefile = "gfx/interface/goals/AFG/AFG_Subjugate_Himalayas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Subjugate_Persia"
+		texturefile = "gfx/interface/goals/AFG/AFG_Subjugate_Persia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_The_Asian_Tiger"
+		texturefile = "gfx/interface/goals/AFG/AFG_The_Asian_Tiger.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_The_Cult_of_Afghan_Soldier"
+		texturefile = "gfx/interface/goals/AFG/AFG_The_Cult_of_Afghan_Soldier.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_The_Royal_Splendour"
+		texturefile = "gfx/interface/goals/AFG/AFG_The_Royal_Splendour.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_The_Triumph_of_Progress"
+		texturefile = "gfx/interface/goals/AFG/AFG_The_Triumph_of_Progress.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_The_Triumph_of_Tradition"
+		texturefile = "gfx/interface/goals/AFG/AFG_The_Triumph_of_Tradition.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AFG_Times_of_Muslim_Socialism"
+		texturefile = "gfx/interface/goals/AFG/AFG_Times_of_Muslim_Socialism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_AFG_Tolerance_is_Non_Negotiable"
+		texturefile = "gfx/interface/goals/AFG/AFG_Tolerance_is_Non_Negotiable.dds"
+	}
+}

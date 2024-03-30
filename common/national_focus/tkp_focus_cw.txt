@@ -1,0 +1,184 @@
+focus_tree = {
+    id = TKP_focus_cw
+	default = no
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10000000
+			tag = TKP
+		}
+	}
+	
+	continuous_focus_position = { x = 25 y = 4000 }
+	
+	focus = {
+		id = TUR_nation_on_war_
+		icon = GFX_
+		bypass = { has_civil_war = yes }
+		
+		x = 5
+		y = 0
+		
+		cost = 10
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = TUR_a_new_day
+		icon = GFX_
+		prerequisite = { focus = TUR_unite }
+		prerequisite = { focus = TUR_soldiers_and_turks }
+		
+		x = 5
+		y = 3
+		
+		cost = 1
+
+		available = {
+			has_civil_war = no
+		}
+		
+		completion_reward = {
+			
+			
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = TUR_use_the_reserves
+		icon = GFX_
+		prerequisite = { focus = TUR_nation_on_war_ }
+		
+		x = 5
+		y = 1
+		
+		cost = 1
+
+		available = {
+			has_civil_war = yes
+		}
+		
+		completion_reward = {
+			create_unit = {
+
+                division = "name = "Ulusal Halk Yedek Ordusu" 
+				division_template = "Ulusal Halk Yedek Ordusu" 
+				start_experience_factor = 0.75 
+				start_equipment_factor = 1"
+
+                owner = D01
+
+            }
+				
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = TUR_a_call_for_communism
+		icon = GFX_
+		prerequisite = { focus = TUR_nation_on_war_ }
+		
+		x = 3
+		y = 1
+		
+		cost = 1
+
+		available = {
+			has_civil_war = yes
+		}
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = TUR_soldiers_of_the_tkp
+		icon = GFX_
+		prerequisite = { focus = TUR_nation_on_war_ }
+		
+		x = 7
+		y = 1
+		
+		cost = 1
+
+		available = {
+			has_civil_war = yes
+		}
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = TUR_soldiers_and_turks
+		icon = GFX_
+		prerequisite = { focus = TUR_use_the_reserves }
+		prerequisite = { focus = TUR_a_call_for_communism }
+		
+		x = 4
+		y = 2
+		
+		cost = 1
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = TUR_unite
+		icon = GFX_
+		prerequisite = { focus = TUR_use_the_reserves }
+		prerequisite = { focus = TUR_soldiers_of_the_tkp }
+		
+		x = 6
+		y = 2
+		
+		cost = 1
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}

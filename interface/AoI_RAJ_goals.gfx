@@ -1,0 +1,200 @@
+spriteTypes = {	
+	#### AOI RAJ
+	
+	SpriteType = { 
+		name = "GFX_RAJ_A_Great_Leap_Forward"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_A_Great_Leap_Forward.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Additional_Funds_for_Bollywood"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Additional_Funds_for_Bollywood.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Apply_to_the_League_of_Nations"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Apply_to_the_League_of_Nations.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Apply_to_the_Reichspakt"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Apply_to_the_Reichspakt.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Apply_to_the_Soyuzniki"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Apply_to_the_Soyuzniki.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Apply_to_the_Tripartite"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Apply_to_the_Tripartite.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Asian_Tiger"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Asian_Tiger.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Award_the_Loyalists"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Award_the_Loyalists.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Big_Hearts_of_the_Indians"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Big_Hearts_of_the_Indians.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Cooperate_with_Japan"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Cooperate_with_Japan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Cooperate_with_Other_Dominions"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Cooperate_with_Other_Dominions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Cooperate_with_Tata_Group"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Cooperate_with_Tata_Group.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Cooperate_with_United_Kingdom"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Cooperate_with_United_Kingdom.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Cooperation_with_the_Central_Bank"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Cooperation_with_the_Central_Bank.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Crackdown_on_Nobility"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Crackdown_on_Nobility.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Cult_of_Personality"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Cult_of_Personality.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Democracy_of_Prasad"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Democracy_of_Prasad.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Expand_Electronic_Industry"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Expand_Electronic_Industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Finish_Indianisation_Process"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Finish_Indianisation_Process.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Fixing_Errors_and_Distortions"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Fixing_Errors_and_Distortions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_From_Rags_to_Riches"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_From_Rags_to_Riches.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_German_Colonial_Vulnerability"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_German_Colonial_Vulnerability.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_God_Save_the_King"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_God_Save_the_King.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Handle_out_Promotions"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Handle_out_Promotions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_I_Bow_to_Thee_Mother"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_I_Bow_to_Thee_Mother.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Militarism_of_Bose"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Militarism_of_Bose.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Military_in_Face_of_Crisis"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Military_in_Face_of_Crisis.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_New_Gallant_Officers"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_New_Gallant_Officers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Our_Enemy_Number_One"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Our_Enemy_Number_One.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Popularity_of_Savarkar"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Popularity_of_Savarkar.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Proclaim_Indian_Superpower"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Proclaim_Indian_Superpower.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Promote_Hinduness"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Promote_Hinduness.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Ratify_the_Statute_of_Westminster"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Ratify_the_Statute_of_Westminster.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Return_to_Stability"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Return_to_Stability.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Round_Table_Conferencess"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Round_Table_Conferencess.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Secure_Emergency_Management"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Secure_Emergency_Management.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Seize_Dutch_East_Indies"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Seize_Dutch_East_Indies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Self_Respect_Movement"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Self_Respect_Movement.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Social_Revolution_of_Nehru"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Social_Revolution_of_Nehru.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Star_of_India"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Star_of_India.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Streamline_Bank_of_India"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Streamline_Bank_of_India.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Strike_at_INC"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Strike_at_INC.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Subjugate_Himalayas"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Subjugate_Himalayas.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Subjugate_Siam"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Subjugate_Siam.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_The_Cult_of_Indian_Soldier"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_The_Cult_of_Indian_Soldier.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_The_Era_of_Greater_Prosperity"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_The_Era_of_Greater_Prosperity.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Tolerance_is_Non_Negotiable"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Tolerance_is_Non_Negotiable.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Truth_Alone_Triumphs"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Truth_Alone_Triumphs.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RAJ_Wise_Guide_of_Ramasamy"
+		texturefile = "gfx/interface/goals/RAJ/RAJ_Wise_Guide_of_Ramasamy.dds"
+	}
+}

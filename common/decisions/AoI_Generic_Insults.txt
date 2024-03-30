@@ -1,0 +1,248 @@
+
+
+
+
+
+gen_insults = {
+	border_conflict_initiate_incident = {
+		icon = border_war		
+
+		available = {
+			FROM = {
+				any_owned_state = {
+					is_controlled_by = FROM
+					any_neighbor_state = {
+						is_fully_controlled_by = ROOT
+						set_temp_variable = { var:attacker_state_temp = id }
+						has_ROOT_at_least_3_div_in_current_state_scope = yes
+					}
+					set_temp_variable = { var:defender_state_temp = id }
+				}
+			}
+			NOT = { has_war_with = FROM }
+			NOT = { has_country_flag = boarder_conflict }
+			NOT = { has_non_aggression_pact_with = FROM }
+			has_war_support > 0.75
+			threat > 0.25
+		}
+
+		visible = {
+			FROM = { exists = yes }
+			NOT = { has_war_with = yes }
+			FROM = {
+				NOT = { is_subject_of = ROOT }
+				NOT = { is_ally_with  = ROOT }
+			}
+			NOT = { is_subject = yes }
+
+			AND = {
+				NOT = { has_border_war_with = FROM }
+				FROM = {
+					any_owned_state = {
+						is_controlled_by = FROM
+						is_demilitarized_zone = no
+						any_neighbor_state = {
+							is_demilitarized_zone = no
+							is_fully_controlled_by = ROOT
+						}
+					}
+				}
+			}
+		}
+
+		target_root_trigger = { }
+		target_array = neighbors
+
+		target_trigger = { }
+
+		highlight_states = {
+			highlight_states_trigger = {
+					AND = {
+						is_owned_and_controlled_by = FROM
+						is_capital = yes
+					}
+			}
+		}
+
+
+		cost = 50
+
+		fire_only_once = no
+		
+		complete_effect = {
+			
+			hidden_effect = {
+				FROM = {
+					random_owned_controlled_state = {
+						limit = {
+							hidden_trigger = { NOT = { has_state_flag = border_incident_active } }
+							any_neighbor_state = {
+								hidden_trigger = { NOT = { has_state_flag = border_incident_active } }
+								has_ROOT_at_least_1_div_in_current_state_scope = yes
+								is_fully_controlled_by = ROOT
+							}
+						}
+						set_temp_variable = { attacker_state_temp = id }
+					}
+				}
+				random_state = {
+					limit = {
+						is_fully_controlled_by = ROOT
+						hidden_trigger = { NOT = { has_state_flag = border_incident_active } }
+						has_ROOT_at_least_1_div_in_current_state_scope = yes
+						any_neighbor_state = {
+							state = attacker_state_temp
+						}
+					}
+
+					set_temp_variable = { defender_state_temp = id }
+				}
+			}
+			set_country_flag = boarder_conflict 
+			FROM = {
+				set_country_flag = boarder_conflict 
+			}
+			
+			set_variable = {
+				var = deffender_var
+				value = defender_state_temp
+			}
+			set_variable = {
+				var = attacker_var
+				value = attacker_state_temp
+			}
+			
+			custom_effect_tooltip = border_war
+			
+			FROM = {
+				hidden_effect = {
+					random_list = {
+						10 = {
+							country_event = { id = gen_insult.1 days = 5}	
+						}
+						10 = {
+							country_event = { id = gen_insult.2 days = 5}	
+						}
+						10 = {
+							country_event = { id = gen_insult.3 days = 5}	
+						}
+						10 = {
+							country_event = { id = gen_insult.4 days = 5}	
+						}
+						10 = {
+							country_event = { id = gen_insult.5 days = 5}	
+						}
+						10 = {
+							country_event = { id = gen_insult.6 days = 5}	
+						}
+						10 = {
+							country_event = { id = gen_insult.7 days = 5}	
+						}
+						10 = {
+							country_event = { id = gen_insult.8 days = 5}	
+						}
+						10 = {
+							country_event = { id = gen_insult.9 days = 5}	
+						}
+						10 = {
+							country_event = { id = gen_insult.10 days = 5}	
+						}
+					}
+				}
+			}
+
+			
+
+		}
+		
+		
+
+		days_re_enable = 200
+		
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				ROOT = {
+				has_opinion = {
+					target = FROM
+						value < 0
+					}
+				}
+			}
+			modifier = {
+				add = 1
+				ROOT = {
+				has_opinion = {
+					target = FROM
+						value < -9
+					}
+				}
+			}
+			modifier = {
+				add = 1
+				ROOT = {
+				has_opinion = {
+					target = FROM
+						value < -24
+					}
+				}
+			}
+			modifier = {
+				add = 2
+				ROOT = {
+				has_opinion = {
+					target = FROM
+						value < -49
+					}
+				}
+			}
+			modifier = {
+				add = 3
+				ROOT = {
+				has_opinion = {
+					target = FROM
+						value < -99
+					}
+				}
+			}
+			modifier = {
+				add = 4
+				ROOT = {
+				has_opinion = {
+					target = FROM
+						value < -190
+					}
+				}
+			}
+		}
+	}
+	
+	
+	aoi_border_conflict_time_until_cancelled = {
+	
+		icon = border_war
+
+        fire_only_once = yes
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			NOT = { has_border_war_with = FROM }
+		}
+
+		days_mission_timeout = 30
+		timeout_effect = {
+				cancel_border_war = {
+					defender = FROM.deffender_var
+					attacker = FROM.attacker_var
+			}
+			clr_country_flag = boarder_conflict
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+}

@@ -1,0 +1,219 @@
+spriteTypes = {	
+
+	#### AOI Austria ###
+	
+	SpriteType = { 
+		name = "GFX_AUS_Ultimatum_for_Yugoslavia"
+		texturefile = "gfx/interface/goals/AUS/AUS_Ultimatum_for_Yugoslavia.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_Ultimatum_for_Switzerland"
+		texturefile = "gfx/interface/goals/AUS/AUS_Ultimatum_for_Switzerland.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Ultimatum_for_Romania"
+		texturefile = "gfx/interface/goals/AUS/AUS_Ultimatum_for_Romania.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Blanking_of_Monarchism"
+		texturefile = "gfx/interface/goals/AUS/AUS_Blanking_of_Monarchism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_On_the_Way_to_Save_the_Empire"
+		texturefile = "gfx/interface/goals/AUS/AUS_On_the_Way_to_Save_the_Empire.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Friendly_Southern_Slavs"
+		texturefile = "gfx/interface/goals/AUS/AUS_Friendly_Southern_Slavs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Highway_Vienna_Dubrovnik"
+		texturefile = "gfx/interface/goals/AUS/AUS_Highway_Vienna_Dubrovnik.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Extension_of_Port_Infrastructure"
+		texturefile = "gfx/interface/goals/AUS/AUS_Extension_of_Port_Infrastructure.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_The_Carrot_and_Stick_Policy"
+		texturefile = "gfx/interface/goals/AUS/AUS_The_Carrot_and_Stick_Policy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_The_Breakdown_of_Pan_Slavism"
+		texturefile = "gfx/interface/goals/AUS/AUS_The_Breakdown_of_Pan_Slavism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_The_Breakdown_of_Ustasha"
+		texturefile = "gfx/interface/goals/AUS/AUS_The_Breakdown_of_Ustasha.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Reconciliation_with_Croats_and_Slovenes"
+		texturefile = "gfx/interface/goals/AUS/AUS_Reconciliation_with_Croats_and_Slovenes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Our_Hungarian_Brothers"
+		texturefile = "gfx/interface/goals/AUS/AUS_Our_Hungarian_Brothers.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Highway_Vienna_Budapest"
+		texturefile = "gfx/interface/goals/AUS/AUS_Highway_Vienna_Budapest.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_In_Search_of_Hungarian_Oil"
+		texturefile = "gfx/interface/goals/AUS/AUS_In_Search_of_Hungarian_Oil.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Fighting_Radicalism_in_Hungary"
+		texturefile = "gfx/interface/goals/AUS/AUS_Fighting_Radicalism_in_Hungary.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_The_Breakdown_of_Hungarian_Nationalism"
+		texturefile = "gfx/interface/goals/AUS/AUS_The_Breakdown_of_Hungarian_Nationalism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_A_New_Stock_Exchange_in_Prague"
+		texturefile = "gfx/interface/goals/AUS/AUS_A_New_Stock_Exchange_in_Prague.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Reconciliation_with_the_Bohemians"
+		texturefile = "gfx/interface/goals/AUS/AUS_Reconciliation_with_the_Bohemians.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Beginning_Of_Danubian_Federation"
+		texturefile = "gfx/interface/goals/AUS/AUS_Beginning_Of_Danubian_Federation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Its_Time_to_Regain_Krakau_and_Lember"
+		texturefile = "gfx/interface/goals/AUS/AUS_Its_Time_to_Regain_Krakau_and_Lember.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Fanatic_Loyalty"
+		texturefile = "gfx/interface/goals/AUS/AUS_Fanatic_Loyalty.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Curtail_Heimwehrs_Influence"
+		texturefile = "gfx/interface/goals/AUS/AUS_Curtail_Heimwehrs_Influence.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Blanking_of_Monarchism"
+		texturefile = "gfx/interface/goals/AUS/AUS_Blanking_of_Monarchism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Support_for_Porsche_Plants"
+		texturefile = "gfx/interface/goals/AUS/AUS_Support_for_Porsche_Plants.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_Long_live_Kaiser_Karl"
+		texturefile = "gfx/interface/goals/AUS/AUS_Long_live_Kaiser_Karl.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_On_the_Beautiful_Blue_Danube"
+		texturefile = "gfx/interface/goals/AUS/AUS_On_the_Beautiful_Blue_Danube.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_Reconciliation_with_Hungarians_and_Slovaks"
+		texturefile = "gfx/interface/goals/AUS/AUS_Reconciliation_with_Hungarians_and_Slovaks.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_The_Time_has_Come_for_Land_Reform"
+		texturefile = "gfx/interface/goals/AUS/AUS_The_Time_has_Come_for_Land_Reform.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_Great_Mechanization_of_Agriculture"
+		texturefile = "gfx/interface/goals/AUS/AUS_Great_Mechanization_of_Agriculture.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Adolf_Hitler_to_Win"
+		texturefile = "gfx/interface/goals/AUS/AUS_Adolf_Hitler_to_Win.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Die_Schutzstaffel_der_NSOAP"
+		texturefile = "gfx/interface/goals/AUS/AUS_Die_Schutzstaffel_der_NSOAP.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Dealing_with_Marxism"
+		texturefile = "gfx/interface/goals/AUS/AUS_Dealing_with_Marxism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Our_very_own_Weltpolitik"
+		texturefile = "gfx/interface/goals/AUS/AUS_Our_very_own_Weltpolitik.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Time_to_Regain_Sudtirol_Back"
+		texturefile = "gfx/interface/goals/AUS/AUS_Time_to_Regain_Sudtirol_Back.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Another_Deutscher_Krieg"
+		texturefile = "gfx/interface/goals/AUS/AUS_Another_Deutscher_Krieg.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Future_Of_Christian_Social_Party"
+		texturefile = "gfx/interface/goals/AUS/AUS_Future_Of_Christian_Social_Party.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Cult_Of_Personality"
+		texturefile = "gfx/interface/goals/AUS/AUS_Cult_Of_Personality.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Highway_Vienna_Prague"
+		texturefile = "gfx/interface/goals/AUS/AUS_Highway_Vienna_Prague.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Reconciliation_with_Hungarians_and_Slovaks"
+		texturefile = "gfx/interface/goals/AUS/AUS_Reconciliation_with_Hungarians_and_Slovaks.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Settlement_of_the_Sudeten_Dispute"
+		texturefile = "gfx/interface/goals/AUS/AUS_Settlement_of_the_Sudeten_Dispute.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_AUS_Hardworking_Northern_Slavs"
+		texturefile = "gfx/interface/goals/AUS/AUS_Hardworking_Northern_Slavs.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_National_Socialism_Guides_Us"
+		texturefile = "gfx/interface/goals/AUS/AUS_National_Socialism_Guides_Us.dds"
+	}	
+}

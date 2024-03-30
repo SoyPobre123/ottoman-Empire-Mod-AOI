@@ -1,0 +1,203 @@
+spriteTypes = {	
+
+	#### AOI Spain	
+	SpriteType = { 
+		name = "GFX_SPR_American_Equipment_Aid"
+		texturefile = "gfx/interface/goals/SPR/SPR_American_Equipment_Aid.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Attempt_Save_Situation"
+		texturefile = "gfx/interface/goals/SPR/SPR_An_attempt_to_save_the_situation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Gather_Millitary_Support"
+		texturefile = "gfx/interface/goals/SPR/SPR_Gather_Millitary_Support.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Introduction_Merit_System"
+		texturefile = "gfx/interface/goals/SPR/SPR_Introduction_of_the_Merit_System.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Invest_Armour"
+		texturefile = "gfx/interface/goals/SPR/SPR_Invest_in_Armour.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Nationalize_Bank_Spain"
+		texturefile = "gfx/interface/goals/SPR/SPR_Nationalize_the_Bank_of_Spain.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_No_Pasaran"
+		texturefile = "gfx/interface/goals/SPR/SPR_No_pasaran.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Raise_Leftist_Militia"
+		texturefile = "gfx/interface/goals/SPR/SPR_Raise_Leftist_Militia_Forces.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Republican_Professionalism"
+		texturefile = "gfx/interface/goals/SPR/SPR_Republican_Professionalism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Restructure_Airforce"
+		texturefile = "gfx/interface/goals/SPR/SPR_Restructure_the_Airforce.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Solidify_New_Republic"
+		texturefile = "gfx/interface/goals/SPR/SPR_Solidify_the_New_Republic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Strengthen_Local_Rights"
+		texturefile = "gfx/interface/goals/SPR/SPR_Strengthen_Local_Rights.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Study_Foreign_Tactics"
+		texturefile = "gfx/interface/goals/SPR/SPR_Study_Foreign_Tactics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Support_Military"
+		texturefile = "gfx/interface/goals/SPR/SPR_Support_the_Military.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Course_Autarky"
+		texturefile = "gfx/interface/goals/SPR/SPR_The_Course_on_Autarky.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Triumph_Carlism"
+		texturefile = "gfx/interface/goals/SPR/SPR_The_Triumph_of_Carlism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Trade_Union_Reform"
+		texturefile = "gfx/interface/goals/SPR/SPR_Trade_Union_Reform.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Ya_Hemos_Pasao"
+		texturefile = "gfx/interface/goals/SPR/SPR_Ya_Hemos_Pasao.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Absorb_the_Requetes"
+		texturefile = "gfx/interface/goals/SPR/SPR_Absorb_the_Requetes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Dios_atria_Rey"
+		texturefile = "gfx/interface/goals/SPR/SPR_Dios_atria_Rey.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Disregarded_Treaties"
+		texturefile = "gfx/interface/goals/SPR/SPR_Disregarded_Treaties.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_End_of_Bad_Times"
+		texturefile = "gfx/interface/goals/SPR/SPR_End_of_Bad_Times.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Fight_for_the_Republic"
+		texturefile = "gfx/interface/goals/SPR/SPR_Fight_for_the_Republic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Goal_is_to_Crush_our_Opponent"
+		texturefile = "gfx/interface/goals/SPR/SPR_Goal_is_to_Crush_our_Opponent.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Iberian_Concept"
+		texturefile = "gfx/interface/goals/SPR/SPR_Iberian_Concept.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Influence_the_Guardia_Civil"
+		texturefile = "gfx/interface/goals/SPR/SPR_Influence_the_Guardia_Civil.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Joining_the_Commonwealth_of_Nations"
+		texturefile = "gfx/interface/goals/SPR/SPR_Joining_the_Commonwealth_of_Nations.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Long_Live_the_Kingdom"
+		texturefile = "gfx/interface/goals/SPR/SPR_Long_Live_the_Kingdom.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Long_Live_the_Republic"
+		texturefile = "gfx/interface/goals/SPR/SPR_Long_Live_the_Republic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_New_Colonial_Ambition"
+		texturefile = "gfx/interface/goals/SPR/SPR_New_Colonial_Ambition.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Pact_of_San_Sebastian"
+		texturefile = "gfx/interface/goals/SPR/SPR_Pact_of_San_Sebastian.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Reinforce_the_Caudillos_Power"
+		texturefile = "gfx/interface/goals/SPR/SPR_Reinforce_the_Caudillos_Power.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Restoration_of_Requetes"
+		texturefile = "gfx/interface/goals/SPR/SPR_Restoration_of_Requetes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_The_26_Points"
+		texturefile = "gfx/interface/goals/SPR/SPR_The_26_Points.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Unite_the_Republican_Groups"
+		texturefile = "gfx/interface/goals/SPR/SPR_Unite_the_Republican_Groups.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_SPR_Final_Showdown"
+		texturefile = "gfx/interface/goals/SPR/SPR_Final_Showdown.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SPR_Force_Moroccan_Submission"
+		texturefile = "gfx/interface/goals/SPR/SPR_Force_Moroccan_Submission.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SPA_Bring_Back_the_Empire"
+		texturefile = "gfx/interface/goals/SPR/SPA_Bring_Back_the_Empire.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SPR_Pax_Hispanica_Once_More"
+		texturefile = "gfx/interface/goals/SPR/SPR_Pax_Hispanica_Once_More.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SPR_Strike_the_French_Underbelly"
+		texturefile = "gfx/interface/goals/SPR/SPR_Strike_the_French_Underbelly.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SPR_War_of_Spanish_Values"
+		texturefile = "gfx/interface/goals/SPR/SPR_War_of_Spanish_Values.dds"
+	}
+}

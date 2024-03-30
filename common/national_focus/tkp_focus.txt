@@ -1,0 +1,86 @@
+focus_tree = {
+    id = TKP_focus
+	default = no
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10000000
+			tag = TUR
+		}
+	}
+	
+	continuous_focus_position = { x = 25 y = 4000 }
+	
+	focus = {
+		id = TUR_tkp_rising_mission
+		icon = GFX_
+		
+		x = 5
+		y = 0
+		
+		cost = 3
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+			unlock_decision_category_tooltip = TUR_tkp_rising_mission
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = TUR_begin_new_propaganda
+		icon = GFX_
+		prerequisite = { focus = TUR_tkp_rising_mission }
+		
+		x = 5
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+			add_ideas = TUR_tkp_propoganda
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = TUR_we_will_force_them_to_leave
+		icon = GFX_
+		prerequisite = { focus = TUR_begin_new_propaganda }
+		
+		x = 3
+		y = 2
+		
+		cost = 4
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+			custom_effect_tooltip = civil_war_warning_tkp
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}

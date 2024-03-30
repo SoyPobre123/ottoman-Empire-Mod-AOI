@@ -1,0 +1,2610 @@
+### Economy
+
+gen_keynes_economic_yearly_focuses_category = {
+
+    boost_civilian_economy_keynes_gen = {
+	icon = generic_factory
+        cost = 0
+        fire_only_once = no
+        available = {
+            OR = {
+				NOT = {
+					has_decision = boost_war_industry_keynes_gen
+					has_decision = improve_military_spendings_keynes_gen
+					has_decision = fund_propaganda_of_success_keynes_gen
+					has_decision = give_funds_to_our_war_propaganda_machine_keynes_gen
+                }
+            }
+        } 
+        modifier = {
+            stability_factor = 0.05
+            production_speed_infrastructure_factor = 0.10
+            production_speed_industrial_complex_factor = 0.10
+        }
+        days_remove = 365
+        days_re_enable = 365
+        complete_effect = {
+        }
+        ai_will_do = {
+			factor = 1
+        }
+    }
+    boost_war_industry_keynes_gen = {
+	icon = generic_industry
+          cost = 0
+          fire_only_once = no
+          available = {
+            OR = {
+              NOT = {
+              has_decision = boost_civilian_economy_keynes_gen
+              has_decision = improve_military_spendings_keynes_gen
+              has_decision = fund_propaganda_of_success_keynes_gen
+              has_decision = give_funds_to_our_war_propaganda_machine_keynes_gen
+              }
+            }
+          } 
+          days_remove = 365
+          days_re_enable = 365
+          modifier = {
+              production_speed_arms_factory_factor = 0.10
+              production_speed_dockyard_factor = 0.10
+              industrial_capacity_factory = 0.05
+              industrial_capacity_dockyard = 0.05
+              production_factory_efficiency_gain_factor = 0.05
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+    improve_military_spendings_keynes_gen = {
+	icon = generic_military
+          cost = 0
+          fire_only_once = no
+          available = {
+            OR = {
+              NOT = {
+              has_decision = boost_civilian_economy_keynes_gen
+              has_decision = boost_war_industry_keynes_gen
+              has_decision = fund_propaganda_of_success_keynes_gen
+              has_decision = give_funds_to_our_war_propaganda_machine_keynes_gen
+              }
+            }
+          }
+          days_remove = 365 
+          days_re_enable = 365
+          modifier = {
+              production_speed_bunker_factor = 0.10
+              production_speed_coastal_bunker_factor = 0.10
+              production_speed_naval_base_factor = 0.10
+              production_speed_anti_air_building_factor = 0.10
+              production_speed_air_base_factor = 0.10
+              navy_org_factor = 0.03
+              army_org_factor = 0.03
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+    fund_propaganda_of_success_keynes_gen = {
+	icon = eng_propaganda_campaigns
+          cost = 0
+          fire_only_once = no
+          available = {
+            OR = {
+              NOT = {
+              has_decision = boost_civilian_economy_keynes_gen
+              has_decision = boost_war_industry_keynes_gen
+              has_decision = improve_military_spendings_keynes_gen
+              has_decision = give_funds_to_our_war_propaganda_machine_keynes_gen
+              }
+            }
+          }
+          days_remove = 365 
+          days_re_enable = 365
+          modifier = {
+              stability_weekly_factor = 0.0010
+              political_power_factor = 0.10
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+    give_funds_to_our_war_propaganda_machine_keynes_gen = {
+	icon = eng_propaganda_campaigns
+          cost = 0
+          fire_only_once = no
+          available = {
+            OR = {
+              NOT = {
+              has_decision = boost_civilian_economy_keynes_gen
+              has_decision = boost_war_industry_keynes_gen
+              has_decision = improve_military_spendings_keynes_gen
+              has_decision = fund_propaganda_of_success_keynes_gen
+              }
+            }
+          }
+          days_remove = 365 
+          days_re_enable = 365
+          modifier = {
+              war_support_weekly = 0.0010
+              political_power_factor = -0.05
+              training_time_factor = -0.05
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+}
+
+gen_land_forces_focus_category = {
+
+    gen_buy_foreign_equipment_infantry_decision = {
+	icon = generic_prepare_civil_war
+          cost = 50
+          fire_only_once = no
+          days_remove = 30
+          available = {
+          }
+          modifier = {
+            consumer_goods_factor = 0.02
+          }
+          complete_effect = {
+            add_equipment_to_stockpile = {
+              type = infantry_equipment
+              amount = 1500
+              producer = ENG
+             }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+    gen_buy_foreign_equipment_artillery_decision = {
+	icon = ger_military_buildup
+          cost = 50
+          fire_only_once = no
+          days_remove = 30
+          available = {
+          }
+          modifier = {
+            consumer_goods_factor = 0.02
+          }
+          complete_effect = {
+            add_equipment_to_stockpile = {
+              type = artillery_equipment
+              amount = 100
+              producer = GER
+             }
+			 add_equipment_to_stockpile = {
+              type = anti_tank_equipment
+              amount = 50
+              producer = GER
+             }
+			 add_equipment_to_stockpile = {
+              type = anti_air_equipment
+              amount = 50
+              producer = GER
+             }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+    gen_buy_foreign_equipment_tanks_decision = {
+	icon = generic_tank
+          cost = 30
+          fire_only_once = no
+          days_remove = 100
+          available = {
+          }
+          modifier = {
+            consumer_goods_factor = 0.02
+          }
+          complete_effect = {
+            if = {
+              limit = {
+                has_dlc = "No Step Back"
+              }
+
+                add_equipment_to_stockpile = {
+                  type = light_tank_chassis_0
+                  amount = 75
+				  producer = FRA
+                }
+                add_equipment_to_stockpile = {
+                  type = medium_tank_chassis_0
+                  amount = 35
+				  producer = FRA
+                }
+                add_equipment_to_stockpile = {
+                  type = heavy_tank_chassis_0
+                  amount = 25
+				  producer = FRA
+                }
+				}
+              else = {
+                add_equipment_to_stockpile = {
+                  type = light_tank_chassis
+                  amount = 75
+                  producer = FRA
+                }
+              }
+            
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     } 
+
+    gen_buy_foreign_equipment_trucks_decision = {
+	    icon = generic_trucks
+          cost = 50
+          fire_only_once = no
+          days_remove = 30
+          available = {
+          }
+          modifier = {
+            consumer_goods_factor = 0.02
+          }
+          complete_effect = {
+            add_equipment_to_stockpile = {
+              type = motorized_equipment
+              amount = 150
+              producer = USA
+             }
+			 if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				add_equipment_to_stockpile = {
+					type = gw_armored_car_equipment
+					amount = 50
+					producer = USA
+				}
+			 }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+    gen_buy_foreign_equipment_support_decision = {
+	icon = generic_operation
+          cost = 50
+          fire_only_once = no
+          days_remove = 30
+          available = {
+          }
+          modifier = {
+            consumer_goods_factor = 0.02
+          }
+          complete_effect = {
+            add_equipment_to_stockpile = {
+              type = support_equipment
+              amount = 75
+              producer = ITA
+             }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+	gen_buy_foreign_trains_decision = {
+	icon = generic_construction
+          cost = 50
+          fire_only_once = no
+          days_remove = 30
+          available = {
+          }
+          modifier = {
+			  consumer_goods_factor = 0.02
+          }
+          complete_effect = {
+            add_equipment_to_stockpile = {
+              type = train_equipment_1
+              amount = 15
+             } 
+			add_equipment_to_stockpile = {
+              type = train_equipment_3
+              amount = 5
+             }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+    }
+     
+    gen_recruitment_campaing_decision = {
+	icon = generic_military
+          cost = 50
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 120
+          days_re_enable = 120
+          modifier = {
+            mobilization_speed = 0.15
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+    gen_preform_military_maneuvers_decision = {
+	icon = hol_draw_up_staff_plans
+          cost = 125
+          available = {
+          }
+          days_remove = 30
+          days_re_enable = 1
+          fire_only_once = no
+          modifier = {
+            political_power_cost = 0.10
+            consumer_goods_factor = 0.04
+            war_support_weekly_factor = 0.0025
+            experience_gain_army = 1
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+    gen_give_a_speech_decision = {
+	icon = generic_speech
+          cost = 200
+          available = {
+            has_war = yes
+          }
+          days_remove = 30
+          days_re_enable = 1
+          fire_only_once = no
+          modifier = {
+            army_org_factor = 0.05
+            offence = 0.05
+            defence = 0.05
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+    gen_food_rationing_decision = {
+	icon = ger_mefo_bills
+          cost = 75
+          available = {
+            has_war = yes
+          }
+          days_remove = 210
+          days_re_enable = 1
+          fire_only_once = no
+          modifier = {
+            consumer_goods_factor = -0.1
+            stability_factor = -0.10
+            war_support_factor = -0.10
+
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }         
+}
+
+gen_air_force_focus_category = {
+
+    gen_air_buy_foreign_equipment_fighters_decision = {
+	icon = generic_air
+        cost = 50
+        available = {
+        }
+        days_remove = 30
+        fire_only_once = no
+        modifier = {
+            consumer_goods_factor = 0.02
+        }
+        complete_effect = {
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				add_equipment_to_stockpile = {
+					type = small_plane_airframe_0
+					amount = 50
+					producer = ITA
+					variant_name = "Fiat.12"
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = fighter_equipment_0
+					amount = 50
+					producer = ITA
+				}
+			}
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    gen_air_buy_foreign_equipment_bombers_decision = {
+		icon = generic_air
+        cost = 50
+        available = {
+        }
+        days_remove = 30
+        fire_only_once = no
+        modifier = {
+            consumer_goods_factor = 0.02
+        }
+        complete_effect = {
+            if = {
+				limit = { has_dlc = "By Blood Alone" }
+				add_equipment_to_stockpile = {
+					type = medium_plane_airframe_0
+					amount = 25
+					producer = GER
+					variant_name = "Opel 20"
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tac_bomber_equipment_0
+					amount = 25
+					producer = RUS
+				}
+			}
+        }
+        ai_will_do = {
+			factor = 1
+        }
+    }
+
+      gen_air_womens_in_aviation_decision = {
+	  icon = generic_intelligence_operation
+          cost = 159
+          fire_only_once = yes
+          available = {
+          }
+          #days_remove = -1
+          modifier = {
+          }
+          complete_effect = {
+           set_rule = {
+               can_generate_female_aces = yes
+              }   
+          }
+    ai_will_do = {
+      base = 0
+      modifier = {
+        add = 1
+        has_government = socialism
+      }
+      modifier = {
+        add = 2
+        has_government = communism
+         }
+       }
+     }
+
+    gen_air_preform_air_show_decision = {
+	icon = generic_air
+          visible = {
+            has_war = no
+          }
+          cost = 125
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 30
+          days_re_enable = 30
+          modifier = {
+            consumer_goods_factor = 0.04
+            political_power_cost = 0.10
+            war_support_weekly_factor = 0.0025
+            experience_gain_air = 1
+
+          }
+          complete_effect = {   
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }   
+} 
+
+ gen_master_of_puppet_focus_category = {
+
+    gen_host_national_visit_decision = {
+	icon = generic_speech
+          visible = {
+           FROM = {
+              exists = yes
+               }
+          }
+          target_trigger = {
+              FROM = {
+              is_subject_of = ROOT
+           }
+        }
+          cost = 75
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 150
+          days_re_enable = 150
+          modifier = {
+            political_power_cost = 0.15
+			subjects_autonomy_gain = -0.5
+          }
+          complete_effect = { 
+				
+          }
+      ai_will_do = {
+      base = 0
+      modifier = {
+        add = 1
+        has_government = conservatism
+      }
+      modifier = {
+        add = 2
+        has_government = reactionism
+         } 
+       }
+     }
+
+  gen_stage_protest_decision = {
+  icon = generic_political_rally
+          visible = {
+            is_subject = yes
+          }
+          cost = 75
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 90
+          days_re_enable = 90
+          modifier = {
+			political_power_cost = 0.15
+            autonomy_gain = 1
+          }
+          complete_effect = {  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     } 
+
+}
+
+ gen_naval_power_focus_category = {
+
+      gen_navy_preform_open_sea_parade_decision = {
+	  icon = generic_naval
+          cost = 125
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 30
+          days_re_enable = 30
+          modifier = {
+            consumer_goods_factor = 0.04
+            political_power_cost = 0.10
+            experience_gain_navy = 3
+            war_support_weekly_factor = 0.0025
+          }
+          complete_effect = {  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+	  gen_navy_increase_size_of_our_merchant_fleet_decision = {
+	  icon = generic_naval
+           cost = 50
+           fire_only_once = no
+           available = {
+           }
+           days_remove = 30
+           days_re_enable = 30
+           modifier = {
+			   consumer_goods_factor = 0.02
+           }
+           complete_effect = {  
+				add_equipment_to_stockpile = {
+					type = convoy
+					amount = 25
+				}
+           }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+ }
+ 
+ gen_funding_resarch_complexes_focus_category = {
+
+        gen_two_research_slot_decision = {
+		icon = generic_research
+          visible = {
+              amount_research_slots < 2
+			  is_ai = no
+          }
+          cost = 1
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 2
+            num_of_civilian_factories > 4
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_three_research_slot_decision = {
+	  icon = generic_research
+          visible = {
+              amount_research_slots < 3  
+			  is_ai = no
+          }
+          cost = 25
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 3
+            amount_research_slots > 1
+            num_of_civilian_factories > 10
+            has_stability > 0.3
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_four_research_slot_decision = {
+	  icon = generic_research
+          visible = {
+              amount_research_slots < 4  
+			  is_ai = no
+          }
+          cost = 75
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 4
+            amount_research_slots > 2
+            num_of_civilian_factories > 30
+            has_stability > 0.6
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_five_research_slot_decision = {
+	  icon = generic_research
+          visible = {
+              amount_research_slots < 5 
+			  is_ai = no
+          }
+          cost = 125
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 5
+            amount_research_slots > 3
+            num_of_civilian_factories > 50
+            has_stability > 0.85
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_six_research_slot_decision = {
+	  icon = generic_research
+          visible = {
+              amount_research_slots < 6  
+			  is_ai = no
+          }
+          cost = 250
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 6
+            amount_research_slots > 4
+            num_of_civilian_factories > 100
+            has_stability > 0.99
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+	 
+	 gen_two_research_slot_ai_decision = {
+		icon = generic_research
+          visible = {
+              amount_research_slots < 2
+			  is_ai = yes
+          }
+          cost = 0
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 2
+            num_of_civilian_factories > 4
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_three_research_slot_ai_decision = {
+	  icon = generic_research
+          visible = {
+              amount_research_slots < 3  
+			  is_ai = yes
+          }
+          cost = 0
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 3
+            amount_research_slots > 1
+            num_of_civilian_factories > 10
+            has_stability > 0.3
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_four_research_slot_ai_decision = {
+	  icon = generic_research
+          visible = {
+              amount_research_slots < 4  
+			  is_ai = yes
+          }
+          cost = 0
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 4
+            amount_research_slots > 2
+            num_of_civilian_factories > 30
+            has_stability > 0.6
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_five_research_slot_ai_decision = {
+	  icon = generic_research
+          visible = {
+              amount_research_slots < 5 
+			  is_ai = yes
+          }
+          cost = 0
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 5
+            amount_research_slots > 3
+            num_of_civilian_factories > 50
+            has_stability > 0.85
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_six_research_slot_ai_decision = {
+	  icon = generic_research
+          visible = {
+              amount_research_slots < 6  
+			  is_ai = yes
+          }
+          cost = 0
+          fire_only_once = yes
+          available = {
+            amount_research_slots < 6
+            amount_research_slots > 4
+            num_of_civilian_factories > 100
+            has_stability > 0.99
+          }
+          days_remove = 1
+          modifier = {
+          }
+          complete_effect = { 
+          add_research_slot = 1  
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+ } 
+
+  gen_positive_assumptions_focus_category = {   
+
+        gen_enemy_is_just_too_numerous_decision = {
+		icon = generic_ignite_civil_war
+          visible = {
+            has_war = yes
+          }
+          custom_cost_text = pp_200_stability_5
+		  custom_cost_trigger = {
+			  has_stability > 0.049
+			  has_political_power > 199.99
+		  }
+          fire_only_once = no
+          available = {
+            has_war =  yes
+            enemies_strength_ratio > 1.5
+            NOT = {
+              has_idea = obligatory_army_service_mobilisation
+            }
+          }
+          days_remove = 90
+          modifier = {
+			consumer_goods_factor = 0.1
+          }
+          complete_effect = {
+			add_political_power = -200
+			add_stability = -0.05
+          }
+		  remove_effect = { 
+			add_ideas = obligatory_army_service_mobilisation  
+		  }
+          ai_will_do = {
+            factor = 100
+         }
+     } 
+	 
+	 gen_crisis_of_the_free_market_decision = {
+		icon = generic_ignite_civil_war
+          visible = {
+            has_war = yes
+          }
+          custom_cost_text = pp_200_stability_5
+		  custom_cost_trigger = {
+			  has_stability > 0.049
+			  has_political_power > 199.99
+		  }
+          fire_only_once = no
+          available = {
+            threat > 0.8
+            has_idea = free_market_trade
+          }
+          days_remove = 90
+          modifier = {
+			consumer_goods_factor = 0.1
+          }
+          complete_effect = {
+			add_political_power = -200
+			add_stability = -0.05
+          }
+		  remove_effect = { 
+			add_ideas = export_focus_trade  
+		  }
+          ai_will_do = {
+            factor = 100
+         }
+     } 
+
+}
+
+
+
+  gen_generic_economic_focus_category = {
+
+        gen_hire_foreign_railway_company_economy_decision = {
+		icon = generic_construction
+          cost = 100
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 100
+          modifier = {
+            consumer_goods_factor = 0.02
+          }
+          remove_effect = {
+          random_owned_controlled_state = {
+             add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+			 add_extra_state_shared_building_slots = 1
+          }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+     gen_use_foreign_military_company_economy_decision = {
+	 icon = generic_industry
+          cost = 100
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 100
+          modifier = {
+            consumer_goods_factor = 0.02
+          }
+          complete_effect = {
+             add_offsite_building = { type = arms_factory level = 1 }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+     gen_use_foreign_constructing_company_economy_decision = {
+	 icon = generic_construction
+          cost = 100
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 100
+          modifier = {
+            consumer_goods_factor = 0.02
+          }
+          complete_effect = {
+             add_offsite_building = { type = industrial_complex level = 1 }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+     gen_use_foreign_dockyards_economy_decision = {
+	 icon = generic_naval
+          cost = 100
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 100
+          modifier = {
+            consumer_goods_factor = 0.02
+          }
+          complete_effect = {
+             add_offsite_building = { type = dockyard level = 1 }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+     gen_invest_in_construction_work = {
+	 icon = generic_factory
+          cost = 100
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 60
+          modifier = {
+            consumer_goods_factor = 0.02
+			production_speed_buildings_factor = 0.1
+			industry_repair_factor = 0.35
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+	 gen_overhaul_our_logistics = {
+	 icon = generic_industry
+          cost = 100
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 60
+          modifier = {
+            consumer_goods_factor = 0.02
+			production_speed_rail_way_factor = 0.1 
+			production_speed_infrastructure_factor = 0.1 
+			production_speed_supply_node_factor = 1.5 
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+      gen_pruchase_the_service_foreign_scientist_economy_decision = {
+	  icon = generic_research
+          cost = 200
+          fire_only_once = no
+          available = {
+          }
+          days_remove = 300
+          modifier = {
+            research_speed_factor = 0.05
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }    
+	its_time_to_join_the_allied_academy_of_sciences = {
+	icon = generic_research
+        visible = {
+			is_in_faction_with = USA
+			NOT = {
+				is_in_tech_sharing_group = usa_us_scientific_cooperation_sharing
+			}
+        }
+        fire_only_once = yes
+		cost = 50
+        available = {
+			NOT = {
+				original_tag = USA
+				is_in_tech_sharing_group = usa_us_scientific_cooperation_sharing
+			}
+			USA = {
+				has_completed_focus = focus_usa_global_research_initiative
+				is_faction_leader = yes
+			}
+        } 
+        complete_effect = {
+			add_to_tech_sharing_group = usa_us_scientific_cooperation_sharing
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    russian_scientific_cooperation_group_will_help_us_find_ourselves_in_the_future_decision_rus = {
+	icon = generic_research
+          visible = {
+            RUS = { has_completed_focus = RUS_focus_unite_research_efforts }
+            #ROOT = { is_in_faction_with = GER }
+            ROOT = { NOT = { is_in_tech_sharing_group = rus_russian_scientific_cooperation_sharing } }
+            ROOT = { has_dlc = "Together for Victory" }
+            ROOT = { NOT = { tag = RUS } }
+          }
+          cost = 50
+          fire_only_once = yes
+          available = {
+            RUS = { has_completed_focus = RUS_focus_unite_research_efforts }
+            ROOT = { is_in_faction_with = RUS }
+            ROOT = { NOT = { is_in_tech_sharing_group = rus_russian_scientific_cooperation_sharing } }
+            RUS = { is_faction_leader = yes }
+          } 
+          #days_remove = 1
+          complete_effect = {
+            ROOT = {
+              add_to_tech_sharing_group = rus_russian_scientific_cooperation_sharing
+            }
+          }
+          ai_will_do = {
+            factor = 800
+         }
+     }	
+    its_time_to_join_the_imperial_elite_decision_eng = {
+	icon = generic_research
+          visible = {
+            ENG = { has_completed_focus = ENG_encourage_imperial_elite }
+            ROOT = { is_in_faction_with = ENG }
+            ROOT = { NOT = { is_in_tech_sharing_group = eng_imperial_elite_sharing } }
+            ROOT = { has_dlc = "Together for Victory" }
+            ROOT = { NOT = { tag = ENG } }
+          }
+          cost = 50
+          fire_only_once = yes
+          available = {
+            ENG = { has_completed_focus = ENG_encourage_imperial_elite }
+            ROOT = { is_in_faction_with = ENG }
+            ROOT = { NOT = { is_in_tech_sharing_group = eng_imperial_elite_sharing } }
+            ENG = { is_faction_leader = yes }
+          } 
+          #days_remove = 1
+          complete_effect = {
+            ROOT = {
+              add_to_tech_sharing_group = eng_imperial_elite_sharing
+            }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+  its_time_to_join_the_academie_europeenne_des_sciences_decision_ita = {
+  icon = generic_research
+    visible = {
+      ITA = { has_completed_focus = focus_ita_strengthening_scientific_exchange }
+      ROOT = { NOT = { is_in_tech_sharing_group = ita_italian_scientific_cooperation_sharing } }
+      ROOT = { has_dlc = "Together for Victory" }
+      ROOT = { NOT = { tag = ITA } }
+    }
+    cost = 50
+    fire_only_once = yes
+    available = {
+      ITA = { has_completed_focus = focus_ita_strengthening_scientific_exchange }
+      ROOT = { is_in_faction_with = ITA }
+      ROOT = { NOT = { is_in_tech_sharing_group = ita_italian_scientific_cooperation_sharing } }
+      ITA = { is_faction_leader = yes }
+    } 
+    #days_remove = 1
+    complete_effect = {
+      ROOT = {
+        add_to_tech_sharing_group = ita_italian_scientific_cooperation_sharing
+      }
+    }
+    ai_will_do = {
+      factor = 1
+    }
+  }
+     its_time_to_meet_future_with_reichspakt_technology_sharing_group_decision_eng = {
+	icon = generic_research
+          visible = {
+            GER = { has_completed_focus = ger_focus_scientific_exchange_of_reichpakt_members }
+            ROOT = { is_in_faction_with = GER }
+            ROOT = { NOT = { is_in_tech_sharing_group = ger_joint_reichspakt_into_future_sharing } }
+            ROOT = { has_dlc = "Together for Victory" }
+            ROOT = { NOT = { tag = GER } }
+          }
+          cost = 50
+          fire_only_once = yes
+          available = {
+            GER = { has_completed_focus = ger_focus_scientific_exchange_of_reichpakt_members }
+            ROOT = { is_in_faction_with = GER }
+            ROOT = { NOT = { is_in_tech_sharing_group = ger_joint_reichspakt_into_future_sharing } }
+            GER = { is_faction_leader = yes }
+          } 
+          #days_remove = 1
+          complete_effect = {
+            ROOT = {
+              add_to_tech_sharing_group = ger_joint_reichspakt_into_future_sharing
+            }
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+}
+
+  gen_non_radical_politics_focus_category = {   
+
+        gen_war_propaganda_nonradical_politics_decision = {
+		icon = eng_propaganda_campaigns
+          cost = 100
+          fire_only_once = no
+          available = {
+            threat > 0.4
+            has_war_support < 1
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            war_support_weekly_factor = 0.005
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+     gen_government_lobby_nonradical_politics_decision = {
+	 icon = eng_trade_unions_support
+          cost = 50
+          fire_only_once = no
+          available = {
+            has_stability < 1 
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            political_power_cost = 0.15
+            stability_weekly = 0.0025
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_increase_of_civilian_fundings_nonradical_politics_decision = {
+	  icon = hol_attract_foreign_investors
+          cost = 50
+          fire_only_once = no
+          available = {
+            has_stability < 1 
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            industrial_capacity_factory = -0.1
+			industrial_capacity_dockyard = -0.1
+            stability_weekly = 0.0025
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_improved_workers_conditions_nonradical_politics_decision = {
+	  icon = generic_factory
+          cost = 50
+          fire_only_once = no
+          available = {
+            has_stability < 1 
+            NOT = {
+              has_decision = gen_increase_of_civilian_fundings_nonradical_politics_decision
+              has_decision = gen_government_lobby_nonradical_politics_decision
+            }
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            consumer_goods_factor = 0.04
+            stability_weekly = 0.0025
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+      gen_political_campaign_nonradical_politics_decision_liberalism = {
+	  icon = generic_decision
+          visible = {
+            has_government = liberalism
+          }
+          cost = 50
+          fire_only_once = no
+          available = { 
+          }
+          days_remove = 100
+          days_re_enable = 100
+          modifier = {
+            political_power_cost = 0.10
+            liberalism_drift = 0.03
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_political_campaign_nonradical_politics_decision_socialism = {
+	  icon = generic_decision
+          visible = {
+             has_government = socialism
+          }
+          cost = 50
+          fire_only_once = no
+          available = { 
+          }
+          days_remove = 100
+          days_re_enable = 100
+          modifier = {
+            political_power_cost = 0.10
+            socialism_drift = 0.03
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+       gen_political_campaign_nonradical_politics_decision_integralism = {
+	   icon = generic_decision
+          visible = {
+            has_government = integralism
+          }
+          cost = 50
+          fire_only_once = no
+          available = { 
+          }
+          days_remove = 100
+          days_re_enable = 100
+          modifier = {
+            political_power_cost = 0.10
+            integralism_drift = 0.03
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_political_campaign_nonradical_politics_decision_conservatism = {
+	  icon = generic_decision
+          visible = {
+            has_government = conservatism
+          }
+          cost = 50
+          fire_only_once = no
+          available = { 
+          }
+          days_remove = 100
+          days_re_enable = 100
+          modifier = {
+            political_power_cost = 0.10
+            conservatism_drift = 0.03
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+        gen_political_campaign_nonradical_politics_decision_communism = {
+		icon = generic_decision
+          visible = {
+            has_government = communism
+          }
+          cost = 50
+          fire_only_once = no
+          available = { 
+          }
+          days_remove = 100
+          days_re_enable = 100
+          modifier = {
+            political_power_cost = 0.10
+            communism_drift = 0.03
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+       gen_political_campaign_nonradical_politics_decision_reactionism = {
+	   icon = generic_decision
+          visible = {
+            has_government = reactionism
+          }
+          cost = 50
+          fire_only_once = no
+          available = { 
+		     reactionism < 1
+          }
+          days_remove = 100
+          days_re_enable = 100
+          modifier = {
+            political_power_cost = 0.10
+            reactionism_drift = 0.03
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+     gen_institute_press_censorship_nonradical_politics_decision_liberalism = {
+	 icon = generic_break_treaty
+          visible = {
+            has_government = liberalism
+          }
+          cost = 150
+          fire_only_once = no
+          available = { 
+            has_war = yes
+			liberalism < 1
+          }
+          days_remove = 360
+          days_re_enable = 360
+          modifier = {
+            liberalism_drift = 0.03
+            communism_drift = -0.01
+            reactionism_drift = -0.01
+            conservatism_drift = -0.01
+            socialism_drift = -0.01
+            integralism_drift = -0.01
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_institute_press_censorship_nonradical_politics_decision_socialism = {
+	  icon = generic_break_treaty
+          visible = {
+            has_government = socialism
+          }
+          cost = 150
+          fire_only_once = no
+          available = { 
+            has_war = yes
+			socialism < 1
+          }
+          days_remove = 360
+          days_re_enable = 360
+          modifier = {
+            liberalism_drift = -0.01
+            communism_drift = -0.01
+            reactionism_drift = -0.01
+            conservatism_drift = -0.01
+            socialism_drift = 0.03
+            integralism_drift = -0.01
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+       gen_institute_press_censorship_nonradical_politics_decision_reactionism = {
+	   icon = generic_break_treaty
+          visible = {
+            has_government = reactionism
+          }
+          cost = 150
+          fire_only_once = no
+          available = { 
+            has_war = yes
+			reactionism < 1
+          }
+          days_remove = 360
+          days_re_enable = 360
+          modifier = {
+            liberalism_drift = -0.01
+            communism_drift = -0.01
+            reactionism_drift = 0.03
+            conservatism_drift = -0.01
+            socialism_drift = -0.01
+            integralism_drift = -0.01
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_institute_press_censorship_nonradical_politics_decision_communism = {
+	  icon = generic_break_treaty
+          visible = {
+            has_government = communism
+          }
+          cost = 150
+          fire_only_once = no
+          available = { 
+            has_war = yes
+			communism < 1
+          }
+          days_remove = 360
+          days_re_enable = 360
+          modifier = {
+            liberalism_drift = -0.01
+            communism_drift = 0.03
+            reactionism_drift = -0.01
+            conservatism_drift = -0.01
+            socialism_drift = -0.01
+            integralism_drift = -0.01
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_institute_press_censorship_nonradical_politics_decision_conservatism = {
+	  icon = generic_break_treaty
+          visible = {
+            has_government = conservatism
+          }
+          cost = 150
+          fire_only_once = no
+          available = { 
+            has_war = yes
+			conservatism < 1
+          }
+          days_remove = 360
+          days_re_enable = 360
+          modifier = {
+            liberalism_drift = -0.01
+            communism_drift = -0.01
+            reactionism_drift = -0.01
+            conservatism_drift = 0.03
+            socialism_drift = -0.01
+            integralism_drift = -0.01
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_institute_press_censorship_nonradical_politics_decision_integralism = {
+	  icon = generic_break_treaty
+          visible = {
+            has_government = integralism
+          }
+          cost = 150
+          fire_only_once = no
+          available = { 
+            has_war = yes
+			integralism < 1
+          }
+          days_remove = 360
+          days_re_enable = 360
+          modifier = {
+            liberalism_drift = -0.01
+            communism_drift = -0.01
+            reactionism_drift = -0.01
+            conservatism_drift = -0.01
+            socialism_drift = -0.01
+            integralism_drift = 0.03
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_war_bonds_nonradical_politics_decision = {
+	  icon = ger_mefo_bills
+          cost = 200
+          fire_only_once = no
+          available = { 
+            has_stability > 0.5
+            has_war_support > 0.6
+            has_war = yes
+          }
+          days_remove = 120
+          days_re_enable = 120
+          modifier = {
+            consumer_goods_factor = -0.1
+          }
+          complete_effect = {
+			add_stability = -0.03
+			add_war_support = -0.03
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }   
+
+}
+
+gen_integralist_politics_focus_category = {
+
+    gen_encourage_student_movements_integralist_politics_decision = {
+	icon = generic_political_rally
+          cost = 150
+          fire_only_once = no
+          available = {
+            has_war_support < 1
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            war_support_weekly_factor = 0.005
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_personality_cult_integralist_politics_decision = {
+	  icon = generic_nationalism
+          cost = 50
+          fire_only_once = no
+          available = {
+            has_stability < 1
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            stability_weekly = 0.0025
+            political_power_cost = 0.15
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_increase_of_civilian_fundings_integralist_politics_decision = {
+	  icon = generic_decision
+          cost = 50
+          fire_only_once = no
+          available = {
+            has_stability < 1 
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            industrial_capacity_factory = -0.1
+			industrial_capacity_dockyard = -0.1
+            stability_weekly = 0.0025
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_improved_workers_conditions_integralist_politics_decision = {
+	  icon = generic_factory
+          cost = 50
+          fire_only_once = no
+          available = {
+            has_stability < 1 
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            consumer_goods_factor = 0.04
+            stability_weekly = 0.0025
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+        gen_encourage_nationalism_integralist_politics_decision = {
+		icon = generic_nationalism
+          cost = 100
+          fire_only_once = no
+          available = { 
+            has_stability > 0.5
+          }
+          days_remove = 120
+          days_re_enable = 120
+          modifier = {
+           mobilization_speed = 0.1
+		   conscription_factor = 0.1
+           training_time_army_factor = -0.05
+          }
+          complete_effect = {
+            add_stability = -0.04
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_work_for_the_state_integralist_politics_decision = {
+	  icon = generic_civil_support
+          cost = 100
+          fire_only_once = no
+          available = { 
+            has_war_support > 0.5
+          }
+          days_remove = 120
+          days_re_enable = 120
+          modifier = {
+		  production_factory_efficiency_gain_factor = 0.05
+           research_speed_factor = 0.02
+		   
+          }
+          complete_effect = {
+            add_war_support = -0.04
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_arrest_opposition_integralist_politics_decision = {
+	  icon = generic_arrest
+          cost = 50
+          fire_only_once = no
+          available = { 
+              integralism < 1
+          }
+          days_remove = 100
+          days_re_enable = 100
+          modifier = {
+			political_power_cost = 0.15
+			integralism_drift = 0.03
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+}
+
+gen_communist_politics_focus_category = {
+
+    gen_threat_propaganda_communist_politics_decision = {
+	icon = generic_assasination
+          visible = {
+            has_completed_focus = communism_0 
+          }
+          cost = 150
+          fire_only_once = no
+          available = {
+            has_war_support < 1
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            war_support_weekly_factor = 0.005
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_personality_cult_communist_politics_decision = {
+	  icon = generic_nationalism
+          visible = {
+            has_completed_focus = communism_0 
+          }
+          cost = 50
+          fire_only_once = no
+          available = {
+            has_stability < 1
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            stability_weekly_factor = 0.0025
+            political_power_cost = 0.15
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_increase_of_civilian_fundings_communist_politics_decision = {
+	  icon = generic_civil_support
+          visible = {
+            has_completed_focus = communism_0
+          }
+          cost = 50
+          fire_only_once = no
+          available = {
+            has_stability < 1 
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            industrial_capacity_factory = -0.1
+			industrial_capacity_dockyard = -0.1
+            stability_weekly_factor = 0.0025
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_improved_workers_conditions_communist_politics_decision = {
+	  icon = generic_factory
+          visible = {
+            has_completed_focus = communism_0
+          }
+          cost = 50
+          fire_only_once = no
+          available = {
+            has_stability < 1 
+          }
+          days_remove = 70
+          days_re_enable = 70
+          modifier = {
+            consumer_goods_factor = 0.04
+            stability_weekly_factor = 0.0025
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+        gen_peoples_army_support_communism_politics_decision = {
+		icon = generic_military
+          visible = {
+            has_completed_focus = communism_0
+          }
+          cost = 100
+          fire_only_once = no
+          available = { 
+            has_stability > 0.5
+          }
+          days_remove = 120
+          days_re_enable = 120
+          modifier = {
+           conscription_factor = 0.1
+		   mobilization_speed = 0.1
+           training_time_army_factor = -0.05
+          }
+          complete_effect = {
+            add_stability = -0.04
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_support_lower_classes_communist_politics_decision = {
+	  icon = generic_civil_support
+          visible = {
+            has_completed_focus = communism_0
+          }
+          cost = 100
+          fire_only_once = no
+          available = { 
+            has_war_support > 0.5
+          }
+          days_remove = 120
+          days_re_enable = 120
+          modifier = {
+           research_speed_factor = 0.02
+		   production_factory_efficiency_gain_factor = 0.05
+          }
+          complete_effect = {
+            add_war_support = -0.04
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+
+      gen_arrest_opposition_communism_politics_decision = {
+	  icon = generic_arrest
+          visible = {
+            has_completed_focus = communism_0
+          }
+          cost = 50
+          fire_only_once = no
+          available = { 
+              communism < 1
+          }
+          days_remove = 100
+          days_re_enable = 100
+          modifier = {
+			communism_drift = 0.03
+			political_power_cost = 0.15
+          }
+          complete_effect = {
+          }
+          ai_will_do = {
+            factor = 1
+         }
+     }
+}
+
+gen_exhibition_of_global_alliances_category = {
+
+  gen_the_superiority_of_the_commonwealth_decision = {
+  icon = eng_friends_of_commonwealth
+    custom_cost_text = command_power_25
+    custom_cost_trigger = {
+      command_power > 24.9
+    }
+    ai_will_do = {
+      base = 50
+
+      modifier = {
+        has_opinion = {
+          target = ENG
+          value > 49
+        }
+        factor = 10
+      }
+
+      modifier = {
+        has_opinion = {
+          target = ENG
+          value > 99
+        }
+        factor = 2
+      }
+
+      modifier = {
+        ENG = { 
+          has_government = ROOT
+        }
+        add = 50
+      }
+    }
+    available = {
+      ENG = { is_faction_leader = yes }
+      ENG = { surrender_progress < 0.1 }
+    }
+    complete_effect = {
+      hidden_effect = {
+        add_command_power = -25
+      }
+      ENG = {
+        country_event = {
+          id = eoga.1
+        }
+      }
+    }
+
+    days_re_enable = 30
+    fire_only_once = no
+  }
+
+  gen_reichspakt_quality_and_professionalism_decision = {
+  icon = friends_of_reichspakt
+    custom_cost_text = command_power_25
+    custom_cost_trigger = {
+      command_power > 24.9
+    }
+    ai_will_do = {
+      base = 50
+
+      modifier = {
+        has_opinion = {
+          target = GER
+          value > 49
+        }
+        factor = 10
+      }
+
+      modifier = {
+        has_opinion = {
+          target = GER
+          value > 99
+        }
+        factor = 2
+      }
+
+      modifier = {
+        GER = { 
+          has_government = ROOT
+        }
+        add = 50
+      }
+    }
+    available = {
+      GER = { is_faction_leader = yes }
+      GER = { surrender_progress < 0.1 }
+    }
+    complete_effect = {
+      hidden_effect = {
+        add_command_power = -25
+      }
+      GER = {
+        country_event = {
+          id = eoga.4
+        }
+      }
+    }
+
+    days_re_enable = 30
+    fire_only_once = no
+  }
+
+  gen_strength_and_power_of_the_soyuzniks_decision = {
+    icon = friends_of_russia
+    custom_cost_text = command_power_25
+    custom_cost_trigger = {
+      command_power > 24.9
+    }
+    ai_will_do = {
+      base = 50
+
+      modifier = {
+        has_opinion = {
+          target = RUS
+          value > 49
+        }
+        factor = 10
+      }
+
+      modifier = {
+        has_opinion = {
+          target = RUS
+          value > 99
+        }
+        factor = 2
+      }
+
+      modifier = {
+        RUS = { 
+          has_government = ROOT
+        }
+        add = 50
+      }
+    }
+    available = {
+      RUS = { is_faction_leader = yes }
+      RUS = { surrender_progress < 0.1 }
+    }
+    complete_effect = {
+      hidden_effect = {
+        add_command_power = -25
+      }
+      RUS = {
+        country_event = {
+          id = eoga.7
+        }
+      }
+    }
+
+    days_re_enable = 30
+    fire_only_once = no
+  }
+
+  gen_tomorrow_belongs_to_the_tripartite_italy_decision = {
+    icon = tripartide
+    custom_cost_text = command_power_25
+    custom_cost_trigger = {
+      command_power > 24.9
+    }
+    ai_will_do = {
+      base = 50
+
+      modifier = {
+        has_opinion = {
+          target = ITA
+          value > 49
+        }
+        factor = 10
+      }
+
+      modifier = {
+        has_opinion = {
+          target = ITA
+          value > 99
+        }
+        factor = 2
+      }
+
+      modifier = {
+        ITA = { 
+          has_government = ROOT
+        }
+        add = 50
+      }
+    }
+    visible = {
+      ITA = { is_faction_leader = yes }
+      ITA = { is_in_faction_with = FRA }
+      ITA = { is_in_faction_with = AUS }
+    }
+    available = {
+      ITA = { is_faction_leader = yes }
+      hidden_trigger = {
+        ITA = { is_in_faction_with = FRA }
+        ITA = { is_in_faction_with = AUS }
+      }
+      ITA = { surrender_progress < 0.1 }
+    }
+    complete_effect = {
+      hidden_effect = {
+        add_command_power = -25
+      }
+      ITA = {
+        country_event = {
+          id = eoga.10
+        }
+      }
+    }
+
+    days_re_enable = 30
+    fire_only_once = no
+  }
+
+  gen_tomorrow_belongs_to_the_tripartite_france_decision = {
+    icon = tripartide
+    custom_cost_text = command_power_25
+    custom_cost_trigger = {
+      command_power > 24.9
+    }
+    ai_will_do = {
+      base = 50
+
+      modifier = {
+        has_opinion = {
+          target = FRA
+          value > 49
+        }
+        factor = 10
+      }
+
+      modifier = {
+        has_opinion = {
+          target = FRA
+          value > 99
+        }
+        factor = 2
+      }
+
+      modifier = {
+        FRA = { 
+          has_government = ROOT
+        }
+        add = 50
+      }
+    }
+    visible = {
+      FRA = { is_faction_leader = yes }
+      FRA = { is_in_faction_with = ITA }
+      FRA = { is_in_faction_with = AUS }
+    }
+    available = {
+      FRA = { is_faction_leader = yes }
+      hidden_trigger = {
+        FRA = { is_in_faction_with = ITA }
+        FRA = { is_in_faction_with = AUS }
+      }
+      FRA = { surrender_progress < 0.1 }
+    }
+    complete_effect = {
+      hidden_effect = {
+        add_command_power = -25
+      }
+      FRA = {
+        country_event = {
+          id = eoga.10
+        }
+      }
+    }
+
+    days_re_enable = 30
+    fire_only_once = no
+  }
+
+  gen_tomorrow_belongs_to_the_tripartite_austria_decision = {
+    icon = tripartide
+    custom_cost_text = command_power_25
+    custom_cost_trigger = {
+      command_power > 24.9
+    }
+    ai_will_do = {
+      base = 50
+
+      modifier = {
+        has_opinion = {
+          target = AUS
+          value > 49
+        }
+        factor = 10
+      }
+
+      modifier = {
+        has_opinion = {
+          target = AUS
+          value > 99
+        }
+        factor = 2
+      }
+
+      modifier = {
+        AUS = { 
+          has_government = ROOT
+        }
+        add = 50
+      }
+    }
+    visible = {
+      AUS = { is_faction_leader = yes }
+      AUS = { is_in_faction_with = ITA }
+      AUS = { is_in_faction_with = FRA }
+    }
+    available = {
+      AUS = { is_faction_leader = yes }
+      hidden_trigger = {
+        AUS = { is_in_faction_with = ITA }
+        AUS = { is_in_faction_with = FRA }
+      }
+      AUS = { surrender_progress < 0.1 }
+    }
+    complete_effect = {
+      hidden_effect = {
+        add_command_power = -25
+      }
+      AUS = {
+        country_event = {
+          id = eoga.10
+        }
+      }
+    }
+
+    days_re_enable = 30
+    fire_only_once = no
+  }
+
+  gen_what_if_the_league_of_nations_intervenes_decision = {
+    icon = friends_of_leagueofnations
+    custom_cost_text = command_power_25
+    custom_cost_trigger = {
+      command_power > 24.9
+    }
+    ai_will_do = {
+      base = 50
+
+      modifier = {
+        has_opinion = {
+          target = USA
+          value > 49
+        }
+        factor = 10
+      }
+
+      modifier = {
+        has_opinion = {
+          target = USA
+          value > 99
+        }
+        factor = 2
+      }
+
+      modifier = {
+        USA = { 
+          has_government = ROOT
+        }
+        add = 50
+      }
+    }
+    available = {
+      USA = { is_faction_leader = yes }
+      USA = { surrender_progress < 0.1 }
+    }
+    complete_effect = {
+      hidden_effect = {
+        add_command_power = -25
+      }
+      USA = {
+        country_event = {
+          id = eoga.13
+        }
+      }
+    }
+
+    days_re_enable = 30
+    fire_only_once = no
+  }
+}
+
+gen_operation_unthinkable = {
+
+	gen_reach_out_to_the_commonwealth_of_nations = {
+		ai_will_do = {
+			base = 999
+		}
+		custom_cost_text = command_power_25_stability_10_war_support_10
+		custom_cost_trigger = {
+			has_stability > 0.099
+			has_war_support > 0.099
+			command_power > 24.9
+		}
+		available = {
+			is_faction_leader = yes
+			NOT = {
+				original_tag = ENG
+			}
+			NOT = {
+				is_ally_with = ENG
+			}
+			has_war = yes
+			ENG = {
+				has_war = yes
+			}
+			threat > 0.8
+			ENG = {
+				NOT = {
+					is_ally_with = USA
+					is_ally_with = RUS
+					is_ally_with = GER
+					is_ally_with = ITA
+				}
+			}
+			ENG = {
+				is_faction_leader = yes
+			}
+			has_stability > 0.6
+			has_war_support > 0.6
+			NOT = {
+				has_war_with = ENG
+			}
+		}
+		complete_effect = {
+			ENG = {
+				country_event = global_alliance.1
+			}
+			hidden_effect = {
+				add_stability = -0.1
+				add_war_support = -0.1
+				add_political_power = -500
+				add_command_power = -25
+			}
+		}
+		fire_only_once = yes
+	}
+	
+	gen_reach_out_to_the_reichspakt = {
+		ai_will_do = {
+			base = 999
+		}
+		custom_cost_text = command_power_25_stability_10_war_support_10
+		custom_cost_trigger = {
+			has_stability > 0.099
+			has_war_support > 0.099
+			command_power > 24.9
+		}
+		available = {
+			is_faction_leader = yes
+			NOT = {
+				original_tag = GER
+			}
+			NOT = {
+				is_ally_with = GER
+			}
+			has_war = yes
+			GER = {
+				has_war = yes
+			}
+			threat > 0.8
+			GER = {
+				NOT = {
+					is_ally_with = USA
+					is_ally_with = RUS
+					is_ally_with = ENG
+					is_ally_with = FRA
+				}
+			}
+			GER = {
+				is_faction_leader = yes
+			}
+			has_stability > 0.6
+			has_war_support > 0.6
+			NOT = {
+				has_war_with = GER
+			}
+		}
+		complete_effect = {
+			GER = {
+				country_event = global_alliance.1
+			}
+			hidden_effect = {
+				add_stability = -0.1
+				add_war_support = -0.1
+				add_political_power = -500
+			}
+		}
+		fire_only_once = yes
+	}
+	
+	gen_reach_out_to_the_soyuzniki = {
+		ai_will_do = {
+			base = 999
+		}
+		custom_cost_text = command_power_25_stability_10_war_support_10
+		custom_cost_trigger = {
+			has_stability > 0.099
+			has_war_support > 0.099
+			command_power > 24.9
+		}
+		available = {
+			is_faction_leader = yes
+			NOT = {
+				original_tag = RUS
+			}
+			NOT = {
+				is_ally_with = RUS
+			}
+			has_war = yes
+			RUS = {
+				has_war = yes
+			}
+			threat > 0.8
+			RUS = {
+				NOT = {
+					is_ally_with = USA
+					is_ally_with = ENG
+					is_ally_with = GER
+					is_ally_with = ITA
+				}
+			}
+			RUS = {
+				is_faction_leader = yes
+			}
+			has_stability > 0.6
+			has_war_support > 0.6
+			NOT = {
+				has_war_with = RUS
+			}
+		}
+		complete_effect = {
+			RUS = {
+				country_event = global_alliance.1
+			}
+			hidden_effect = {
+				add_stability = -0.1
+				add_war_support = -0.1
+				add_political_power = -500
+			}
+		}
+		fire_only_once = yes
+	}
+	
+	gen_reach_out_to_the_league_of_nations = {
+		ai_will_do = {
+			base = 999
+		}
+		custom_cost_text = command_power_25_stability_10_war_support_10
+		custom_cost_trigger = {
+			has_stability > 0.099
+			has_war_support > 0.099
+			command_power > 24.9
+		}
+		available = {
+			is_faction_leader = yes
+			NOT = {
+				original_tag = USA
+			}
+			NOT = {
+				is_ally_with = USA
+			}
+			has_war = yes
+			USA = {
+				has_war = yes
+			}
+			threat > 0.8
+			USA = {
+				NOT = {
+					is_ally_with = ENG
+					is_ally_with = RUS
+					is_ally_with = GER
+					is_ally_with = ITA
+				}
+			}
+			USA = {
+				is_faction_leader = yes
+			}
+			has_stability > 0.6
+			has_war_support > 0.6
+			NOT = {
+				has_war_with = USA
+			}
+		}
+		complete_effect = {
+			USA = {
+				country_event = global_alliance.1
+			}
+			hidden_effect = {
+				add_stability = -0.1
+				add_war_support = -0.1
+				add_political_power = -500
+			}
+		}
+		fire_only_once = yes
+	}
+	
+	gen_reach_out_to_the_tripartie = {
+		ai_will_do = {
+			base = 999
+		}
+		custom_cost_text = command_power_25_stability_10_war_support_10
+		custom_cost_trigger = {
+			has_stability > 0.099
+			has_war_support > 0.099
+			command_power > 24.9
+		}
+		available = {
+			is_faction_leader = yes
+			NOT = {
+				original_tag = ITA
+			}
+			NOT = {
+				is_ally_with = ITA
+			}
+			has_war = yes
+			ITA = {
+				has_war = yes
+			}
+			threat > 0.8
+			ITA = {
+				NOT = {
+					is_ally_with = USA
+					is_ally_with = RUS
+					is_ally_with = GER
+					is_ally_with = ENG
+				}
+			}
+			ITA = {
+				is_faction_leader = yes
+			}
+			has_stability > 0.6
+			has_war_support > 0.6
+			NOT = {
+				has_war_with = ITA
+			}
+		}
+		complete_effect = {
+			ITA = {
+				country_event = global_alliance.1
+			}
+			hidden_effect = {
+				add_stability = -0.1
+				add_war_support = -0.1
+				add_political_power = -500
+			}
+		}
+		fire_only_once = yes
+	}
+}

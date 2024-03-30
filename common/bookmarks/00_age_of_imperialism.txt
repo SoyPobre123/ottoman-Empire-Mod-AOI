@@ -1,0 +1,474 @@
+bookmarks = {
+	bookmark = {
+		name = "AGE_OF_IMPERIALISM_NAME"
+		desc = "AGE_OF_IMPERIALISM_DESC"
+		date = 1931.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+
+		"USA"={
+			history = "USA_AGE_OF_IMPERIALISM_DESC"
+			ideology = liberalism
+			ideas = {
+			    USA_home_of_the_free
+			    USA_jazz_age
+			    USA_a_wave_of_crime 
+			}
+			focuses = {
+				focus_usa_the_new_manifesto_of_destiny
+				focus_usa_manhattan_project
+				focus_usa_expansion_of_fbi_powers
+			}	
+		}
+
+		"FRA"={
+			history = "FRA_AGE_OF_IMPERIALISM_DESC"
+			ideology = socialism
+			ideas = {
+				FRA_grande_humilation
+				FRA_the_losers_of_total_war
+				FRA_numerous_political_unrest
+			}
+			focuses = {
+				focus_fra_thus_spoke_petain
+				focus_fra_time_for_another_industrial_revolution
+				focus_fra_three_times_a_charm
+			}	
+		}
+
+		"GER"={
+			history = "GER_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+                GER_the_concept_of_mitteleuropa
+                GER_ruhrgebiet
+                GER_kaiserliche_marine
+			}
+			focuses = {
+				ger_focus_long_awaited_army_reform
+				ger_focus_back_to_weltpolitik
+				ger_focus_extremely_well_equipped_war_fleet
+			}
+		}
+		"ENG"={
+			history = "ENG_AGE_OF_IMPERIALISM_DESC"
+			ideology = liberalism
+			ideas = {
+			    ENG_britania_rules_the_waves
+                ENG_an_empire_over_which_the_sun_does_not_set
+                ENG_bank_of_england
+			}
+			focuses = {
+				ENG_pax_britannica
+				ENG_darkest_hour
+				ENG_resolution_of_the_irish_question
+			}
+		}
+		"RUS"={
+			history = "RUS_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				RUS_idea_legacy_of_1905
+				RUS_idea_we_are_number_one
+				RUS_idea_prohibition
+			}
+			focuses = {
+				RUS_focus_colossus_on_clay_legs
+				RUS_focus_let_there_always_be_sun
+				RUS_focus_new_imperialist_policy
+			}	
+		}
+
+		"ITA"={
+			history = "ITA_AGE_OF_IMPERIALISM_DESC"
+			ideology = liberalism
+			ideas = {
+			    ITA_avanti_italia
+                ITA_regia_marine
+                ITA_mafia
+			}
+			focuses = {
+				focus_ita_italian_colonial_empire
+				focus_ita_king_is_dead_long_live_the_king
+				focus_ita_mediterranean_ambitions
+			}	
+		}
+
+		"AUS"={
+			history = "AUS_AGE_OF_IMPERIALISM_DESC"
+			ideology = socialism
+			ideas = {
+			     AUS_idea_the_will_to_revenge
+			     AUS_idea_sick_man_of_europe
+			     AUS_idea_extensive_influence_of_heimwehr
+			}
+			focuses = {
+				focus_aus_on_the_beautiful_blue_danube
+				fous_aus_lessons_from_the_past
+				focus_aus_beggining_of_the_danubian_federation
+			}	
+		}
+
+		"JAP"={
+			history = "JAP_AGE_OF_IMPERIALISM_DESC"
+			ideology = liberalism
+			ideas = {
+			    JAP_split_in_army
+                JAP_zaibatsu
+                JAP_the_shadow_of_the_taisho_era
+			}
+			focuses = {
+				focus_jap_cutting_off_the_rosperity_coupons
+				focus_jap_story_of_two_empires
+				focus_jap_our_greatest_ally
+			}	
+		}
+
+		#"---"={
+		#	history = "OTHER_AGE_OF_IMPERIALISM_DESC"
+		#	minor = yes
+		#}
+
+		"SPR"={
+			minor = yes
+			history = "SPR_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+		    	SPR_split_within_the_army_idea
+		    	SPR_upcoming_referendum_idea
+		    	SPR_violence_in_the_streets_idea
+			}
+			focuses = {
+				SPR_new_colonial_ambition
+				SPR_spanish_economic_miracle
+				SPR_willingness_to_regain_honor
+			}
+		}
+		#"ECH"={
+		#	minor = yes
+		#	history = "ECH_AGE_OF_IMPERIALISM_DESC"
+		#	ideology = reactionism
+		#	ideas = {
+		#    #
+		#	}
+		#	focuses = {
+		#	}
+		#}
+		#"MAN"={
+		#	minor = yes
+		#	history = "MAN_AGE_OF_IMPERIALISM_DESC"
+		#	ideology = integralism
+		#	ideas = {
+		#    #
+		#	}
+		#	focuses = {
+		#	}
+		#}
+		#"CHI"={
+		#	minor = yes
+		#	history = "CHI_AGE_OF_IMPERIALISM_DESC"
+		#	ideology = reactionism
+		#	ideas = {
+		#    #
+		#	}
+		#	focuses = {
+		#	}
+		#}
+		#"PRC"={
+		#	minor = yes
+		#	history = "PRC_AGE_OF_IMPERIALISM_DESC"
+		#	ideology = communism
+		#	ideas = {
+		#    #
+		#	}
+		#	focuses = {
+		#	}
+		#}
+        "YUG"={
+			minor = yes
+			history = "YUG_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+		    YUG_idea_the_unpopular_autocracy_of_king_alexander
+		    YUG_idea_endless_misunderstandings_within_the_army
+		    YUG_idea_never_fading_flame_of_the_balkans
+			}
+			focuses = {
+				yug_focus_hard_begginning
+				yug_focus_strengthen_friendship_with_russia
+				yug_focus_the_balkans_belong_to_us
+			}
+		}
+		"MEX"={
+			minor = yes
+			history = "MEX_AGE_OF_IMPERIALISM_DESC"
+			ideology = socialism
+			ideas = {
+				MEX_idea_dark_crusade
+				MEX_idea_great_support_from_investors
+				MCR_idea_the_aftermath_of_decades_of_unrest
+			}
+			focuses = {
+				focus_mex_end_of_maximato
+				focus_mex_united_states_of_hispanic_america
+				focus_mex_arms_trade_ambitions
+			}
+		}
+		"MCR"={
+			minor = yes
+			history = "MCR_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				MCR_idea_an_alliance_beyond_divisions
+				MCR_idea_the_aftermath_of_decades_of_unrest
+			}
+			focuses = {
+				MCR_focus_viva_cristo_rey
+				MCR_focus_new_world_empire
+				MCR_focus_national_defense_preparations
+			}
+		}
+		"POL"={
+			minor = yes
+			history = "POL_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+		    POL_idea_the_issue_of_national_minorities
+		    POL_idea_western_flank_of_the_soyuzniks
+		    POL_idea_dmowszczyzna
+			}
+			focuses = {
+				POL_establishment_of_the_intermarium_federation
+				POL_operation_vistula
+				POL_polish_maritime_and_colonial_league
+			}
+		}
+		
+		"ECH"={
+			minor = yes
+			history = "ECH_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				ECH_empire_of_impostors
+				ECH_the_cliques_economy
+			}
+			focuses = {
+				focus_ech_there_is_no_peace_for_china
+				focus_ech_the_mandate_heaven_is_ours
+				focus_ech_china_stands_in_the_universe
+			}
+		}
+		
+		"MAN"={
+			minor = yes
+			history = "MAN_AGE_OF_IMPERIALISM_DESC"
+			ideology = integralism
+			ideas = {
+				MAN_the_lost_mandate_of_heaven
+				MAN_the_qing_revolution
+			}
+			focuses = {
+				focus_man_there_is_no_peace_for_china
+				focus_man_mandate_of_heaven_reclaimed
+				focus_man_diplomatic_future_of_the_qing
+			}
+		}
+		
+		"CHI"={
+			minor = yes
+			history = "CHI_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				CHI_republic_of_woes_and_ambitions
+				CHI_the_wave_of_investments
+			}
+			focuses = {
+				focus_chi_there_is_no_peace_for_china
+				focus_chi_three_principles_of_the_people
+				focus_chi_china_is_back
+			}
+		}
+		
+		"POR"={
+			minor = yes
+			history = "POR_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				POR_idea_political_chaos
+				POR_idea_a_limping_economy
+				POR_idea_the_land_of_tungsten
+			}
+			focuses = {
+				focus_por_pax_lusitania
+				focus_por_the_spanish_are_weak
+				focus_por_true_cult_of_the_offensive
+			}
+		}
+		
+		"CAN"={
+			minor = yes
+			history = "CAN_AGE_OF_IMPERIALISM_DESC"
+			ideology = conservatism
+			ideas = {
+				CAN_idea_part_of_the_british_empire_commonwealth
+				CAN_price_of_progress
+				CAN_vive_la_canadienne
+			}
+			focuses = {
+				CAN_focus_build_a_wall
+				CAN_focus_expand_westminster_statue
+				CAN_focus_operation_unthinkable
+			}
+		}
+		
+		"SAF"={
+			minor = yes
+			history = "SAF_AGE_OF_IMPERIALISM_DESC"
+			ideology = liberalism
+			ideas = {
+				SAF_idea_part_of_the_british_empire_commonwealth
+				SAF_idea_price_of_progress
+				SAF_idea_gold_and_diamond_mines
+			}
+			focuses = {
+				focus_saf_get_rid_of_the_competition
+				focus_saf_embrace_westminster_statue
+				focus_saf_our_place_under_the_sun
+			}
+		}
+		
+		"AST"={
+			minor = yes
+			history = "AST_AGE_OF_IMPERIALISM_DESC"
+			ideology = socialism
+			ideas = {
+				AST_idea_white_australasia_policy
+				AST_idea_anzac_mateship
+				AST_idea_underfunded_military
+			}
+			focuses = {
+				AST_focus_fight_work_or_perish
+				AST_focus_ratify_the_statute_of_westminster
+				AST_focus_swpa_protector
+			}
+		}
+		
+		"RAJ"= {
+			minor = yes
+			history = "RAJ_AGE_OF_IMPERIALISM_DESC"
+			ideology = liberalism
+			ideas = {
+				RAJ_idea_legacy_of_kitchener_reforms
+				RAJ_idea_angered_muslim_league 
+				RAJ_idea_purna_swaraj
+			}
+			focuses = {
+				focus_raj_round_table_conferences
+				focus_raj_proclaim_indian_superpower
+				focus_raj_expand_electronic_industry
+			}
+		}
+		
+		"GCO"= {
+			minor = yes
+			history = "GCO_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				GCO_idea_german_far_east_company
+				GCO_idea_german_far_eastern_fleet
+				GCO_idea_nationalist_guerillas
+			}
+			focuses = {
+				GCO_focus_welcome_to_the_rice_fields
+				GCO_focus_announce_pan_asian_ambitions
+				GCO_focus_strike_the_final_blow
+			}
+		}
+		
+		"AFG"= {
+			minor = yes
+			history = "AFG_AGE_OF_IMPERIALISM_DESC"
+			ideology = conservatism
+			ideas = {
+				AFG_idea_the_expendables
+				AFG_idea_reforms_of_king_amanullah_khan
+				AFG_idea_the_afghan_plot
+			}
+			focuses = {
+				AFG_focus_economic_center_of_muslim_world
+				AFG_focus_our_place_under_the_sun
+				AFG_focus_greater_republic_of_pakistan
+			}
+		}
+		
+		"NEP"= {
+			minor = yes
+			history = "NEP_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				NEP_idea_rana_regime
+				NEP_idea_good_deals
+				NEP_idea_bravest_of_the_brave
+			}
+			focuses = {
+				NEP_focus_the_nepal_shall_prosper
+				NEP_focus_streamline_the_opium_trade
+				NEP_focus_the_ranas_stand_tall
+			}
+		}
+		
+		"TIB"= {
+			minor = yes
+			history = "TIB_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				TIB_idea_land_of_monasteries
+				TIB_idea_a_decade_of_prosperity
+				TIB_idea_a_noblemans_job
+			}
+			focuses = {
+				TIB_focus_support_from_monasteries
+				TIB_focus_mobilise_the_nation
+				TIB_focus_the_year_1931_enters_tibet
+			}
+		}
+		
+		"TRC"= {
+			minor = yes
+			history = "TRC_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				TRC_idea_cossacks_the_elite_of_the_world_cavalry
+				TRC_idea_the_magnates
+				TRC_idea_uneasy_peace
+			}
+			focuses = {
+				TRC_focus_once_a_grand_duke
+				TRC_focus_transcaucasian_federation
+				TRC_focus_branobel_and_tgc
+			}
+		}
+		
+		"TUR"= {
+			minor = yes
+			history = "TUR_AGE_OF_IMPERIALISM_DESC"
+			ideology = conservatism
+			ideas = {
+				TUR_idea_at_the_crossroads_of_history
+				TUR_idea_grassroots_initiatives
+				TUR_illiteracy_nation
+			}
+			focuses = {
+				TUR_the_revival_of_the_empire
+				TUR_the_glory_of_The_ottoman_army
+				TUR_send_the_turkish_volunteer_force
+			}
+		}
+	    
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

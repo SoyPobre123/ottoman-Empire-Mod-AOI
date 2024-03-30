@@ -1,0 +1,284 @@
+spriteTypes = {	
+
+	#### AOI USA
+		
+	SpriteType = { 
+		name = "GFX_usa_foundation_of_the_CIA"
+		texturefile = "gfx/interface/goals/USA/usa_foundation_of_the_CIA.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_the_founding_of_the_pentagon"
+		texturefile = "gfx/interface/goals/USA/usa_the_founding_of_the_pentagon.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_hawaiis_infrastructure_expansion"
+		texturefile = "gfx/interface/goals/USA/usa_hawaiis_infrastructure_expansion.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_tax_cuts_for_the_tourism_industry"
+		texturefile = "gfx/interface/goals/USA/usa_tax_cuts_for_the_tourism_industry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_philippines_supply_network"
+		texturefile = "gfx/interface/goals/USA/usa_philippines_supply_network.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_philippines_airports"
+		texturefile = "gfx/interface/goals/USA/usa_philippines_airports.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_philippines_shipbuilding_base"
+		texturefile = "gfx/interface/goals/USA/usa_philippines_shipbuilding_base.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_leyte_gulf_maneuvers"
+		texturefile = "gfx/interface/goals/USA/usa_leyte_gulf_maneuvers.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_alaskas_infrastructure_expansion"
+		texturefile = "gfx/interface/goals/USA/usa_alaskas_infrastructure_expansion.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_construction_of_polar_air_bases"
+		texturefile = "gfx/interface/goals/USA/usa_construction_of_polar_air_bases.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_superbase_in_puerto_rico"
+		texturefile = "gfx/interface/goals/USA/usa_superbase_in_puerto_rico.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_fortification_of_panama"
+		texturefile = "gfx/interface/goals/USA/usa_fortification_of_panama.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_our_chinese_friends"
+		texturefile = "gfx/interface/goals/USA/usa_our_chinese_friends.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_bases_for_flying_tigers"
+		texturefile = "gfx/interface/goals/USA/usa_bases_for_flying_tigers.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_signing_lend_lease_to_china"
+		texturefile = "gfx/interface/goals/USA/usa_signing_lend_lease_to_china.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_republic_alliance"
+		texturefile = "gfx/interface/goals/USA/usa_republic_alliance.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_reform_the_boi"
+		texturefile = "gfx/interface/goals/USA/usa_reform_the_boi.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_roosvelts_new_deal"
+		texturefile = "gfx/interface/goals/USA/usa_roosvelts_new_deal.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_war_against_crime"
+		texturefile = "gfx/interface/goals/USA/usa_war_against_crime.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_time_for_another_roosvelt_deal"
+		texturefile = "gfx/interface/goals/USA/usa_time_for_another_roosvelt_deal.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_hail_to_the_chief_for_MacArthur"
+		texturefile = "gfx/interface/goals/USA/usa_hail_to_the_chief_for_MacArthur.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_cooperation_with_market_giants"
+		texturefile = "gfx/interface/goals/USA/usa_cooperation_with_market_giants.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_federal_council_of_negro_affairs"
+		texturefile = "gfx/interface/goals/USA/usa_federal_council_of_negro_affairs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_build_arsenal_of_freedom"
+		texturefile = "gfx/interface/goals/USA/usa_build_arsenal_of_freedom.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_signing_a_contract_with_warner_bros"
+		texturefile = "gfx/interface/goals/USA/usa_signing_a_contract_with_warner_bros.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_cooperation_with_walt_disney"
+		texturefile = "gfx/interface/goals/USA/usa_cooperation_with_walt_disney.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_freedom_fortress"
+		texturefile = "gfx/interface/goals/USA/usa_freedom_fortress.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_black_brain_trust"
+		texturefile = "gfx/interface/goals/USA/usa_black_brain_trust.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_long_with_his_every_man_a_king"
+		texturefile = "gfx/interface/goals/USA/usa_long_with_his_every_man_a_king.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_hoover_to_the_very_end"
+		texturefile = "gfx/interface/goals/USA/usa_hoover_to_the_very_end.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_limiting_immigration"
+		texturefile = "gfx/interface/goals/USA/usa_limiting_immigration.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_central_bank_reform"
+		texturefile = "gfx/interface/goals/USA/usa_central_bank_reform.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_another_4_years_of_hoover"
+		texturefile = "gfx/interface/goals/USA/usa_another_4_years_of_hoover.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_time_for_maneuvers_in_the_atlantic"
+		texturefile = "gfx/interface/goals/USA/usa_time_for_maneuvers_in_the_atlantic.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_time_for_maneuvers_in_the_pacific"
+		texturefile = "gfx/interface/goals/USA/usa_time_for_maneuvers_in_the_pacific.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_additional_funds_for_the_naval_academy"
+		texturefile = "gfx/interface/goals/USA/usa_additional_funds_for_the_naval_academy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_rangers_lead_the_way"
+		texturefile = "gfx/interface/goals/USA/usa_rangers_lead_the_way.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_the_country_of_great_gunsmith"
+		texturefile = "gfx/interface/goals/USA/usa_the_country_of_great_gunsmith.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_the_new_face_of_cavalry"
+		texturefile = "gfx/interface/goals/USA/usa_the_new_face_of_cavalry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_rubber_plantations_in_kentucky"
+		texturefile = "gfx/interface/goals/USA/usa_rubber_plantations_in_kentucky.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_time_to_expand_the_us_air_force"
+		texturefile = "gfx/interface/goals/USA/usa_time_to_expand_the_us_air_force.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_alcohol_depenalization"
+		texturefile = "gfx/interface/goals/USA/usa_alcohol_depenalization.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_march_on_washington"
+		texturefile = "gfx/interface/goals/USA/usa_march_on_washington.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_end_of_prohibition"
+		texturefile = "gfx/interface/goals/USA/usa_end_of_prohibition.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_strenghtening_agricultural_banks"
+		texturefile = "gfx/interface/goals/USA/usa_strenghtening_agricultural_banks.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_necessary_changes_in_agriculture"
+		texturefile = "gfx/interface/goals/USA/usa_necessary_changes_in_agriculture.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_usa_new_irrigation_sustem"
+		texturefile = "gfx/interface/goals/USA/usa_usa_new_irrigation_system.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_commision_for_agriculture"
+		texturefile = "gfx/interface/goals/USA/usa_commision_for_agriculture.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_usa_war_plan_gray"
+		texturefile = "gfx/interface/goals/USA/usa_war_plan_gray.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_war_plan_purple"
+		texturefile = "gfx/interface/goals/USA/usa_war_plan_purple.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_war_plan_yellow"
+		texturefile = "gfx/interface/goals/USA/usa_war_plan_yellow.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_war_plun_blue"
+		texturefile = "gfx/interface/goals/USA/usa_war_plun_blue.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_faciliations_for_cuban_industry"
+		texturefile = "gfx/interface/goals/USA/usa_faciliations_for_cuban_industry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_cuban_arsenal"
+		texturefile = "gfx/interface/goals/USA/usa_cuban_arsenal.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_support_for_cuba"
+		texturefile = "gfx/interface/goals/USA/usa_support_for_cuba.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_usa_season_of_problems"
+		texturefile = "gfx/interface/goals/USA/usa_season_of_problems.dds"
+	}	
+}

@@ -1,0 +1,149 @@
+spriteTypes = {	
+
+	#### AOI South Africa
+	
+	SpriteType = { 
+		name = "GFX_SAF_Army_of_the_Federation"
+		texturefile = "gfx/interface/goals/SAF/SAF_Army_of_the_Federation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Emp_Police"
+		texturefile = "gfx/interface/goals/SAF/SAF_Empower_the_Police.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Ask_British_for_Eastern_Colonies"
+		texturefile = "gfx/interface/goals/SAF/SAF_Ask_British_for_Eastern_Colonies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Atlantic_War_Games"
+		texturefile = "gfx/interface/goals/SAF/SAF_Atlantic_War_Games.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Conservative_Unity_Party"
+		texturefile = "gfx/interface/goals/SAF/SAF_Conservative_Unity_Party.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Create_Special_Industrial_Zone"
+		texturefile = "gfx/interface/goals/SAF/SAF_Create_Special_Industrial_Zone.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Cult_of_Personality"
+		texturefile = "gfx/interface/goals/SAF/SAF_Cult_of_Personality.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Deadlock_of_Panic_1931"
+		texturefile = "gfx/interface/goals/SAF/SAF_Deadlock_of_Panic_1931.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Embrace_Westminster_Statue"
+		texturefile = "gfx/interface/goals/SAF/SAF_Embrace_Westminster_Statue.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Fleet_Expansion_Program"
+		texturefile = "gfx/interface/goals/SAF/SAF_Fleet_Expansion_Program.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Get_Rid_of_the_Competition"
+		texturefile = "gfx/interface/goals/SAF/SAF_Get_Rid_of_the_Competition.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Gold_and_Diamonds"
+		texturefile = "gfx/interface/goals/SAF/SAF_Gold_and_Diamonds.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Improve_Mining_Infrastructure"
+		texturefile = "gfx/interface/goals/SAF/SAF_Improve_Mining_Infrastructure.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Indian_War_Games"
+		texturefile = "gfx/interface/goals/SAF/SAF_Indian_War_Games.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Invest_in_the_Middle_Class"
+		texturefile = "gfx/interface/goals/SAF/SAF_Invest_in_the_Middle_Class.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Lessons_from_Japanese"
+		texturefile = "gfx/interface/goals/SAF/SAF_Lessons_from_Japanese.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Lessons_from_Other_Dominions"
+		texturefile = "gfx/interface/goals/SAF/SAF_Lessons_from_Other_Dominions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Modernise_Our_Airforce"
+		texturefile = "gfx/interface/goals/SAF/SAF_Modernise_Our_Airforce.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Modernise_Our_Army"
+		texturefile = "gfx/interface/goals/SAF/SAF_Modernise_Our_Army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Modernise_Our_Fleet"
+		texturefile = "gfx/interface/goals/SAF/SAF_Modernise_Our_Fleet.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_New_South_African_Economy"
+		texturefile = "gfx/interface/goals/SAF/SAF_New_South_African_Economy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Our_Commonwealth_Enters_1931"
+		texturefile = "gfx/interface/goals/SAF/SAF_Our_Commonwealth_Enters_1931.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Our_Place_Under_the_Sun"
+		texturefile = "gfx/interface/goals/SAF/SAF_Our_Place_Under_the_Sun.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Progressive_Unity_Party"
+		texturefile = "gfx/interface/goals/SAF/SAF_Progressive_Unity_Party.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Proposal_to_Portuguese"
+		texturefile = "gfx/interface/goals/SAF/SAF_Proposal_to_Portuguese.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Ready_to_Fight"
+		texturefile = "gfx/interface/goals/SAF/SAF_Ready_to_Fight.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Shipyards_of_Cape"
+		texturefile = "gfx/interface/goals/SAF/SAF_Shipyards_of_Cape.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Shipyards_of_Natal"
+		texturefile = "gfx/interface/goals/SAF/SAF_Shipyards_of_Natal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_South_Africa_Prospers_Again"
+		texturefile = "gfx/interface/goals/SAF/SAF_South_Africa_Prospers_Again.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_South_African_Armoured_Corps"
+		texturefile = "gfx/interface/goals/SAF/SAF_South_African_Armoured_Corps.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_The_Path_to_Prosperity"
+		texturefile = "gfx/interface/goals/SAF/SAF_The_Path_to_Prosperity.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Through_Hardships_to_the_Stars"
+		texturefile = "gfx/interface/goals/SAF/SAF_Through_Hardships_to_the_Stars.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Tyranny_Shall_Not_Pass"
+		texturefile = "gfx/interface/goals/SAF/SAF_Tyranny_Shall_Not_Pass.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Unity_Made_by_Conservatives"
+		texturefile = "gfx/interface/goals/SAF/SAF_Unity_Made_by_Conservatives.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Unity_Made_by_Liberals"
+		texturefile = "gfx/interface/goals/SAF/SAF_Unity_Made_by_Liberals.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SAF_Unity_Made_by_Socialists"
+		texturefile = "gfx/interface/goals/SAF/SAF_Unity_Made_by_Socialists.dds"
+	}	
+}

@@ -1,0 +1,221 @@
+spriteTypes = {	
+
+	#### AOI Manchuria
+	
+	SpriteType = { 
+		name = "GFX_ECH_A_Great_Leap_Forward"
+		texturefile = "gfx/interface/goals/ECH/ECH_A_Great_Leap_Forward.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_A_Time_of_Greater_Prosperity"
+		texturefile = "gfx/interface/goals/ECH/ECH_A_Time_of_Greater_Prosperity.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Abondom_the_Cliques_Economy"
+		texturefile = "gfx/interface/goals/ECH/ECH_Abondom_the_Cliques_Economy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_An_Offer_to_the_Kaiser"
+		texturefile = "gfx/interface/goals/ECH/ECH_An_Offer_to_the_Kaiser.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Anti_Japanese_Campaign"
+		texturefile = "gfx/interface/goals/ECH/ECH_Anti_Japanese_Campaign.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Anti_American_Campaign"
+		texturefile = "gfx/interface/goals/ECH/ECH_Anti_American_Campaign.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Appreciate_the_Merits"
+		texturefile = "gfx/interface/goals/ECH/ECH_Appreciate_the_Merits.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Appreciate_the_Unity"
+		texturefile = "gfx/interface/goals/ECH/ECH_Appreciate_the_Unity.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Begin_the_Era_of_Plenty"
+		texturefile = "gfx/interface/goals/ECH/ECH_Begin_the_Era_of_Plenty.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Beiyang_Decade"
+		texturefile = "gfx/interface/goals/ECH/ECH_Beiyang_Decade.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_China_Belongs_to_Us"
+		texturefile = "gfx/interface/goals/ECH/ECH_China_Belongs_to_Us.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_China_is_United_Again"
+		texturefile = "gfx/interface/goals/ECH/ECH_China_is_United_Again.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_China_Stands_in_the_Universe"
+		texturefile = "gfx/interface/goals/ECH/ECH_China_Stands_in_the_Universe.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Chinese_Industrial_Boom"
+		texturefile = "gfx/interface/goals/ECH/ECH_Chinese_Industrial_Boom.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Chinese_Shall_Rule_the_Seas"
+		texturefile = "gfx/interface/goals/ECH/ECH_Chinese_Shall_Rule_the_Seas.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Continue_the_Partnership"
+		texturefile = "gfx/interface/goals/ECH/ECH_Continue_the_Partnership.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Crackdown_on_Manchu_Loyalists"
+		texturefile = "gfx/interface/goals/ECH/ECH_Crackdown_on_Manchu_Loyalists.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Crackdown_on_Republicans"
+		texturefile = "gfx/interface/goals/ECH/ECH_Crackdown_on_Republicans.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Expand_Imperial_Navy"
+		texturefile = "gfx/interface/goals/ECH/ECH_Expand_Imperial_Navy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Expand_the_Cooperation"
+		texturefile = "gfx/interface/goals/ECH/ECH_Expand_the_Cooperation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Expand_the_Imperial_Air_Force"
+		texturefile = "gfx/interface/goals/ECH/ECH_Expand_the_Imperial_Air_Force.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Expanding_Chinas_Borders"
+		texturefile = "gfx/interface/goals/ECH/ECH_Expanding_Chinas_Borders.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Extensive_Nationalization"
+		texturefile = "gfx/interface/goals/ECH/ECH_Extensive_Nationalization.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Fortress_China"
+		texturefile = "gfx/interface/goals/ECH/ECH_Fortress_China.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Help_from_Germany"
+		texturefile = "gfx/interface/goals/ECH/ECH_Help_from_Germany.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Help_from_Italy"
+		texturefile = "gfx/interface/goals/ECH/ECH_Help_from_Italy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Improve_Imperial_Army"
+		texturefile = "gfx/interface/goals/ECH/ECH_Improve_Imperial_Army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Maneuvers_in_the_Chinese_Sea"
+		texturefile = "gfx/interface/goals/ECH/ECH_Maneuvers_in_the_Chinese_Sea.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Maneuvers_in_the_Yellow_Sea"
+		texturefile = "gfx/interface/goals/ECH/ECH_Maneuvers_in_the_Yellow_Sea.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_New_Public_Works_Program"
+		texturefile = "gfx/interface/goals/ECH/ECH_New_Public_Works_Program.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_North_is_Pacified"
+		texturefile = "gfx/interface/goals/ECH/ECH_North_is_Pacified.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Northern_Shipbuilding_Network"
+		texturefile = "gfx/interface/goals/ECH/ECH_Northern_Shipbuilding_Network.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Organize_Imperial_Maneuvers"
+		texturefile = "gfx/interface/goals/ECH/ECH_Organize_Imperial_Maneuvers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Send_Out_the_Call_for_Help"
+		texturefile = "gfx/interface/goals/ECH/ECH_Send_Out_the_Call_for_Help.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_South_is_Pacified"
+		texturefile = "gfx/interface/goals/ECH/ECH_South_is_Pacified.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Southern_Shipbuilding_Network"
+		texturefile = "gfx/interface/goals/ECH/ECH_Southern_Shipbuilding_Network.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Streamline_Regional_Autonomies"
+		texturefile = "gfx/interface/goals/ECH/ECH_Streamline_Regional_Autonomies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Streamline_the_Cliques_Economy"
+		texturefile = "gfx/interface/goals/ECH/ECH_Streamline_the_Cliques_Economy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Strike_at_America"
+		texturefile = "gfx/interface/goals/ECH/ECH_Strike_at_America.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Subordinate_the_Cliques_Economy"
+		texturefile = "gfx/interface/goals/ECH/ECH_Subordinate_the_Cliques_Economy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Support_for_Altruism"
+		texturefile = "gfx/interface/goals/ECH/ECH_Support_for_Altruism.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_The_Cult_of_the_Imperial_Soldier"
+		texturefile = "gfx/interface/goals/ECH/ECH_The_Cult_of_the_Imperial_Soldier.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_The_Fate_of_Revolutionaries"
+		texturefile = "gfx/interface/goals/ECH/ECH_The_Fate_of_Revolutionaries.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_The_Fate_of_Traitors"
+		texturefile = "gfx/interface/goals/ECH/ECH_The_Fate_of_Traitors.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_The_Mandate_of_Heaven_is_Ours"
+		texturefile = "gfx/interface/goals/ECH/ECH_The_Mandate_of_Heaven_is_Ours.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_The_Raise_of_Asian_Tiger"
+		texturefile = "gfx/interface/goals/ECH/ECH_The_Raise_of_Asian_Tiger.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_The_Soldier_Emperor"
+		texturefile = "gfx/interface/goals/ECH/ECH_The_Soldier_Emperor.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_There_is_no_Peace_for_China"
+		texturefile = "gfx/interface/goals/ECH/ECH_There_is_no_Peace_for_China.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Ultimatum_to_Germany"
+		texturefile = "gfx/interface/goals/ECH/ECH_Ultimatum_to_Germany.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Ultimatum_to_Netherlands"
+		texturefile = "gfx/interface/goals/ECH/ECH_Ultimatum_to_Netherlands.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Unite_the_Cliques"
+		texturefile = "gfx/interface/goals/ECH/ECH_Unite_the_Cliques.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_What_the_Japanese_Took_from_Us"
+		texturefile = "gfx/interface/goals/ECH/ECH_What_the_Japanese_Took_from_Us.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_What_the_Russians_Took_from_Us"
+		texturefile = "gfx/interface/goals/ECH/ECH_What_the_Russians_Took_from_Us.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ECH_Worldwide_Arms_Dealer"
+		texturefile = "gfx/interface/goals/ECH/ECH_Worldwide_Arms_Dealer.dds"
+	}
+}

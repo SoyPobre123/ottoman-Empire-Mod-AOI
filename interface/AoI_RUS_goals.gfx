@@ -1,0 +1,674 @@
+spriteTypes = {	
+
+	#### AOI Russia
+	
+	SpriteType = { 
+		name = "GFX_RUS_3_Rome_on_the_way_to_glory"
+		texturefile = "gfx/interface/goals/RUS/RUS_3_Rome_on_the_way_to_glory.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_A_weapon_of_the_future"
+		texturefile = "gfx/interface/goals/RUS/RUS_A_weapon_of_the_future.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Abolish_censorship_and_introduce_political_pluralism"
+		texturefile = "gfx/interface/goals/RUS/RUS_Abolish_censorship_and_introduce_political_pluralism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Assistance_in_creating_the_arms_industry"
+		texturefile = "gfx/interface/goals/RUS/RUS_Assistance_in_creating_the_arms_industry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Build_a_sniper_cult"
+		texturefile = "gfx/interface/goals/RUS/RUS_Build_a_sniper_cult.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_colossus_on_clay_legs"
+		texturefile = "gfx/interface/goals/RUS/RUS_colossus_on_clay_legs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Commencement_of_a_new_stage_of_cooperation_with_Poland"
+		texturefile = "gfx/interface/goals/RUS/RUS_Commencement_of_a_new_stage_of_cooperation_with_Poland.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Connection_of_Tehran_with_the_Trans_Siberian_Railway"
+		texturefile = "gfx/interface/goals/RUS/RUS_Connection_of_Tehran_with_the_Trans_Siberian_Railway.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Construction_of_the_Helsinki_industrial_district"
+		texturefile = "gfx/interface/goals/RUS/RUS_Construction_of_the_Helsinki_industrial_district.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Cossack_training_program"
+		texturefile = "gfx/interface/goals/RUS/RUS_Cossack_training_program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Construction_of_an_industrial_district_in_Urumqi"
+		texturefile = "gfx/interface/goals/RUS/RUS_Construction_of_an_industrial_district_in_Urumqi.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Construction_of_shipbuilding_facilities"
+		texturefile = "gfx/interface/goals/RUS/RUS_Construction_of_shipbuilding_facilities.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_Create_more_specialized_armoured_vehicles"
+		texturefile = "gfx/interface/goals/RUS/RUS_Create_more_specialized_armoured_vehicles.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_dark_clouds_on_the_horizon"
+		texturefile = "gfx/interface/goals/RUS/RUS_dark_clouds_on_the_horizon.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Easing_relations_between_Russia_and_Islam"
+		texturefile = "gfx/interface/goals/RUS/RUS_Easing_relations_between_Russia_and_Islam.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Empower_Senate"
+		texturefile = "gfx/interface/goals/RUS/RUS_Empower_Senate.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Empower_State_Duma"
+		texturefile = "gfx/interface/goals/RUS/RUS_Empower_State_Duma.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Exchange_of_thoughts_on_warfare"
+		texturefile = "gfx/interface/goals/RUS/RUS_Exchange_of_thoughts_on_warfare.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Expanding_the_mining_infrastructure_of_Uyghurstan"
+		texturefile = "gfx/interface/goals/RUS/RUS_Expanding_the_mining_infrastructure_of_Uyghurstan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_Expansion_of_farming_communities"
+		texturefile = "gfx/interface/goals/RUS/RUS_Expansion_of_farming_communities.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Expansion_of_the_airport_in_Addis_Ababa"
+		texturefile = "gfx/interface/goals/RUS/RUS_Expansion_of_the_airport_in_Addis_Ababa.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Extension_of_the_Trans_Siberian_Railway"
+		texturefile = "gfx/interface/goals/RUS/RUS_Extension_of_the_Trans_Siberian_Railway.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Extensive_urbanization"
+		texturefile = "gfx/interface/goals/RUS/RUS_Extensive_urbanization.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Finlands_Loyalty_Issues"
+		texturefile = "gfx/interface/goals/RUS/RUS_Finlands_Loyalty_Issues.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Friendship_issues_with_the_peoples_of_the_Middle_East"
+		texturefile = "gfx/interface/goals/RUS/RUS_Friendship_issues_with_the_peoples_of_the_Middle_East.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Friendship_propaganda"
+		texturefile = "gfx/interface/goals/RUS/RUS_Friendship_propaganda.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_Grants_for_the_development_of_agriculture"
+		texturefile = "gfx/interface/goals/RUS/RUS_Grants_for_the_development_of_agriculture.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_great_minds_of_the_science_world_in_Russia"
+		texturefile = "gfx/interface/goals/RUS/RUS_great_minds_of_the_science_world_in_Russia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Improving_economic_ties"
+		texturefile = "gfx/interface/goals/RUS/RUS_Improving_economic_ties.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Increased_control_over_the_central_bank"
+		texturefile = "gfx/interface/goals/RUS/RUS_Increased_control_over_the_central_bank.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Increasing_attention_to_the_mobility_of_our_artillery"
+		texturefile = "gfx/interface/goals/RUS/RUS_Increasing_attention_to_the_mobility_of_our_artillery.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Industrial_grants_and_more"
+		texturefile = "gfx/interface/goals/RUS/RUS_Industrial_grants_and_more.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Infantry_in_the_face_of_modern_war"
+		texturefile = "gfx/interface/goals/RUS/RUS_Infantry_in_the_face_of_modern_war.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Innovation_of_infantry_anti_tank_weapons"
+		texturefile = "gfx/interface/goals/RUS/RUS_Innovation_of_infantry_anti_tank_weapons.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Issues_of_poor_production_quality"
+		texturefile = "gfx/interface/goals/RUS/RUS_Issues_of_poor_production_quality.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Issues_of_vanishing_shipments"
+		texturefile = "gfx/interface/goals/RUS/RUS_Issues_of_vanishing_shipments.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Its_time_for_the_great_game_to_end"
+		texturefile = "gfx/interface/goals/RUS/RUS_Its_time_for_the_great_game_to_end.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Its_time_to_eliminate_the_Teutonic_threat_once_and_for_all"
+		texturefile = "gfx/interface/goals/RUS/RUS_Its_time_to_eliminate_the_Teutonic_threat_once_and_for_all.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Long_live_emperor_Ioann"
+		texturefile = "gfx/interface/goals/RUS/RUS_Long_live_emperor_Ioann.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Marking_the_historical_role_of_Russia"
+		texturefile = "gfx/interface/goals/RUS/RUS_Marking_the_historical_role_of_Russia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_Mass_production_of_Katyusha"
+		texturefile = "gfx/interface/goals/RUS/RUS_Mass_production_of_Katyusha.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Maximizing_profits_from_the_alcohol_monopoly"
+		texturefile = "gfx/interface/goals/RUS/RUS_Maximizing_profits_from_the_alcohol_monopoly.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Modernization_of_the_Mongolian_cavalry"
+		texturefile = "gfx/interface/goals/RUS/RUS_Modernization_of_the_Mongolian_cavalry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_New_artillery_weapons_designs"
+		texturefile = "gfx/interface/goals/RUS/RUS_New_artillery_weapons_designs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Officer_exchange_program"
+		texturefile = "gfx/interface/goals/RUS/RUS_Officer_exchange_program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Orthodox_brotherhood_with_Ethiopia"
+		texturefile = "gfx/interface/goals/RUS/RUS_Orthodox_brotherhood_with_Ethiopia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Our_Far_Eastern_friends"
+		texturefile = "gfx/interface/goals/RUS/RUS_Our_Far_Eastern_friends.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_Petersburg_Addis_Ababa_air_connection"
+		texturefile = "gfx/interface/goals/RUS/RUS_Petersburg_Addis_Ababa_air_connection.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Petersburg_glamor"
+		texturefile = "gfx/interface/goals/RUS/RUS_Petersburg_glamor.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Poland_is_the_western_flank_of_the_Soyuzniks"
+		texturefile = "gfx/interface/goals/RUS/RUS_Poland_is_the_western_flank_of_the_Soyuzniks.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Port_expansion_in_northern_Somalliad"
+		texturefile = "gfx/interface/goals/RUS/RUS_Port_expansion_in_northern_Somalliad.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Pribaltika_our_trusted_vassal"
+		texturefile = "gfx/interface/goals/RUS/RUS_Pribaltika_our_trusted_vassal.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Privatization_of_the_Trans_Siberian_Railway"
+		texturefile = "gfx/interface/goals/RUS/RUS_Privatization_of_the_Trans_Siberian_Railway.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Profits_of_the_port_of_Riga"
+		texturefile = "gfx/interface/goals/RUS/RUS_Profits_of_the_port_of_Riga.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_Properly_directing_the_spirit_of_revanchism"
+		texturefile = "gfx/interface/goals/RUS/RUS_Properly_directing_the_spirit_of_revanchism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Putting_an_end_to_the_intrigues_of_the_nobility"
+		texturefile = "gfx/interface/goals/RUS/RUS_Putting_an_end_to_the_intrigues_of_the_nobility.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Putting_an_end_to_the_state_monopoly_on_alcohol"
+		texturefile = "gfx/interface/goals/RUS/RUS_Putting_an_end_to_the_state_monopoly_on_alcohol.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Quantity_is_a_quality_in_itself"
+		texturefile = "gfx/interface/goals/RUS/RUS_Quantity_is_a_quality_in_itself.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Rebuilding_the_position_of_the_St_Petersburg_Stock_Exchange"
+		texturefile = "gfx/interface/goals/RUS/RUS_Rebuilding_the_position_of_the_St_Petersburg_Stock_Exchange.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Reform_the_Table_of_Ranks"
+		texturefile = "gfx/interface/goals/RUS/RUS_Reform_the_Table_of_Ranks.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Renewal_of_the_Siberian_colonization_program"
+		texturefile = "gfx/interface/goals/RUS/RUS_Renewal_of_the_Siberian_colonization_program.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_Restoration_of_the_autonomy_of_the_Orthodox_Church"
+		texturefile = "gfx/interface/goals/RUS/RUS_Restoration_of_the_autonomy_of_the_Orthodox_Church.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_revenge_for_tsushima"
+		texturefile = "gfx/interface/goals/RUS/RUS_revenge_for_tsushima.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Revolutionary_technical_solutions"
+		texturefile = "gfx/interface/goals/RUS/RUS_Revolutionary_technical_solutions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Russia_as_a_new_constitutional_monarchy"
+		texturefile = "gfx/interface/goals/RUS/RUS_Russia_as_a_new_constitutional_monarchy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Russia_towards_the_1930s"
+		texturefile = "gfx/interface/goals/RUS/RUS_Russia_towards_the_1930s.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Russian_Air_Force_in_Africa"
+		texturefile = "gfx/interface/goals/RUS/RUS_Russian_Air_Force_in_Africa.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Russian_army_stronger_than_all_the_rest"
+		texturefile = "gfx/interface/goals/RUS/RUS_Russian_army_stronger_than_all_the_rest.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_Russian_investors_in_Africa"
+		texturefile = "gfx/interface/goals/RUS/RUS_Russian_investors_in_Africa.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Save_Pribaltica_from_the_buffoon_of_all_time"
+		texturefile = "gfx/interface/goals/RUS/RUS_Save_Pribaltica_from_the_buffoon_of_all_time.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_shooting_deserters_and_revolutionaries"
+		texturefile = "gfx/interface/goals/RUS/RUS_shooting_deserters_and_revolutionaries.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_simplification_of_the_tax_system"
+		texturefile = "gfx/interface/goals/RUS/RUS_simplification_of_the_tax_system.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Soyuzniki_gendarmes_of_the_world_order"
+		texturefile = "gfx/interface/goals/RUS/RUS_Soyuzniki_gendarmes_of_the_world_order.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Stable_base_for_military_needs"
+		texturefile = "gfx/interface/goals/RUS/RUS_Stable_base_for_military_needs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Start_of_the_5_year_plan"
+		texturefile = "gfx/interface/goals/RUS/RUS_Start_of_the_5_year_plan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_start_the_great_purge"
+		texturefile = "gfx/interface/goals/RUS/RUS_start_the_great_purge.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Stepping_up_the_activities_of_Ochranka"
+		texturefile = "gfx/interface/goals/RUS/RUS_Stepping_up_the_activities_of_Ochranka.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_our_border_with_Chinas"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_our_border_with_Chinas.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_Persia_our_southern_bridgehead"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_Persia_our_southern_bridgehead.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_regional_autonomies"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_regional_autonomies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_religious_ties"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_religious_ties.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_the_position_of_charitable_organizations"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_the_position_of_charitable_organizations.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_the_position_of_the_army_in_the_government"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_the_position_of_the_army_in_the_government.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_the_tactical_capabilities_of_the_Mongolian_army"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_the_tactical_capabilities_of_the_Mongolian_army.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_their_defense_capabilities"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_their_defense_capabilities.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Support_for_the_expansion_of_local_infrastructure"
+		texturefile = "gfx/interface/goals/RUS/RUS_Support_for_the_expansion_of_local_infrastructure.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Support_their_defense_program"
+		texturefile = "gfx/interface/goals/RUS/RUS_Support_their_defense_program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Tanks_are_our_main_strength"
+		texturefile = "gfx/interface/goals/RUS/RUS_Tanks_are_our_main_strength.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_admission_of_the_Ottomans_to_our_Petersburg_Stock_Exchange"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_admission_of_the_Ottomans_to_our_Petersburg_Stock_Exchange.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_The_effects_of_the_work_of_various_design_offices"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_effects_of_the_work_of_various_design_offices.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_elite_among_the_Soyuznik_troops"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_elite_among_the_Soyuznik_troops.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_enlightened_autocracy_of_Ioann_the_Ist"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_enlightened_autocracy_of_Ioann_the_Ist.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_era_of_great_constructors"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_era_of_great_constructors.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_ever_changing_picture_of_the_war"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_ever_changing_picture_of_the_war.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_the_great_process_of_parasites_of_the_Russian_people"
+		texturefile = "gfx/interface/goals/RUS/RUS_the_great_process_of_parasites_of_the_Russian_people.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_great_reform_of_the_Russian_army"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_great_reform_of_the_Russian_army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_The_line_of_animal_hunters"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_line_of_animal_hunters.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_program_of_disrupting_Muslim_terrorist_cells"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_program_of_disrupting_Muslim_terrorist_cells.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_the_Russian_stock_exchange_at_its_peak"
+		texturefile = "gfx/interface/goals/RUS/RUS_the_Russian_stock_exchange_at_its_peak.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_troublesome_history_of_our_Grand_Principalities_and_Kingdom"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_troublesome_history_of_our_Grand_Principalities_and_Kingdom.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_the_world_exhibition_of_1931"
+		texturefile = "gfx/interface/goals/RUS/RUS_the_world_exhibition_of_1931.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_There_are_no_better_friends_than_old_rivals"
+		texturefile = "gfx/interface/goals/RUS/RUS_There_are_no_better_friends_than_old_rivals.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Things_making_a_big_bang"
+		texturefile = "gfx/interface/goals/RUS/RUS_Things_making_a_big_bang.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_time_for_the_second_round"
+		texturefile = "gfx/interface/goals/RUS/RUS_time_for_the_second_round.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Together_with_Ethiopia_for_a_better_future"
+		texturefile = "gfx/interface/goals/RUS/RUS_Together_with_Ethiopia_for_a_better_future.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Traitors_will_pay_with_their_blood"
+		texturefile = "gfx/interface/goals/RUS/RUS_Traitors_will_pay_with_their_blood.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Trans_Russian_railway_expansion_program"
+		texturefile = "gfx/interface/goals/RUS/RUS_Trans_Russian_railway_expansion_program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_transfer_of_military_factories_into_private_hands"
+		texturefile = "gfx/interface/goals/RUS/RUS_transfer_of_military_factories_into_private_hands.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Troublesome_relationship_with_Bukhara"
+		texturefile = "gfx/interface/goals/RUS/RUS_Troublesome_relationship_with_Bukhara.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_war_and_peace_issues"
+		texturefile = "gfx/interface/goals/RUS/RUS_war_and_peace_issues.dds"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_War_maneuvers_in_the_name_of_friendship"
+		texturefile = "gfx/interface/goals/RUS/RUS_War_maneuvers_in_the_name_of_friendship.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_World_leader_in_trade_in_raw_materials"
+		texturefile = "gfx/interface/goals/RUS/RUS_World_leader_in_trade_in_raw_materials.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_RUS_A_beautiful_era_in_the_development_of_Russian_aviation"
+		texturefile = "gfx/interface/goals/RUS/RUS_A_beautiful_era_in_the_development_of_Russian_aviation.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_RUS_Dreams_of_the_conquest_of_space"
+		texturefile = "gfx/interface/goals/RUS/RUS_Dreams_of_the_conquest_of_space.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Establishment_of_the_airborne_troops_of_the_Russian_Empire"
+		texturefile = "gfx/interface/goals/RUS/RUS_Establishment_of_the_airborne_troops_of_the_Russian_Empire.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Korolev_Research_Center"
+		texturefile = "gfx/interface/goals/RUS/RUS_Korolev_Research_Center.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Nuclear_war_concept"
+		texturefile = "gfx/interface/goals/RUS/RUS_Nuclear_war_concept.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_RUS_Russian_air_war_school"
+		texturefile = "gfx/interface/goals/RUS/RUS_Russian_air_war_school.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Russian_aviation_comes_first"
+		texturefile = "gfx/interface/goals/RUS/RUS_Russian_aviation_comes_first.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Sikorskys_amazing_invention"
+		texturefile = "gfx/interface/goals/RUS/RUS_Sikorskys_amazing_invention.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Strengthenin_the_aviation_infrastructure_along_the_Trans_Siberian_Railway"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthenin_the_aviation_infrastructure_along_the_Trans_Siberian_Railway.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_the_Russian_Aviation_Corps"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_the_Russian_Aviation_Corps.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_real_biggest_air_show"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_real_biggest_air_show.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Upgrade_our_conventional_missile_weapons"
+		texturefile = "gfx/interface/goals/RUS/RUS_Upgrade_our_conventional_missile_weapons.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_RUS_Strategies_and_tactics_for_a_new_infantry_formation"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strategies_and_tactics_for_a_new_infantry_formation.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_RUS_Strengthening_the_imperial_dockyards_in_St_Petersburg"
+		texturefile = "gfx/interface/goals/RUS/RUS_Strengthening_the_imperial_dockyards_in_St_Petersburg.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_concept_of_special_units"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_concept_of_special_units.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_difficult_issue_of_the_Russian_fleet"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_difficult_issue_of_the_Russian_fleet.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_need_to_test_the_theory_in_practice"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_need_to_test_the_theory_in_practice.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Vladivostok_our_window_to_the_Pacific"
+		texturefile = "gfx/interface/goals/RUS/RUS_Vladivostok_our_window_to_the_Pacific.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Expansion_of_Sevastopol"
+		texturefile = "gfx/interface/goals/RUS/RUS_Expansion_of_Sevastopol.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Incredible_idea_of_parachute_troops"
+		texturefile = "gfx/interface/goals/RUS/RUS_Incredible_idea_of_parachute_troops.dds"
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_Ghosts_of_Tsushima"
+		texturefile = "gfx/interface/goals/RUS/RUS_Ghosts_of_Tsushima.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Russian_Empires_Pearl"
+		texturefile = "gfx/interface/goals/RUS/RUS_Russian_Empires_Pearl.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_Social_Revolution_Realised"
+		texturefile = "gfx/interface/goals/RUS/RUS_Social_Revolution_Realised.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_Federation_of_Equals"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_Federation_of_Equals.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_RUS_The_Republican_Dream"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_Republican_Dream.dds"
+	}
+}

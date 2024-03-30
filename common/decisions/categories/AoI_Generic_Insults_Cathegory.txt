@@ -1,0 +1,91 @@
+# #########################################
+# #### DECIS GENERIC INSULTS by Kokosz ####
+# #########################################
+
+
+gen_insults = {
+
+	priority = 90
+	picture = generic_border_conflicts
+	icon = border_conflicts	
+	
+	visible = {
+		OR = {
+			has_completed_focus = focus_aus_long_live_kaiser_karl
+			has_completed_focus = focus_aus_adolf_hitler_to_win
+			has_completed_focus = yug_focus_hard_begginning
+			has_completed_focus = focus_raj_democracy_of_prasad
+			has_completed_focus = focus_raj_social_revolution_of_nehru
+			has_completed_focus = focus_raj_militarism_of_bose
+			has_completed_focus = focus_raj_wise_guide_of_ramasamy
+			has_completed_focus = focus_raj_popularity_of_savarkar
+			has_completed_focus = AST_focus_labor_wins_again
+			has_completed_focus = AST_focus_country_party_on_the_top
+			has_completed_focus = AST_focus_menzies_is_triumphant
+			has_completed_focus = AST_focus_ascendance_of_the_guard
+			has_completed_focus = CAN_focus_time_for_progressives
+			has_completed_focus = CAN_focus_time_for_conservatives
+			has_completed_focus = CAN_focus_time_for_liberals
+			has_completed_focus = CAN_focus_time_for_nationalists
+			has_completed_focus = focus_saf_reforms_in_south_africa_are_on_the_way
+			has_completed_focus = focus_jap_great_influence_of_admiralty
+			has_completed_focus = focus_jap_flourishing_of_democracy
+			has_completed_focus = focus_jap_great_strength_of_general_staff
+			has_completed_focus = political_discourse_0
+			has_completed_focus = communism_0
+			has_completed_focus = integralism_0
+			has_completed_focus = ger_focus_the_time_has_come_for_change
+			has_completed_focus = ger_focus_wilhelm_is_really_unsinkable
+			has_completed_focus = GCO_focus_glorious_revolution
+			has_completed_focus = GCO_focus_legitimate_empire
+			has_completed_focus = GCO_focus_democratic_revolution
+			has_completed_focus = GCO_focus_league_of_three_kings
+			has_completed_focus = GCO_focus_sign_saigon_agreement
+			has_completed_focus = focus_ita_lunga_vita_ai_conservatori
+			has_completed_focus = focus_ita_lunga_vita_ai_nazionalisti
+			has_completed_focus = POL_the_time_has_come_for_sanacja
+			has_completed_focus = POL_centrolews_triumph
+			has_completed_focus = POL_new_right_committee
+			has_completed_focus = POL_hunt_for_the_enemies_of_polishness
+			has_completed_focus = focus_por_second_republican_revolution
+			has_completed_focus = focus_por_backstab_the_delusional_monarchists
+			has_completed_focus = focus_por_contra_revolucao
+			has_completed_focus = focus_por_placate_the_shadow_marxists
+			has_completed_focus = MCR_focus_pan_victory
+			has_completed_focus = MCR_focus_uns_takeover
+			has_completed_focus = focus_mex_end_of_maximato
+			has_completed_focus = SPA_unite_the_monarchist_front
+			has_completed_focus = focus_man_china_is_united_again
+			has_completed_focus = focus_man_china_is_united_again
+			has_completed_focus = focus_man_china_is_united_again
+			has_completed_focus = SPR_fight_for_the_republic
+			has_completed_focus = focus_chi_china_is_united_again
+			has_completed_focus = focus_chi_china_is_united_again
+			has_completed_focus = focus_chi_china_is_united_again
+			has_completed_focus = focus_fra_the_french_fourth_republic
+			has_completed_focus = focus_fra_long_live_the_orleans
+			has_completed_focus = focus_fra_long_live_the_bonaparts
+			has_completed_focus = RUS_focus_kiev_maneuvers
+			has_completed_focus = ENG_necessity_to_make_hard_decisions
+			has_completed_focus = ENG_a_sudden_change_in_course
+			has_completed_focus = focus_usa_season_of_problems
+			has_completed_focus = focus_usa_long_with_his_every_man_a_king
+			has_completed_focus = AFG_focus_one_step_forward_two_steps_back
+			has_completed_focus = AFG_focus_the_royal_splendour
+			has_completed_focus = AFG_focus_times_of_muslim_socialism
+			has_completed_focus = NEP_focus_successful_hostile_takeover
+			has_completed_focus = TIB_focus_successful_hostile_incorporation
+			has_completed_focus = TRC_focus_euroasianism_is_the_way
+			has_completed_focus = TRC_focus_the_times_of_republicanism
+			has_completed_focus = TRC_focus_always_a_grand_duke
+			has_completed_focus = RELEASABLE_focus_time_to_define_ourselves
+			has_completed_focus = PER_focus_the_empire_will_last
+			has_completed_focus = PER_focus_a_chance_for_democracy
+			has_completed_focus = PER_focus_social_revolution
+			has_completed_focus = PER_focus_religious_revolution
+			has_completed_focus = TUR_one_single_party_policy
+		}
+	}
+
+	
+}

@@ -1,0 +1,312 @@
+spriteTypes = {	
+
+	#### AOI Nepal
+	
+	SpriteType = {
+		name = "GFX_NEP_Abandon_the_Opium_Trade"
+		texturefile = "gfx/interface/goals/NEP/NEP_Abandon_the_Opium_Trade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_A_Decent_Life_for_Working_People"
+		texturefile = "gfx/interface/goals/NEP/NEP_A_Decent_Life_for_Working_People.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_A_Patriotic_War"
+		texturefile = "gfx/interface/goals/NEP/NEP_A_Patriotic_War.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Buy_Weaponry"
+		texturefile = "gfx/interface/goals/NEP/NEP_Buy_Weaponry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Civil_Service_Reform"
+		texturefile = "gfx/interface/goals/NEP/NEP_Civil_Service_Reform.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Connect_the_Country"
+		texturefile = "gfx/interface/goals/NEP/NEP_Connect_the_Country.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Create_Nepalese_Academia"
+		texturefile = "gfx/interface/goals/NEP/NEP_Create_Nepalese_Academia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_crossing_of_the_himalayas"
+		texturefile = "gfx/interface/goals/NEP/NEP_crossing_of_the_himalayas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Cult_Of_Personality"
+		texturefile = "gfx/interface/goals/NEP/NEP_Cult_Of_Personality.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Enshrine_Democratic_Institutions"
+		texturefile = "gfx/interface/goals/NEP/NEP_Enshrine_Democratic_Institutions.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Ensure_Loyalty_in_the_Army"
+		texturefile = "gfx/interface/goals/NEP/NEP_Ensure_Loyalty_in_the_Army.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Fate_of_the_Confederacy"
+		texturefile = "gfx/interface/goals/NEP/NEP_Fate_of_the_Confederacy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Giveaway_the_Land"
+		texturefile = "gfx/interface/goals/NEP/NEP_Giveaway_the_Land.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Government_of_National_Unity"
+		texturefile = "gfx/interface/goals/NEP/NEP_Government_of_National_Unity.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Grants_for_Agriculture"
+		texturefile = "gfx/interface/goals/NEP/NEP_Grants_for_Agriculture.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Hire_Foreign_Officers"
+		texturefile = "gfx/interface/goals/NEP/NEP_Hire_Foreign_Officers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Hire_Mercenaries"
+		texturefile = "gfx/interface/goals/NEP/NEP_Hire_Mercenaries.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Import_Technological_Advancements"
+		texturefile = "gfx/interface/goals/NEP/NEP_Import_Technological_Advancements.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Improve_Our_Infrastructure"
+		texturefile = "gfx/interface/goals/NEP/NEP_Improve_Our_Infrastructure.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Improve_Our_Military"
+		texturefile = "gfx/interface/goals/NEP/NEP_Improve_Our_Military.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Intensify_the_Railroads_Net"
+		texturefile = "gfx/interface/goals/NEP/NEP_Intensify_the_Railroads_Net.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Introduce_Merit_System"
+		texturefile = "gfx/interface/goals/NEP/NEP_Introduce_Merit_System.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Invest_in_the_Air_Force"
+		texturefile = "gfx/interface/goals/NEP/NEP_Invest_in_the_Air_Force.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Invest_in_the_Middle_Class"
+		texturefile = "gfx/interface/goals/NEP/NEP_Invest_in_the_Middle_Class.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Invest_in_the_Mountains"
+		texturefile = "gfx/interface/goals/NEP/NEP_Invest_in_the_Mountains.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Kickstart_Modernisation"
+		texturefile = "gfx/interface/goals/NEP/NEP_Kickstart_Modernisation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Once_Upon_a_Time"
+		texturefile = "gfx/interface/goals/NEP/NEP_Once_Upon_a_Time.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Open_The_Coffers"
+		texturefile = "gfx/interface/goals/NEP/NEP_Open_The_Coffers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Organise_Maneuvers"
+		texturefile = "gfx/interface/goals/NEP/NEP_Organise_Maneuvers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Promise_Democratic_Reforms"
+		texturefile = "gfx/interface/goals/NEP/NEP_Promise_Democratic_Reforms.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Promise_Land_Reform"
+		texturefile = "gfx/interface/goals/NEP/NEP_Promise_Land_Reform.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Rally_the_Populace"
+		texturefile = "gfx/interface/goals/NEP/NEP_Rally_the_Populace.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Reform_the_Civil_Administration"
+		texturefile = "gfx/interface/goals/NEP/NEP_Reform_the_Civil_Administration.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Reform_the_Officer_Corps"
+		texturefile = "gfx/interface/goals/NEP/NEP_Reform_the_Officer_Corps.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Reorganize_the_Administration"
+		texturefile = "gfx/interface/goals/NEP/NEP_Reorganize_the_Administration.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Reward_the_Loyalists"
+		texturefile = "gfx/interface/goals/NEP/NEP_Reward_the_Loyalists.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Save_the_Ranas_Image"
+		texturefile = "gfx/interface/goals/NEP/NEP_Save_the_Ranas_Image.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Secure_Our_Influences"
+		texturefile = "gfx/interface/goals/NEP/NEP_Secure_Our_Influences.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Streamline_the_Opium_Trade"
+		texturefile = "gfx/interface/goals/NEP/NEP_Streamline_the_Opium_Trade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Streamline_the_Production_Line"
+		texturefile = "gfx/interface/goals/NEP/NEP_Streamline_the_Production_Line.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Strike_the_Indians"
+		texturefile = "gfx/interface/goals/NEP/NEP_Strike_the_Indians.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Subjugate_the_Afghans"
+		texturefile = "gfx/interface/goals/NEP/NEP_Subjugate_the_Afghans.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Successful_Hostile_Takeover"
+		texturefile = "gfx/interface/goals/NEP/NEP_Successful_Hostile_Takeover.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Supplies_for_the_Troops"
+		texturefile = "gfx/interface/goals/NEP/NEP_Supplies_for_the_Troops.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Supreme_Council_of_Entrepreneurs"
+		texturefile = "gfx/interface/goals/NEP/NEP_Supreme_Council_of_Entrepreneurs.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Talk_with_the_Intellectuals"
+		texturefile = "gfx/interface/goals/NEP/NEP_Talk_with_the_Intellectuals.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_There_Can_Be_Only_One"
+		texturefile = "gfx/interface/goals/NEP/NEP_There_Can_Be_Only_One.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_Case_of_Monasteries"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_Case_of_Monasteries.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_Empire_To_Rule_These_Mountains"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_Empire_To_Rule_These_Mountains.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_Expansion_of_Cities"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_Expansion_of_Cities.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_Good_Days_have_Come"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_Good_Days_have_Come.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_Guardians_of_Prosperity"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_Guardians_of_Prosperity.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_Kingdom_of_Nepal_in_1931"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_Kingdom_of_Nepal_in_1931.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_Nepal_Shall_Prosper"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_Nepal_Shall_Prosper.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_New_Status_Quo"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_New_Status_Quo.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_Peoples_Kingdom"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_Peoples_Kingdom.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_The_Ranas_Stand_Tall"
+		texturefile = "gfx/interface/goals/NEP/NEP_The_Ranas_Stand_Tall.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Tibet_is_Ours"
+		texturefile = "gfx/interface/goals/NEP/NEP_Tibet_is_Ours.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Trade_Union_Reform"
+		texturefile = "gfx/interface/goals/NEP/NEP_Trade_Union_Reform.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_We_Shall_Be_Victorious"
+		texturefile = "gfx/interface/goals/NEP/NEP_We_Shall_Be_Victorious.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NEP_Whatever_It_Takes"
+		texturefile = "gfx/interface/goals/NEP/NEP_Whatever_It_Takes.dds"
+	}
+
+
+	
+}

@@ -1,0 +1,219 @@
+spriteTypes = {	
+
+	#### AOI Australoasia ###
+	
+	SpriteType = {
+		name = "GFX_AST_Army_of_the_Commonwealth"
+		texturefile = "gfx/interface/goals/AST/AST_Army_of_the_Commonwealth.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Ascendance_of_the_Guard"
+		texturefile = "gfx/interface/goals/AST/AST_Ascendance_of_the_Guard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Australasia_Prospers_Again"
+		texturefile = "gfx/interface/goals/AST/AST_Australasia_Prospers_Again.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Bolster_the_ACTU"
+		texturefile = "gfx/interface/goals/AST/AST_Bolster_the_ACTU.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Bulwalk_of_Britishness"
+		texturefile = "gfx/interface/goals/AST/AST_Bulwalk_of_Britishness.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Bulwark_of_Social_Democracy"
+		texturefile = "gfx/interface/goals/AST/AST_Bulwark_of_Social_Democracy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Cooperation_with_the_Natives"
+		texturefile = "gfx/interface/goals/AST/AST_Cooperation_with_the_Natives.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Country_Party_on_the_Top"
+		texturefile = "gfx/interface/goals/AST/AST_Country_Party_on_the_Top.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Create_Special_Industrial_Zone"
+		texturefile = "gfx/interface/goals/AST/AST_Create_Special_Industrial_Zone.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Expand_Cockatoo_Island_Dockyard"
+		texturefile = "gfx/interface/goals/AST/AST_Expand_Cockatoo_Island_Dockyard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Expand_Phoenix_Foundry"
+		texturefile = "gfx/interface/goals/AST/AST_Expand_Phoenix_Foundry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Expand_the_Scrap_Iron_Flotilla"
+		texturefile = "gfx/interface/goals/AST/AST_Expand_the_Scrap_Iron_Flotilla.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Fight_Work_or_Perish"
+		texturefile = "gfx/interface/goals/AST/AST_Fight_Work_or_Perish.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_German_Colonial_Vulnerability"
+		texturefile = "gfx/interface/goals/AST/AST_German_Colonial_Vulnerability.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Improve_Mining_Infrastructure"
+		texturefile = "gfx/interface/goals/AST/AST_Improve_Mining_Infrastructure.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Indian_War_Games"
+		texturefile = "gfx/interface/goals/AST/AST_Indian_War_Games.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Investments_in_Australia"
+		texturefile = "gfx/interface/goals/AST/AST_Investments_in_Australia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Investments_in_New_Zealand"
+		texturefile = "gfx/interface/goals/AST/AST_Investments_in_New_Zealand.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Invest_in_the_Middle_Class"
+		texturefile = "gfx/interface/goals/AST/AST_Invest_in_the_Middle_Class.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Labor_Wins_Again"
+		texturefile = "gfx/interface/goals/AST/AST_Labor_Wins_Again.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Lessons_from_Japanese"
+		texturefile = "gfx/interface/goals/AST/AST_Lessons_from_Japanese.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Lessons_from_Other_Dominions"
+		texturefile = "gfx/interface/goals/AST/AST_Lessons_from_Other_Dominions.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Menzies_is_Triumphant"
+		texturefile = "gfx/interface/goals/AST/AST_Menzies_is_Triumphant.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Merge_the_LNS"
+		texturefile = "gfx/interface/goals/AST/AST_Merge_the_LNS.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Modernise_Our_Airforce"
+		texturefile = "gfx/interface/goals/AST/AST_Modernise_Our_Airforce.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Modernise_Our_Army"
+		texturefile = "gfx/interface/goals/AST/AST_Modernise_Our_Army.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Modernise_Our_Fleet"
+		texturefile = "gfx/interface/goals/AST/AST_Modernise_Our_Fleet.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_New_Australasian_Economy"
+		texturefile = "gfx/interface/goals/AST/AST_New_Australasian_Economy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Our_Commonwealth_Enters_1931"
+		texturefile = "gfx/interface/goals/AST/AST_Our_Commonwealth_Enters_1931.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Our_Place_Under_the_Sun"
+		texturefile = "gfx/interface/goals/AST/AST_Our_Place_Under_the_Sun.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Pacific_War_Games"
+		texturefile = "gfx/interface/goals/AST/AST_Pacific_War_Games.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Panic_1931_has_Struck_Us"
+		texturefile = "gfx/interface/goals/AST/AST_Panic_1931_has_Struck_Us.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Ratify_the_Statute_of_Westminster"
+		texturefile = "gfx/interface/goals/AST/AST_Ratify_the_Statute_of_Westminster.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Ready_to_Fight"
+		texturefile = "gfx/interface/goals/AST/AST_Ready_to_Fight.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Reinstate_the_Home_Guard"
+		texturefile = "gfx/interface/goals/AST/AST_Reinstate_the_Home_Guard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Royal_Australasian_Armoured_Corps"
+		texturefile = "gfx/interface/goals/AST/AST_Royal_Australasian_Armoured_Corps.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_SWPA_Protector"
+		texturefile = "gfx/interface/goals/AST/AST_SWPA_Protector.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_The_Empires_Farthest_Outpost"
+		texturefile = "gfx/interface/goals/AST/AST_The_Empires_Farthest_Outpost.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_The_Future_of_RAAF"
+		texturefile = "gfx/interface/goals/AST/AST_The_Future_of_RAAF.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_The_Path_to_Prosperity"
+		texturefile = "gfx/interface/goals/AST/AST_The_Path_to_Prosperity.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_The_Susso"
+		texturefile = "gfx/interface/goals/AST/AST_The_Susso.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Waltzing_Matilda"
+		texturefile = "gfx/interface/goals/AST/AST_Waltzing_Matilda.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Womens_Auxiliary_Services"
+		texturefile = "gfx/interface/goals/AST/AST_Womens_Auxiliary_Services.dds"
+	}
+}

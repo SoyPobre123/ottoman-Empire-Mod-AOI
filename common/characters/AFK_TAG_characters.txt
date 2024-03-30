@@ -1,0 +1,27 @@
+characters = {
+    TKP_mustafa_suphi = {
+        name = TKP_mustafa_suphi
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TKP/Portrait_TKP_Mustafa_Suphi.tga"
+            }
+        }
+        country_leader = {
+            ideology = vanguard_communism
+            traits = { agrarian_activist }
+            desc = TKP_mustafa_suphi_desc
+        }
+    }
+	ORK_nihal_atsız = {
+        name = ORK_nihal_atsız
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ORK/Portrait_ORK_Nihal_Atsizz.tga"
+            }
+        }
+        country_leader = {
+            ideology = ethnic_integralism
+            traits = { agrarian_activist }
+            desc = ORK_nihal_atsız_desc
+        }
+    }

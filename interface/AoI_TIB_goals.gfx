@@ -1,0 +1,122 @@
+spriteTypes = {	
+
+	#### AOI Tibet
+	
+	SpriteType = {
+		name = "GFX_TIB_Abandon_the_Opium_Trade"
+		texturefile = "gfx/interface/goals/TIB/TIB_Abandon_the_Opium_Trade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_A_Patriotic_War"
+		texturefile = "gfx/interface/goals/TIB/TIB_A_Patriotic_War.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Buy_Weaponry"
+		texturefile = "gfx/interface/goals/TIB/TIB_Buy_Weaponry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_crossing_of_the_himalayas"
+		texturefile = "gfx/interface/goals/TIB/TIB_crossing_of_the_himalayas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Hire_Foreign_Officers"
+		texturefile = "gfx/interface/goals/TIB/TIB_Hire_Foreign_Officers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Intensify_the_Railroads_Net"
+		texturefile = "gfx/interface/goals/TIB/TIB_Intensify_the_Railroads_Net.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Invest_in_the_Mountains"
+		texturefile = "gfx/interface/goals/TIB/TIB_Invest_in_the_Mountains.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Make_Use_of_the_Rugby_Boys"
+		texturefile = "gfx/interface/goals/TIB/TIB_Make_Use_of_the_Rugby_Boys.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Mobilise_the_Nation"
+		texturefile = "gfx/interface/goals/TIB/TIB_Mobilise_the_Nation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Nepal_is_Ours"
+		texturefile = "gfx/interface/goals/TIB/TIB_Nepal_is_Ours.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Once_Upon_a_Time"
+		texturefile = "gfx/interface/goals/TIB/TIB_Once_Upon_a_Time.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Open_The_Coffers"
+		texturefile = "gfx/interface/goals/TIB/TIB_Open_The_Coffers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Plea_for_Support_Abroad"
+		texturefile = "gfx/interface/goals/TIB/TIB_Plea_for_Support_Abroad.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Promise_Democratic_Reforms"
+		texturefile = "gfx/interface/goals/TIB/TIB_Promise_Democratic_Reforms.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Promise_Land_Reform"
+		texturefile = "gfx/interface/goals/TIB/TIB_Promise_Land_Reform.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Rally_the_Buddhists"
+		texturefile = "gfx/interface/goals/TIB/TIB_Rally_the_Buddhists.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Rally_the_Populace"
+		texturefile = "gfx/interface/goals/TIB/TIB_Rally_the_Populace.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Streamline_the_Opium_Trade"
+		texturefile = "gfx/interface/goals/TIB/TIB_Streamline_the_Opium_Trade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Streamline_the_Production_Line"
+		texturefile = "gfx/interface/goals/TIB/TIB_Streamline_the_Production_Line.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Strike_the_Indians"
+		texturefile = "gfx/interface/goals/TIB/TIB_Strike_the_Indians.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_Subjugate_the_Afghans"
+		texturefile = "gfx/interface/goals/TIB/TIB_Subjugate_the_Afghans.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_There_Can_Be_Only_One"
+		texturefile = "gfx/interface/goals/TIB/TIB_There_Can_Be_Only_One.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TIB_The_Year_1931_Enters_Tibet"
+		texturefile = "gfx/interface/goals/TIB/TIB_The_Year_1931_Enters_Tibet.dds"
+	}
+
+
+	
+}

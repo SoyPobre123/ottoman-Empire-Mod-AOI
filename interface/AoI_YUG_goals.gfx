@@ -1,0 +1,324 @@
+spriteTypes = {	
+
+	#### AOI Yugoslavia
+	
+	SpriteType = { 
+		name = "GFX_YUG_An_advantage_in_the_air_is_necessary"
+		texturefile = "gfx/interface/goals/YUG/YUG_An_advantage_in_the_air_is_necessary.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Assess_the_Damage"
+		texturefile = "gfx/interface/goals/YUG/YUG_Assess_the_Damage.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Aviation_is_our_strength"
+		texturefile = "gfx/interface/goals/YUG/YUG_Aviation_is_our_strength.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Belgrade_Petersburg_airline"
+		texturefile = "gfx/interface/goals/YUG/YUG_Belgrade_Petersburg_airline.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Common_sea_maneuvers_in_the_Black_Sea"
+		texturefile = "gfx/interface/goals/YUG/YUG_Common_sea_maneuvers_in_the_Black_Sea.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_cut_the_red_tape"
+		texturefile = "gfx/interface/goals/YUG/YUG_cut_the_red_tape.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Development_of_aviation_doctrine"
+		texturefile = "gfx/interface/goals/YUG/YUG_Development_of_aviation_doctrine.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Empower_the_Church"
+		texturefile = "gfx/interface/goals/YUG/YUG_Empower_the_Church.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Establish_Constitutional_Committee"
+		texturefile = "gfx/interface/goals/YUG/YUG_Establish_Constitutional_Committee.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Establishment_of_the_Balkan_Union"
+		texturefile = "gfx/interface/goals/YUG/YUG_Establishment_of_the_Balkan_Union.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Expand_Belgrade_University"
+		texturefile = "gfx/interface/goals/YUG/YUG_Expand_Belgrade_University.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Expand_Mining_Operations"
+		texturefile = "gfx/interface/goals/YUG/YUG_Expand_Mining_Operations.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Federation_not_only_in_name"
+		texturefile = "gfx/interface/goals/YUG/YUG_Federation_not_only_in_name.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Form_the_Coast_Guard"
+		texturefile = "gfx/interface/goals/YUG/YUG_Form_the_Coast_Guard.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Fortify_the_Coast"
+		texturefile = "gfx/interface/goals/YUG/YUG_Fortify_the_Coast.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_hard_begining"
+		texturefile = "gfx/interface/goals/YUG/YUG_hard_begining.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Improving_bomber_construction"
+		texturefile = "gfx/interface/goals/YUG/YUG_Improving_bomber_construction.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_introduction_to_socialist_reforms"
+		texturefile = "gfx/interface/goals/YUG/YUG_introduction_to_socialist_reforms.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_invite_socialist_movements"
+		texturefile = "gfx/interface/goals/YUG/YUG_invite_socialist_movements.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Its_time_to_start_the_air_fleet_expansion_program"
+		texturefile = "gfx/interface/goals/YUG/YUG_Its_time_to_start_the_air_fleet_expansion_program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_King_Alexanders_great_ambitions"
+		texturefile = "gfx/interface/goals/YUG/YUG_King_Alexanders_great_ambitions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_King_and_conservatists"
+		texturefile = "gfx/interface/goals/YUG/YUG_King_and_conservatists.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_King_and_liberals"
+		texturefile = "gfx/interface/goals/YUG/YUG_King_and_liberals.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_King_and_socialists"
+		texturefile = "gfx/interface/goals/YUG/YUG_King_and_socialists.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_King_as_the_big_brother_of_our_democracy"
+		texturefile = "gfx/interface/goals/YUG/YUG_King_as_the_big_brother_of_our_democracy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Lasting_political_pluralism"
+		texturefile = "gfx/interface/goals/YUG/YUG_Lasting_political_pluralism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Maritime_cooperation_in_the_Black_Sea"
+		texturefile = "gfx/interface/goals/YUG/YUG_Maritime_cooperation_in_the_Black_Sea.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_More_and_more_modern_fighter_projects"
+		texturefile = "gfx/interface/goals/YUG/YUG_More_and_more_modern_fighter_projects.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_NRS"
+		texturefile = "gfx/interface/goals/YUG/YUG_NRS.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Organizing_an_international_air_show"
+		texturefile = "gfx/interface/goals/YUG/YUG_Organizing_an_international_air_show.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Preparing_for_upcoming_conflicts"
+		texturefile = "gfx/interface/goals/YUG/YUG_Preparing_for_upcoming_conflicts.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Religous_Freedom"
+		texturefile = "gfx/interface/goals/YUG/YUG_Religous_Freedom.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Russian_air_know_how"
+		texturefile = "gfx/interface/goals/YUG/YUG_Russian_air_know_how.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Russian_destroyer_and_submarine_projects"
+		texturefile = "gfx/interface/goals/YUG/YUG_Russian_destroyer_and_submarine_projects.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_SDS"
+		texturefile = "gfx/interface/goals/YUG/YUG_SDS.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Sea_bombers_are_our_chance"
+		texturefile = "gfx/interface/goals/YUG/YUG_Sea_bombers_are_our_chance.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Sending_an_ultimatum_to_Greece"
+		texturefile = "gfx/interface/goals/YUG/YUG_Sending_an_ultimatum_to_Greece.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Sending_an_ultimatum_to_Romania"
+		texturefile = "gfx/interface/goals/YUG/YUG_Sending_an_ultimatum_to_Romania.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_shield_of_slavs"
+		texturefile = "gfx/interface/goals/YUG/YUG_shield_of_slavs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Strengthening_friendship_with_Russia"
+		texturefile = "gfx/interface/goals/YUG/YUG_Strengthening_friendship_with_Russia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Terror_for_enemy_ground_forces"
+		texturefile = "gfx/interface/goals/YUG/YUG_Terror_for_enemy_ground_forces.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_The_eternal_friendship_of_the_king_and_common_people"
+		texturefile = "gfx/interface/goals/YUG/YUG_The_eternal_friendship_of_the_king_and_common_people.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_The_Great_Danube_maneuvers"
+		texturefile = "gfx/interface/goals/YUG/YUG_The_Great_Danube_maneuvers.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_The_Yugoslav_Navy"
+		texturefile = "gfx/interface/goals/YUG/YUG_The_Yugoslav_Navy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Time_to_end_Italian_plotting"
+		texturefile = "gfx/interface/goals/YUG/YUG_Time_to_end_Italian_plotting.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Time_to_finish_off_the_Austrian_eagle"
+		texturefile = "gfx/interface/goals/YUG/YUG_Time_to_finish_off_the_Austrian_eagle.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Tourist_boom"
+		texturefile = "gfx/interface/goals/YUG/YUG_Tourist_boom.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Worldwide_arms_dealer"
+		texturefile = "gfx/interface/goals/YUG/YUG_Worldwide_arms_dealer.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Yugoslav_universalism_leads_the_way"
+		texturefile = "gfx/interface/goals/YUG/YUG_Yugoslav_universalism_leads_the_way.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Yugoslavia_land_of_freedom"
+		texturefile = "gfx/interface/goals/YUG/YUG_Yugoslavia_land_of_freedom.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Zastava_arms_complex"
+		texturefile = "gfx/interface/goals/YUG/YUG_Zastava_arms_complex.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Economic_Development"
+		texturefile = "gfx/interface/goals/YUG/YUG_Economic_Development.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_fortifications"
+		texturefile = "gfx/interface/goals/YUG/YUG_fortifications.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Mountains"
+		texturefile = "gfx/interface/goals/YUG/YUG_Mountains.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_reco"
+		texturefile = "gfx/interface/goals/YUG/YUG_reco.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_resources"
+		texturefile = "gfx/interface/goals/YUG/YUG_resources.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_resources_trade"
+		texturefile = "gfx/interface/goals/YUG/YUG_resources_trade.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_schools"
+		texturefile = "gfx/interface/goals/YUG/YUG_schools.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_state_capitalism"
+		texturefile = "gfx/interface/goals/YUG/YUG_state_capitalism.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Balkans"
+		texturefile = "gfx/interface/goals/YUG/YUG_Balkans.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Great_Air_Armada"
+		texturefile = "gfx/interface/goals/YUG/YUG_Great_Air_Armada.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Invest_in_Nikola_Tesla_Institute"
+		texturefile = "gfx/interface/goals/YUG/YUG_Invest_in_Nikola_Tesla_Institute.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_YUG_Safe_Link_to_Russian_Markets"
+		texturefile = "gfx/interface/goals/YUG/YUG_Safe_Link_to_Russian_Markets.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_YUG_Great_air_armada"
+		texturefile = "gfx/interface/goals/YUG/YUG_Great_air_armada.dds"
+	}
+}

@@ -1,0 +1,798 @@
+﻿###########################
+# Panic 1931 Events
+###########################
+# By Reginiak
+###########################
+add_namespace = panic
+
+country_event = {
+	id = panic.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.1"}
+	title = panic.1.t
+	desc = panic.1.d
+	picture = GFX_Creditanstalt
+	fire_only_once = yes
+	is_triggered_only = yes
+      immediate = {
+      hidden_effect = {
+		AUS = {
+		    news_event = { id = panic.3 days = 3 }
+		}
+	  }	
+	}
+	
+	option = {
+	name = panic.1.a
+	remove_ideas = AUS_idea_problematic_germany
+	hidden_effect = {
+	ENG = {
+			news_event = { id = panic.2 days = 1 }
+		}
+	  }
+	}
+   }
+
+
+news_event = {
+	id = panic.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.2"}
+	major = yes
+	title = panic.2.t
+	desc = panic.2.d
+	picture = GFX_Creditanstalt_news
+	#fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = panic.2.a	
+	}
+}
+
+news_event = {
+	id = panic.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.14"}
+	major = yes
+	title = panic.14.t
+	desc = panic.14.d
+	picture = GFX_Difficult_choice_news
+	#fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = panic.14.a
+	}
+}
+
+country_event = {
+	id = panic.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event black.3"}
+	title = panic.3.t
+	desc = panic.3.d
+	picture = GFX_Difficult_choice
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+    hidden_effect = {
+		GER = {
+			country_event = {
+			    days = 3
+				id = panic.5
+			}
+		}
+	  }
+	}  	
+	option = {
+	name = panic.3.a
+	add_ideas = AUS_idea_new_economic_crisis
+	add_stability = 0.10
+	add_popularity = { ideology = socialism popularity = 0.15 }
+	hidden_effect = {
+	ENG = {
+			news_event = {
+			id = panic.14
+			days = 1
+		}
+	  }
+	 }
+    }
+  }
+
+news_event = {
+	id = panic.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.4"}
+	major = yes
+	title = panic.4.t
+	desc = panic.4.d
+	picture = GFX_German_respond_news
+	is_triggered_only = yes
+	#fire_only_once = yes
+
+	option = {
+		name = panic.4.a
+	}
+}
+
+country_event = {
+	id = panic.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event black.5"}
+	title = panic.5.t
+	desc = panic.5.d
+	picture = GFX_German_respond
+	fire_only_once = yes
+	is_triggered_only = yes
+      immediate = {
+      	hidden_effect = {
+		FRA = {
+			country_event = {
+			    days = 3
+				id = panic.6
+			}
+		}
+	  }
+	}  	
+	option = {
+	name = panic.5.a
+	hidden_effect = {
+	ENG = {
+			news_event = {
+			id = panic.4
+			days = 1
+		}
+	  }
+	 }
+    }
+  }
+
+news_event = {
+	id = panic.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.7"}
+	major = yes
+	title = panic.7.t
+	desc = panic.7.d
+	picture = GFX_French_veto_news
+	is_triggered_only = yes
+	#fire_only_once = yes
+
+	option = {
+		name = panic.7.a
+	}
+}
+
+
+country_event = {
+	id = panic.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event black.6"}
+	title = panic.6.t
+	desc = panic.6.d
+	picture = GFX_French_veto
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+      	hidden_effect = {
+			GER = {
+				country_event = {
+				    days = 3
+					id = panic.8
+				}
+			}
+		}	
+	} 
+	option = {
+		name = panic.6.a
+		remove_ideas = FRA_grande_humilation
+		add_ideas = FRA_revanchisme_fragile
+		add_ideas = obligatory_army_service_mobilisation
+		18 = { set_demilitarized_zone = no }
+		17 = { set_demilitarized_zone = no }
+		hidden_effect = {
+			ENG = {
+				news_event = {
+					id = panic.7
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = panic.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event black.8"}
+	title = panic.8.t
+	desc = panic.8.d
+	picture = GFX_Crisis_takes_its_toll_in_Germany
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    immediate = {
+    	hidden_effect = {
+		ENG = {
+			country_event = {
+			    days = 3
+				id = panic.10
+			}
+		}
+	  }
+	}	
+	option = {
+	name = panic.8.a
+	hidden_effect = {
+	ENG = {
+			news_event = {
+			id = panic.9
+			days = 1
+		}
+	  }
+	 }
+	 GER = {
+		add_ideas = GER_idea_panic_1931_in_germany
+	 }
+    }
+  }
+
+
+news_event = {
+	id = panic.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.9"}
+	major = yes
+	title = panic.9.t
+	desc = panic.9.d
+	picture = GFX_Crisis_takes_its_toll_in_Germany_news
+	is_triggered_only = yes
+	#fire_only_once = yes
+
+	option = {
+	  name = panic.9.a
+	}
+}
+
+country_event = {
+	id = panic.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event black.10"}
+	title = panic.10.t
+	desc = panic.10.d
+	picture = GFX_Meanwhile_in_United_Kingdom
+	fire_only_once = yes
+	is_triggered_only = yes
+
+      immediate = {
+      	hidden_effect = {
+		ENG = {
+			country_event = {
+			    days = 3
+				id = panic.12
+			}
+		}
+	  }	
+	}  
+	option = {
+	name = panic.10.a
+	hidden_effect = {
+	ENG = {
+			news_event = {
+			id = panic.11
+			days = 1
+		}
+	  }
+	 }
+   }
+  }
+
+
+news_event = {
+	id = panic.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.11"}
+	major = yes
+	title = panic.11.t
+	desc = panic.11.d
+	picture = GFX_Meanwhile_in_United_Kingdom_news
+	is_triggered_only = yes
+	#fire_only_once = yes
+
+	option = {
+	  name = panic.11.a
+	}
+}
+#...our empire went to hell!#
+country_event = {
+	id = panic.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event black.12"}
+	title = panic.12.t
+	desc = panic.12.d
+	picture = GFX_Black_Friday
+	fire_only_once = yes
+	is_triggered_only = yes	
+	option = {
+	name = panic.12.a
+	custom_effect_tooltip = ENG_unlocked_focuses_after_greatslump
+	add_stability = -0.2
+	add_ideas = ENG_great_slump_1
+	add_political_power = -200
+	add_popularity = {
+    ideology = liberalism
+    popularity = -0.1
+    }
+	hidden_effect = {
+	set_country_flag = empire_went_to_hell_event_occured	
+	ENG = {
+			news_event = {
+			id = panic.13
+			days = 1
+		}
+	  }
+	 }
+   }
+  }
+
+
+news_event = {
+	id = panic.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.13"}
+	major = yes
+	title = panic.13.t
+	desc = panic.13.d
+	picture = GFX_Black_Friday_news
+	is_triggered_only = yes
+	#fire_only_once = yes
+
+	option = {
+	  name = panic.13.a
+	  	#every_country = {
+        #add_ideas = ENG_panic_crisis_started_political
+        #add_ideas = ENG_panic_crisis_started_military
+        #add_ideas = ENG_panic_crisis_started_economic
+        #custom_effect_tooltip = panic.13.a.tt
+		#}
+	  }
+    }
+
+#crisis enters danube region
+country_event = {
+	id = panic.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.15"}
+	title = panic.15.t
+	desc = panic.15.d
+	picture = GFX_Black_Friday
+	is_triggered_only = yes
+	#fire_only_once = yes
+    #The Austrians let us down again!
+	option = {
+	  name = panic.15.a
+	    add_ideas = ENG_panic_crisis_started_political
+        add_ideas = ENG_panic_crisis_started_military
+        add_ideas = ENG_panic_crisis_started_economic
+		add_political_power = -400
+		add_stability = -0.35
+		add_war_support = -0.25
+	  }
+    }
+
+#Crisis enters MittelEuropa
+country_event = {
+	id = panic.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.16"}
+	title = panic.16.t
+	desc = panic.16.d
+	picture = GFX_Black_Friday
+	is_triggered_only = yes
+	#fire_only_once = yes
+    #How could this have happened!?
+	option = {
+	  name = panic.16.a
+        add_ideas = ENG_panic_crisis_started_political
+        add_ideas = ENG_panic_crisis_started_military
+        add_ideas = ENG_panic_crisis_started_economic
+		add_political_power = -400
+		add_stability = -0.35
+		add_war_support = -0.25
+	  }
+    }
+
+#Crisis enters Western Europe
+country_event = {
+	id = panic.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.17"}
+	title = panic.17.t
+	desc = panic.17.d
+	picture = GFX_Black_Friday
+	is_triggered_only = yes
+	#fire_only_once = yes
+    #How could the Germans and the British let this happen !?
+	option = {
+	  name = panic.17.a
+	    add_ideas = ENG_panic_crisis_started_political
+        add_ideas = ENG_panic_crisis_started_military
+        add_ideas = ENG_panic_crisis_started_economic
+		add_political_power = -400
+		add_stability = -0.35
+		add_war_support = -0.25
+	  }
+    }
+
+#Crisis enters British Empire
+country_event = {
+	id = panic.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.18"}
+	title = panic.18.t
+	desc = panic.18.d
+	picture = GFX_Black_Friday
+	is_triggered_only = yes
+	#fire_only_once = yes
+    #The empire is lost!
+	option = {
+	  name = panic.18.a
+	  add_ideas = ENG_panic_crisis_started_political
+      add_ideas = ENG_panic_crisis_started_military
+      add_ideas = ENG_panic_crisis_started_economic
+	  add_political_power = -400
+		add_stability = -0.35
+		add_war_support = -0.25
+	  }
+    }
+
+#Crisis enters Russian sphere of influence!
+country_event = {
+	id = panic.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.19"}
+	title = panic.19.t
+	desc = panic.19.d
+	picture = GFX_Black_Friday
+	is_triggered_only = yes
+	#fire_only_once = yes
+    #Who is to blame for this crisis, Russians, Germans or British?
+	option = {
+	  name = panic.19.a
+	    if = {
+	    	limit = { NOT = { tag = YUG tag = POL } }
+	    add_ideas = ENG_panic_crisis_started_political
+        add_ideas = ENG_panic_crisis_started_military
+        add_ideas = ENG_panic_crisis_started_economic
+	    }
+	    if = {
+	    	limit = { tag = YUG }
+	    add_ideas = YUG_idea_panika_1931_na_balkanu
+	    }
+		add_political_power = -400
+		add_stability = -0.35
+		add_war_support = -0.25	    
+	  }
+    }
+
+#Africa in depression!
+country_event = {
+	id = panic.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.21"}
+	title = panic.21.t
+	desc = panic.21.d
+	picture = GFX_Black_Friday
+	is_triggered_only = yes
+	#fire_only_once = yes
+    #This was unavoidable
+	option = {
+	  name = panic.21.a
+	    add_ideas = ENG_panic_crisis_started_political
+        add_ideas = ENG_panic_crisis_started_military
+        add_ideas = ENG_panic_crisis_started_economic
+		add_political_power = -400
+		add_stability = -0.35
+		add_war_support = -0.25
+	  }
+    }
+
+#South America has gone bancrupt!
+country_event = {
+	id = panic.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.22"}
+	title = panic.22.t
+	desc = panic.22.d
+	picture = GFX_Black_Friday
+	is_triggered_only = yes
+	#fire_only_once = yes
+    #We became even poorer, great
+	option = {
+	  name = panic.22.a
+	    add_ideas = ENG_panic_crisis_started_political
+        add_ideas = ENG_panic_crisis_started_military
+        add_ideas = ENG_panic_crisis_started_economic
+		add_political_power = -400
+		add_stability = -0.35
+		add_war_support = -0.25
+	  }
+    }
+
+#Central America is not doing so well after all
+country_event = {
+	id = panic.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.23"}
+	title = panic.23.t
+	desc = panic.23.d
+	picture = GFX_Black_Friday
+	is_triggered_only = yes
+	#fire_only_once = yes
+    #Damn it!
+	option = {
+	  name = panic.23.a
+	    add_ideas = ENG_panic_crisis_started_political
+        add_ideas = ENG_panic_crisis_started_military
+        add_ideas = ENG_panic_crisis_started_economic
+		add_political_power = -400
+		add_stability = -0.35
+		add_war_support = -0.25
+	  }
+    }
+
+#Even United States are not safe from Panic 1931!
+country_event = {
+	id = panic.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event panic.24"}
+	title = panic.24.t
+	desc = panic.24.d
+	picture = GFX_Black_Friday
+	is_triggered_only = yes
+	#fire_only_once = yes
+    #Damn these imperialists!
+	option = {
+	  name = panic.24.a
+	    add_ideas = ENG_panic_crisis_started_political
+        add_ideas = ENG_panic_crisis_started_military
+        add_ideas = ENG_panic_crisis_started_economic
+	  }
+    }                                    
+
+
+####standalone triggers for better event placing##
+
+#crisis enters danube region trigger for better event pop up
+news_event = {
+	id = panic.9000
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.5.11
+		date < 1931.5.13
+	}
+	
+	immediate = {
+	    BOH = { country_event = { id = panic.15 } }
+	    HUN = { country_event = { id = panic.15 } }
+	    CRO = { country_event = { id = panic.15 } }
+	    FCT = { country_event = { id = panic.15 } } 
+	}
+	
+	option = {
+		name = panic.9000.a
+	}
+}
+
+#Crisis enters MittelEuropa trigger
+news_event = {
+	id = panic.9001
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.5.14
+		date < 1931.5.22
+	}
+	
+	immediate = {
+	    LUX = { country_event = { id = panic.16 } }
+	    SWE = { country_event = { id = panic.16 } }
+	    DEN = { country_event = { id = panic.16 } }
+	}
+	
+	option = {
+		name = panic.9001.a
+	}
+}
+
+##Crisis enters Western Europe trigger
+news_event = {
+	id = panic.9002
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.6.2
+		date < 1931.6.4
+	}
+	
+	immediate = {
+	    NOR = { country_event = { id = panic.17 } }
+	    HOL = { country_event = { id = panic.17 } }
+	    BEL = { country_event = { id = panic.17 } }
+	    #FRA = { country_event = { id = panic.17 } }
+	    #SPA = { country_event = { id = panic.17 } }
+	    #SPR = { country_event = { id = panic.17 } }
+	    #ITA = { country_event = { id = panic.17 } }
+	    SWI = { country_event = { id = panic.17 } }	    
+	}
+	
+	option = {
+		name = panic.9002.a
+	}
+}
+
+##Crisis enters British Empire trigger
+news_event = {
+	id = panic.9003
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.6.5
+		date < 1931.6.7
+	}
+	
+	immediate = {
+	    EGY = { country_event = { id = panic.18 } }
+	    SAU = { country_event = { id = panic.18 } }
+	    LEV = { country_event = { id = panic.18 } }
+	    KUR = { country_event = { id = panic.18 } }	    
+	}
+	
+	option = {
+		name = panic.9003.a
+	}
+}
+
+##Crisis enters Russian sphere of influence! trigger
+news_event = {
+	id = panic.9004
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.6.9
+		date < 1931.6.11
+	}
+	
+	immediate = {
+	    FIN = { country_event = { id = panic.19 } }
+	    BAL = { country_event = { id = panic.19 } }
+	    ROM = { country_event = { id = panic.19 } }
+	    YUG = { country_event = { id = panic.19 } }
+	    GRE = { country_event = { id = panic.19 } }
+	    TUR = { country_event = { id = panic.19 } }
+	    PER = { country_event = { id = panic.19 } }
+	    #TMS = { country_event = { id = panic.19 } }
+	    SIK = { country_event = { id = panic.19 } }
+	    FCK = { country_event = { id = panic.19 } }
+	    MON = { country_event = { id = panic.19 } }	    	    	    	    
+	}
+	
+	option = {
+		name = panic.9004.a
+	}
+}
+
+##Crisis enters Asia trigger
+news_event = {
+	id = panic.9005
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.6.14
+		date < 1931.6.16
+	}
+	
+	immediate = {
+	    INS = { country_event = { id = panic.20 } }
+	    SIA = { country_event = { id = panic.20 } }   	    	    	    
+	}
+	
+	option = {
+		name = panic.9005.a
+	}
+}         
+
+##Africa in depression! trigger
+news_event = {
+	id = panic.9006
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.6.17
+		date < 1931.6.19
+	}
+	
+	immediate = {
+	    MOR = { country_event = { id = panic.21 } }
+	    ETH = { country_event = { id = panic.21 } }
+	    LIB = { country_event = { id = panic.21 } }
+	    GCA = { country_event = { id = panic.21 } }
+	    FCA = { country_event = { id = panic.21 } }    	    	    	    
+	}
+	
+	option = {
+		name = panic.9006.a
+	}
+}
+
+##South America has gone bancrupt! trigger
+news_event = {
+	id = panic.9007
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.6.21
+		date < 1931.6.23
+	}
+	
+	immediate = {
+	    BRA = { country_event = { id = panic.22 } }
+	    ARG = { country_event = { id = panic.22 } }
+	    PAR = { country_event = { id = panic.22 } }
+	    URG = { country_event = { id = panic.22 } }
+	    CHL = { country_event = { id = panic.22 } }
+	    BOL = { country_event = { id = panic.22 } }
+	    PRU = { country_event = { id = panic.22 } }
+	    ECU = { country_event = { id = panic.22 } }
+	    COL = { country_event = { id = panic.22 } }
+	    VEN = { country_event = { id = panic.22 } }	        	    	    	    
+	}
+	
+	option = {
+		name = panic.9007.a
+	}
+}
+
+##Central America is not doing so well after all trigger
+news_event = {
+	id = panic.9008
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1931.6.24
+		date < 1931.6.26
+	}
+	
+	immediate = {
+	    PAN = { country_event = { id = panic.23 } }
+	    NIC = { country_event = { id = panic.23 } }
+	    #MEX = { country_event = { id = panic.23 } }
+	    #MCR = { country_event = { id = panic.23 } }
+	    CUB = { country_event = { id = panic.23 } }
+	    HAI = { country_event = { id = panic.23 } }
+	    DOM = { country_event = { id = panic.23 } }        	    	    	    
+	}
+	
+	option = {
+		name = panic.9008.a
+	}
+}
+
+##Even United States are not safe from Panic 1931! trigger
+#news_event = {
+#	id = panic.9009
+#	hidden = yes
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		date > 1931.6.30
+#		date < 1931.7.2
+#	}
+#	
+#	immediate = {    	    	    	    
+#	}
+#	
+#	option = {
+#		name = panic.9009.a
+#	}
+#}

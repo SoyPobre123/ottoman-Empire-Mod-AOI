@@ -1,0 +1,65 @@
+division_template = {
+		name = "Liberal türk ordusu"
+		    is_locked = yes
+			division_names_group = TLF_liberals
+			regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 0 y = 3 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+	    }
+	}
+}
+
+units = {
+	division= {
+		name = "Liberal türk ordusu"
+		location = 979
+		division_template = "Liberal türk ordusu"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Liberal türk ordusu"
+		location = 6938
+		division_template = "Liberal türk ordusu"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Liberal türk ordusu"
+		location = 3862
+		division_template = "Liberal türk ordusu"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+}
+
+
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "TUR"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "TUR"
+		}
+		requested_factories = 1
+		progress = 0.47
+		efficiency = 100
+	}
+}

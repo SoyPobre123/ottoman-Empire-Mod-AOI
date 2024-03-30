@@ -1,0 +1,631 @@
+spriteTypes = {	
+
+	#### AOI Poland
+	
+	SpriteType = { 
+		name = "GFX_POL_1st_Economic_Brigade"
+		texturefile = "gfx/interface/goals/POL/POL_1st_Economic_Brigade.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_A_New_Mobilization_Plan_is_Needed"
+		texturefile = "gfx/interface/goals/POL/POL_A_New_Mobilization_Plan_is_Needed.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Airlift_program"
+		texturefile = "gfx/interface/goals/POL/POL_Airlift_program.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_An_Effort_to_Fortify_the_Borders"
+		texturefile = "gfx/interface/goals/POL/POL_An_Effort_to_Fortify_the_Borders.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Army_Elite_Polish_Legions"
+		texturefile = "gfx/interface/goals/POL/POL_Army_Elite_Polish_Legions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Attracting_Foreign_Investment"
+		texturefile = "gfx/interface/goals/POL/POL_Attracting_Foreign_Investment.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Brygada_Pancerno_Motorowa"
+		texturefile = "gfx/interface/goals/POL/POL_Brygada_Pancerno_Motorowa.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Budget_Reform"
+		texturefile = "gfx/interface/goals/POL/POL_Budget_Reform.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Building_a_Modern_Polish_Army"
+		texturefile = "gfx/interface/goals/POL/POL_Building_a_Modern_Polish_Army.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Building_a_Radar_Network"
+		texturefile = "gfx/interface/goals/POL/POL_Building_a_Radar_Network.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Carrying_out_the_Land_Reform"
+		texturefile = "gfx/interface/goals/POL/POL_Carrying_out_the_Land_Reform.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Centrolews_triumph"
+		texturefile = "gfx/interface/goals/POL/POL_Centrolews_triumph.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Civil_Service_Reform"
+		texturefile = "gfx/interface/goals/POL/POL_Civil_Service_Reform.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Collaboration_with_the_Catholic_Church"
+		texturefile = "gfx/interface/goals/POL/POL_Collaboration_with_the_Catholic_Church.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Coming_to_Terms_with_Austria"
+		texturefile = "gfx/interface/goals/POL/POL_Coming_to_Terms_with_Austria.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Constructio_of_Stalowa_Wola"
+		texturefile = "gfx/interface/goals/POL/POL_Constructio_of_Stalowa_Wola.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Construction_of_the_Central_Industrial_District"
+		texturefile = "gfx/interface/goals/POL/POL_Construction_of_the_Central_Industrial_District.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Construction_of_the_Coal_Main"
+		texturefile = "gfx/interface/goals/POL/POL_Construction_of_the_Coal_Main.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Construction_of_the_Polish_Merchant_Fleet"
+		texturefile = "gfx/interface/goals/POL/POL_Construction_of_the_Polish_Merchant_Fleet.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Continuing_Cooperation_with_Russia"
+		texturefile = "gfx/interface/goals/POL/POL_Continuing_Cooperation_with_Russia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Cooperate_with_Leviathan_Group"
+		texturefile = "gfx/interface/goals/POL/POL_Cooperate_with_Leviathan_Group.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Cooperation_Despite_Political_Divisions"
+		texturefile = "gfx/interface/goals/POL/POL_Cooperation_Despite_Political_Divisions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Cooperation_with_the_All_Polish_Youth"
+		texturefile = "gfx/interface/goals/POL/POL_Cooperation_with_the_All_Polish_Youth.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Cooperation_with_the_Oil_Industry"
+		texturefile = "gfx/interface/goals/POL/POL_Cooperation_with_the_Oil_Industry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Cooperation_with_the_Russian_Stock_Exchange"
+		texturefile = "gfx/interface/goals/POL/POL_Cooperation_with_the_Russian_Stock_Exchange.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Defence_of_the_Polish_Window_to_the_World"
+		texturefile = "gfx/interface/goals/POL/POL_Defence_of_the_Polish_Window_to_the_World.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Devaluation_of_the_Polish_zloty"
+		texturefile = "gfx/interface/goals/POL/POL_Devaluation_of_the_Polish_zloty.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Eastern_Flank_of_the_Reichspakt"
+		texturefile = "gfx/interface/goals/POL/POL_Eastern_Flank_of_the_Reichspakt.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Echoes_of_Rozwadowskis_Activity"
+		texturefile = "gfx/interface/goals/POL/POL_Echoes_of_Rozwadowskis_Activity.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_End_of_1000_year_old_dispute"
+		texturefile = "gfx/interface/goals/POL/POL_End_of_1000_year_old_dispute.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Equality_of_Women_and_Men"
+		texturefile = "gfx/interface/goals/POL/POL_Equality_of_Women_and_Men.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Establishing_Folk_High_Schools"
+		texturefile = "gfx/interface/goals/POL/POL_Establishing_Folk_High_Schools.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Establishing_Rural_Cooperatives"
+		texturefile = "gfx/interface/goals/POL/POL_Establishing_Rural_Cooperatives.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Establishment_of_Border_Colonies"
+		texturefile = "gfx/interface/goals/POL/POL_Establishment_of_Border_Colonies.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Establishment_of_River_Fleets"
+		texturefile = "gfx/interface/goals/POL/POL_Establishment_of_River_Fleets.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Establishment_of_the_Carpathian_Brigade"
+		texturefile = "gfx/interface/goals/POL/POL_Establishment_of_the_Carpathian_Brigade.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Establishment_of_the_Intermarium_Federation"
+		texturefile = "gfx/interface/goals/POL/POL_Establishment_of_the_Intermarium_Federation.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Establishment_of_Workers_Brigades"
+		texturefile = "gfx/interface/goals/POL/POL_Establishment_of_Workers_Brigades.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_European_Trade_Hub"
+		texturefile = "gfx/interface/goals/POL/POL_European_Trade_Hub.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Expanding_the_Communication_Network"
+		texturefile = "gfx/interface/goals/POL/POL_Expanding_the_Communication_Network.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Expansion_of_the_Polish_Maritime_Academy"
+		texturefile = "gfx/interface/goals/POL/POL_Expansion_of_the_Polish_Maritime_Academy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Expansion_of_the_Port_in_Palanga"
+		texturefile = "gfx/interface/goals/POL/POL_Expansion_of_the_Port_in_Palanga.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Extension_of_the_Armaments_Plant"
+		texturefile = "gfx/interface/goals/POL/POL_Extension_of_the_Armaments_Plant.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Fixing_Errors_and_Distortions"
+		texturefile = "gfx/interface/goals/POL/POL_Fixing_Errors_and_Distortions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Great_air_Armada"
+		texturefile = "gfx/interface/goals/POL/POL_Great_air_Armada.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Gundlach_and_his_Tank_Periscope"
+		texturefile = "gfx/interface/goals/POL/POL_Gundlach_and_his_Tank_Periscope.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Great_Trading_Opportunities"
+		texturefile = "gfx/interface/goals/POL/POL_Great_Trading_Opportunities.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Highway_Construction_Program"
+		texturefile = "gfx/interface/goals/POL/POL_Highway_Construction_Program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Implementation_of_the_Education_Reform"
+		texturefile = "gfx/interface/goals/POL/POL_Implementation_of_the_Education_Reform.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Improving_Internal_Transport"
+		texturefile = "gfx/interface/goals/POL/POL_Improving_Internal_Transport.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Increase_Urbanization_Efforts"
+		texturefile = "gfx/interface/goals/POL/POL_Increase_Urbanization_Efforts.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Increasing_Coal_Mining"
+		texturefile = "gfx/interface/goals/POL/POL_Increasing_Coal_Mining.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Increasing_Foreign_Investment"
+		texturefile = "gfx/interface/goals/POL/POL_Increasing_Foreign_Investment.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Increasing_Military_Pensions"
+		texturefile = "gfx/interface/goals/POL/POL_Increasing_Military_Pensions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Increasing_the_Agricultural_Budget"
+		texturefile = "gfx/interface/goals/POL/POL_Increasing_the_Agricultural_Budget.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Increasing_the_Autonomy_of_Voivodeships"
+		texturefile = "gfx/interface/goals/POL/POL_Increasing_the_Autonomy_of_Voivodeships.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Increasing_the_Military_Budget"
+		texturefile = "gfx/interface/goals/POL/POL_Increasing_the_Military_Budget.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Increasing_the_National_Defense_Budget"
+		texturefile = "gfx/interface/goals/POL/POL_Increasing_the_National_Defense_Budget.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Increasing_the_Universitys_Budget"
+		texturefile = "gfx/interface/goals/POL/POL_Increasing_the_Universitys_Budget.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Increasing_Workers_Rights"
+		texturefile = "gfx/interface/goals/POL/POL_Increasing_Workers_Rights.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Introduction_of_the_Merit_System"
+		texturefile = "gfx/interface/goals/POL/POL_Introduction_of_the_Merit_System.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Invest_in_the_Middle_Class"
+		texturefile = "gfx/interface/goals/POL/POL_Invest_in_the_Middle_Class.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Investments_in_the_Oil_Industry"
+		texturefile = "gfx/interface/goals/POL/POL_Investments_in_the_Oil_Industry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_joining_the_reichspakt"
+		texturefile = "gfx/interface/goals/POL/POL_joining_the_reichspakt.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Joining_Tripartite"
+		texturefile = "gfx/interface/goals/POL/POL_Joining_Tripartite.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Kosacki_and_his_Detector_of_Mines"
+		texturefile = "gfx/interface/goals/POL/POL_Kosacki_and_his_Detector_of_Mines.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Long_live_the_Peoples_Poland"
+		texturefile = "gfx/interface/goals/POL/POL_Long_live_the_Peoples_Poland.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Lwow_School_of_Mathematics"
+		texturefile = "gfx/interface/goals/POL/POL_Lwow_School_of_Mathematics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Mandatory_Firearm_Ownership"
+		texturefile = "gfx/interface/goals/POL/POL_Mandatory_Firearm_Ownership.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_March_Constitution"
+		texturefile = "gfx/interface/goals/POL/POL_March_Constitution.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Maroszek_and_his_Armor_Piercing_Rifle"
+		texturefile = "gfx/interface/goals/POL/POL_Maroszek_and_his_Armor_Piercing_Rifle.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_National_Defense_Fund"
+		texturefile = "gfx/interface/goals/POL/POL_National_Defense_Fund.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_New_Ship_Designs"
+		texturefile = "gfx/interface/goals/POL/POL_New_Ship_Designs.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Operation_Vistula"
+		texturefile = "gfx/interface/goals/POL/POL_Operation_Vistula.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Poland_Must_be_Strong"
+		texturefile = "gfx/interface/goals/POL/POL_Poland_Must_be_Strong.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Poland_the_European_Trade_Center"
+		texturefile = "gfx/interface/goals/POL/POL_Poland_the_European_Trade_Center.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Poland_the_World_Arms_Dealer"
+		texturefile = "gfx/interface/goals/POL/POL_Poland_the_World_Arms_Dealer.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Polish_Cipher_Bureau"
+		texturefile = "gfx/interface/goals/POL/POL_Polish_Cipher_Bureau.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Polish_Maritime_and_Colonial_League"
+		texturefile = "gfx/interface/goals/POL/POL_Polish_Maritime_and_Colonial_League.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Polish_Naval_School"
+		texturefile = "gfx/interface/goals/POL/POL_Polish_Naval_School.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Polish_Universalism"
+		texturefile = "gfx/interface/goals/POL/POL_Polish_Universalism.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Polish_War_Thought"
+		texturefile = "gfx/interface/goals/POL/POL_Polish_War_Thought.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Positive_Polonization"
+		texturefile = "gfx/interface/goals/POL/POL_Positive_Polonization.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Reichspakt_War_School"
+		texturefile = "gfx/interface/goals/POL/POL_Reichspakt_War_School.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Restoration_of_the_Jagiellonian_concept"
+		texturefile = "gfx/interface/goals/POL/POL_Restoration_of_the_Jagiellonian_concept.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Resumption_of_the_Piast_Concept"
+		texturefile = "gfx/interface/goals/POL/POL_Resumption_of_the_Piast_Concept.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Rural_Education_Initiative"
+		texturefile = "gfx/interface/goals/POL/POL_Rural_Education_Initiative.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Second_Department_of_Polish_General_Staff"
+		texturefile = "gfx/interface/goals/POL/POL_Second_Department_of_Polish_General_Staff.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Soyuznik_military_school"
+		texturefile = "gfx/interface/goals/POL/POL_Soyuznik_military_school.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Special_Forces_and_Armoured_Units"
+		texturefile = "gfx/interface/goals/POL/POL_Special_Forces_and_Armoured_Units.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Start_of_the_15_year_Plan"
+		texturefile = "gfx/interface/goals/POL/POL_Start_of_the_15_year_Plan.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_State_Capitalism_is_a_Bliss"
+		texturefile = "gfx/interface/goals/POL/POL_State_Capitalism_is_a_Bliss.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Strategic_Resource_Initiative"
+		texturefile = "gfx/interface/goals/POL/POL_Strategic_Resource_Initiative.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Strengthening_the_High_School_of_War"
+		texturefile = "gfx/interface/goals/POL/POL_Strengthening_the_High_School_of_War.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Subsidized_Universal_Education"
+		texturefile = "gfx/interface/goals/POL/POL_Subsidized_Universal_Education.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Support_for_Student_Movements"
+		texturefile = "gfx/interface/goals/POL/POL_Support_for_Student_Movements.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Support_from_Russian_Heavy_Industry"
+		texturefile = "gfx/interface/goals/POL/POL_Support_from_Russian_Heavy_Industry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Support_of_German_Engineers"
+		texturefile = "gfx/interface/goals/POL/POL_Support_of_German_Engineers.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_The_Time_has_Come_for_Sanacja"
+		texturefile = "gfx/interface/goals/POL/POL_The_Time_has_Come_for_Sanacja.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_The_April_Constitution"
+		texturefile = "gfx/interface/goals/POL/POL_The_April_Constitution.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_The_Breakdown_of_Freemasonry"
+		texturefile = "gfx/interface/goals/POL/POL_The_Breakdown_of_Freemasonry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_The_Cult_of_the_Polish_Soldier"
+		texturefile = "gfx/interface/goals/POL/POL_The_Cult_of_the_Polish_Soldier.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_The_Depoliticization_of_the_Army"
+		texturefile = "gfx/interface/goals/POL/POL_The_Depoliticization_of_the_Army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_The_End_of_the_Dmowszczyzna"
+		texturefile = "gfx/interface/goals/POL/POL_The_End_of_the_Dmowszczyzna.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_The_Era_of_Polish_inventions"
+		texturefile = "gfx/interface/goals/POL/POL_The_Era_of_Polish_inventions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_The_Great_Volhynian_Maneuvers"
+		texturefile = "gfx/interface/goals/POL/POL_The_Great_Volhynian_Maneuvers.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Time_of_the_Revenge"
+		texturefile = "gfx/interface/goals/POL/POL_Time_of_the_Revenge.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Tolerance_is_Non_Negotiable"
+		texturefile = "gfx/interface/goals/POL/POL_Tolerance_is_Non_Negotiable.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Tripartite_War_School"
+		texturefile = "gfx/interface/goals/POL/POL_Tripartite_War_School.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_New_Right_Committee"
+		texturefile = "gfx/interface/goals/POL/POL_New_Right_Committee.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Aviation_Training_Center_No_2"
+		texturefile = "gfx/interface/goals/POL/POL_Aviation_Training_Center_No_2.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Development_of_Bomber_Construction"
+		texturefile = "gfx/interface/goals/POL/POL_Development_of_Bomber_Construction.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Expansion_of_Aviation_Plants_in_Mielec"
+		texturefile = "gfx/interface/goals/POL/POL_Expansion_of_Aviation_Plants_in_Mielec.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Focus_on_the_Production_of_Heavy_Aircraft"
+		texturefile = "gfx/interface/goals/POL/POL_Focus_on_the_Production_of_Heavy_Aircraft.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_Focus_on_the_production_of_light_aircraft"
+		texturefile = "gfx/interface/goals/POL/POL_Focus_on_the_production_of_light_aircraft.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_Swiatecki_Bomb_Slip"
+		texturefile = "gfx/interface/goals/POL/POL_Swiatecki_Bomb_Slip.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_POL_no_more_of_the_pesky_romanov"
+		texturefile = "gfx/interface/goals/POL/POL_no_more_of_the_pesky_romanov.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_places_of_seclusion_in_polesie"
+		texturefile = "gfx/interface/goals/POL/POL_places_of_seclusion_in_polesie.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_monarchist_propaganda_at_universities"
+		texturefile = "gfx/interface/goals/POL/POL_monarchist_propaganda_at_universities.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_poles_from_all_over_the_world_come"
+		texturefile = "gfx/interface/goals/POL/POL_poles_from_all_over_the_world_come.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_church_school_sooting_range"
+		texturefile = "gfx/interface/goals/POL/POL_church_school_sooting_range.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_the_renaisance_of_polish_culture"
+		texturefile = "gfx/interface/goals/POL/POL_the_renaisance_of_polish_culture.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_POL_a_truly_polish_land_reform"
+		texturefile = "gfx/interface/goals/POL/POL_a_truly_polish_land_reform.dds"
+	}
+	
+	
+	SpriteType = { 
+		name = "GFX_POL_hunt_for_enemies_of_polishness"
+		texturefile = "gfx/interface/goals/POL/POL_hunt_for_enemies_of_polishness.dds"
+	}
+	
+	
+	SpriteType = { 
+		name = "GFX_POL_an_enlighted_national_autocracy"
+		texturefile = "gfx/interface/goals/POL/POL_an_enlighted_national_autocracy.dds"
+	}
+}
