@@ -188,6 +188,18 @@
  TUR_help_the_kingdom:0 "Send Equipment to the Kingdom of Spain"
  TUR_send_the_turkish_volunteer_force:0 "Send the türk silahlı kuvetleri"
  TUR_invite_the_spanish:0 "Spanish-Ottoman Alliance Proposal"
+ TUR_begin_new_propaganda:0 "Begin new propaganda"
+ TUR_we_will_force_them_to_leave:0 "We will force them to leave"
+ TUR_marches_on_ankara:0 "Marches on Ankara"
+ TUR_prepare_the_referendum:0 "Prepare the Referendum"
+ TUR_the_referendum:0 "The Referendum"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 ### Ideas ###
 
  TUR_illiteracy_nation:0 "Illiteracy Nation"
@@ -236,7 +248,7 @@
  
  TUR_tkp_rising_mission:0 "TKP Rising Mission"
  TUR_tkp__takestime_dec:0 "TKP Propaganda"
- 
+ civil_war_warning_tkp:0 "§RIf you Choose this Way, a Civil war Will Start. We will Get Preparations for it§!"
  
  
  

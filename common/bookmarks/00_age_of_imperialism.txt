@@ -465,6 +465,22 @@ bookmarks = {
 				TUR_send_the_turkish_volunteer_force
 			}
 		}
+		
+		"PER"= {
+			minor = yes
+			history = "PER_AGE_OF_IMPERIALISM_DESC"
+			ideology = reactionism
+			ideas = {
+				PER_idea_the_silent_partition
+				PER_idea_anglo_persian_oil_company
+				PER_idea_the_many_sins_of_the_qajar_dynasty
+			}
+			focuses = {
+				PER_focus_qajars_stand_tall
+				PER_focus_belle_epoque
+				PER_focus_monumental_pride
+			}
+		}
 	    
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
